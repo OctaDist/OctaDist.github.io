@@ -47,17 +47,14 @@ PyInstaller==3.4
 4. Change file permission of all python files: `chmod +x *.py`
 5. Execute program: `python3 main.py`
 
+***
+
 ### Supported input file format
 - [XYZ file format](https://en.wikipedia.org/wiki/XYZ_file_format) (*.xyz)
 - Text file format (*.txt)
 - Output file of several computational chemistry programs (*.out, *.log): Gaussian, NWChem, and ORCA
 
-### Input preparation
-1. First seven atoms must be the studied octahedral structure.
-2. A metal center atom of octahedron must be the first atom. So the next six atoms would be six ligand atoms.
-
-
-[Click here for testing examples](./testing.md)
+[Click here for input preparation and testing examples](./testing.md)
 
 ***
 
