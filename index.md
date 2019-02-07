@@ -2,51 +2,51 @@
 layout: default
 ---
 
-## About OctaDist
+## OctaDist
 
 OctaDist (**Octa**hedral **Dist**ortion Analysis) is a program for computing the octahedral distortion parameters of a distorted octahedral complexes. Octahedral distortion parameters have been being widely used in inorganic cheemistry, especially crystallography, for determining the structural distortion of octahedral metal complex. Even though the people in community generally compute these parameters for their synthesized complex, but they not used a certain way to do this. Moreover, there is no software for determining this kind of parameter yet. Therefore, we present the OctaDist program as a choice for those who are interested in this. 
 <br/>
-[Click here](./param.md) to read more about theretical background of OctaDist
+[Click here to read more about theretical background of OctaDist](./param.md)
 
 ***
 
 ## Architecture
 OctaDist has been written in Python 3.7.2 and tested on PyCharm 2018.3.2 (Community Edition). Program executable was compiled by Pyinstaller. The program supports Windows systems, Mac OS, and GNU/Linux OS.
 <br/>
-[Click here](https://github.com/OctaDist/OctaDist/releases/latest) to download the latest stable version of OctaDist.
+[Click here to download the latest stable version of OctaDist](https://github.com/OctaDist/OctaDist/releases/latest) 
 
 ***
 
 ## Usage
 ### Windows OS
-1. Download program executable from [this page](https://github.com/rangsimanketkaew/OctaDist/releases)
-2. Right click and select `Run as administrator`
+1. Download program executable `.exe` to your computer
+2. Right click on program icon and select `Run as administrator`
 3. Click `Yes`
 4. Wait program for process until open
 
 ### Mac OS X
-1. Download program source code from [this page](https://github.com/rangsimanketkaew/OctaDist/releases)
-2. Uncompress the tarball: `tar -xzvf OctaDist-*`
-3. Enter OctaDist directory: `cd OctaDist-*/src`
-4. Change file permission of all python files: `chmod +x *.py`
-5. Compile executable using PyInstaller: `pyinstaller --onefile main.py`
+_Please wait for update_
 
 ### Linux OS
-For Linux user, use `python3 -V` to check python version.
-1. Download program source code from [this page](https://github.com/rangsimanketkaew/OctaDist/src)
-2. Uncompress the tarball: `tar -xzvf OctaDist-*`
-3. Enter OctaDist directory: `cd OctaDist-*/src`
-4. Change file permission of all python files: `chmod +x *.py`
-5. Execute program: `python3 main.py`
+**Requirements**
+* For Linux user, use `python3 -V` to check python version.
+* Optional: If you want to use OctaDist through graphical display client on SSH session, you should flag either `-X` or `-Y` when logging-in to Linux.
 
-### Required module
-
+**Required module**
 ```
 numpy==1.16.0
 tkinter==8.6
 matplotlib==3.0.2
 PyInstaller==3.4
 ```
+
+1. Download program source code from [this page](https://github.com/rangsimanketkaew/OctaDist/src)
+2. Uncompress the tarball: `tar -xzvf OctaDist-*`
+3. Enter OctaDist directory: `cd OctaDist-*/src`
+4. Change file permission of all python files: `chmod +x *.py`
+5. Execute program: `python3 main.py`
+
+### 
 
 ### Supported input file format
 - [XYZ file format](https://en.wikipedia.org/wiki/XYZ_file_format) (*.xyz)
