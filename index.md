@@ -4,9 +4,7 @@ layout: default
 
 # OctaDist
 
-Octahedral Distortion Analysis: A program for determining the structural distortion of octahedral complexes. <br/>
-This program was written in Python 3.7.2 and tested on PyCharm 2018.3.2 (Community Edition). <br/>
-Program executable was compiled by Pyinstaller. The program supports Windows systems, Mac OS, and GNU/Linux OS. <br/>
+OctaDist has been written in Python 3.7.2 and tested on PyCharm 2018.3.2 (Community Edition). Program executable was compiled by Pyinstaller. The program supports Windows systems, Mac OS, and GNU/Linux OS. <br/>
 
 [Click here](https://github.com/OctaDist/OctaDist/releases/latest) to download the latest stable version of OctaDist.
 
