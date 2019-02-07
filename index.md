@@ -19,16 +19,22 @@ The latest stable version of OctaDist is 2.2 (February 2019). [The release is av
 ***
 
 ## Usage
-### Windows OS
+**Windows OS**
 1. Download program executable `.exe` to your computer
 2. Right click on program icon and select `Run as administrator`
 3. Click `Yes`
 4. Wait program for process until open
 
-### Mac OS X
+**Mac OS X**
 _Please wait for update_
 
-### Linux OS
+**Linux OS**
+1. Download program source code from [this page](https://github.com/rangsimanketkaew/OctaDist/src)
+2. Uncompress the tarball: `tar -xzvf OctaDist-*`
+3. Enter OctaDist directory: `cd OctaDist-*/src`
+4. Change file permission of all python files: `chmod +x *.py`
+5. Execute program: `python3 main.py`
+
 **Requirements**
 * Use `python3 -V` to check python version and use `python3 -m pip install -U PACKAGE_NAME` to update python packages.
 * For running OctaDist on graphical display client through SSH session, you should add `-X` or `-Y` when logging-in SSH.
@@ -40,12 +46,6 @@ tkinter==8.6
 matplotlib==3.0.2
 PyInstaller==3.4
 ```
-
-1. Download program source code from [this page](https://github.com/rangsimanketkaew/OctaDist/src)
-2. Uncompress the tarball: `tar -xzvf OctaDist-*`
-3. Enter OctaDist directory: `cd OctaDist-*/src`
-4. Change file permission of all python files: `chmod +x *.py`
-5. Execute program: `python3 main.py`
 
 ***
 
