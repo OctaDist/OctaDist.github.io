@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # OctaDist
 
 <p align="center">
