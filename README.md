@@ -9,4 +9,8 @@
 
 ## Author
 Rangsiman Ketkaew <br/>
-rangsiman1993@gmail.com
+Computational Chemistry Research Unit <br/>
+Department of Chemistry, Faculty of Science and Technology <br/>
+Thammasat University, Pathum Thani, 12120 Thailand <br/>
+E-mail: [rangsiman1993@gmail.com](rangsiman1993@gmail.com) <br/>
+Website: [https://sites.google.com/site/rangsiman1993](https://sites.google.com/site/rangsiman1993)
