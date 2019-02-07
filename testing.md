@@ -1,6 +1,11 @@
-## Testing
+## Input preparation
 
 [back to homepage](./)
+
+1. First seven atoms must be the studied octahedral structure.
+2. A metal center atom of octahedron must be the first atom. So the next six atoms would be six ligand atoms.
+
+## Testing
 
 * Perfect octahedral metal complex ([Perfect-octahedron.xyz](test/Perfect-octahedron.xyz))
 
