@@ -8,10 +8,14 @@ OctaDist (**Octa**hedral **Dist**ortion Analysis) is a program for computing the
 <br/>
 [Click here](./param.md) to read more about theretical background of OctaDist
 
+***
+
 ## Architecture
 OctaDist has been written in Python 3.7.2 and tested on PyCharm 2018.3.2 (Community Edition). Program executable was compiled by Pyinstaller. The program supports Windows systems, Mac OS, and GNU/Linux OS.
 <br/>
 [Click here](https://github.com/OctaDist/OctaDist/releases/latest) to download the latest stable version of OctaDist.
+
+***
 
 ## Usage
 ### Windows OS
@@ -57,6 +61,7 @@ The current version of OctaDist only supports the cartesian (XYZ) coordinate fil
 
 [Click here for testing examples](./testing.md)
 
+***
 
 ## Screenshots
 
@@ -71,6 +76,8 @@ Full complex | Full complex with faces of octahedron |
 ![](images/Figure_1.png)   | ![](images/Figure_2.png) 
 **Selected octahedral structure** | **Optimal 4 faces** 
 ![](images/Figure_3.png)  | ![](images/Figure_4.png)
+
+***
 
 ## References
 1. [J. A. Alonso, M. J. Martı´nez-Lope, M. T. Casais, M. T. Ferna´ndez-Dı´az. Inorg. Chem. 2000, 39, 917-923](https://pubs.acs.org/doi/abs/10.1021/ic990921e)
