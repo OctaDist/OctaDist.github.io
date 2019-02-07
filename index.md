@@ -48,9 +48,7 @@ matplotlib==3.0.2
 PyInstaller==3.4
 ```
 
-***
-
-### Supported input file format
+**Supported input file format**
 - [XYZ file format](https://en.wikipedia.org/wiki/XYZ_file_format) (*.xyz)
 - Text file format (*.txt)
 - Output file of several computational chemistry programs (*.out, *.log): Gaussian, NWChem, ORCA, and Q-Chem
