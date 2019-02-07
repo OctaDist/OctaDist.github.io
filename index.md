@@ -29,7 +29,7 @@ _Please wait for update_
 
 ### Linux OS
 **Requirements**
-* For Linux user, use `python3 -V` to check python version.
+* For Linux user, use `python3 -V` to check python version and use `python3 -m pip install -U PACKAGE_NAME` to update python packages.
 * Optional: If you want to use OctaDist through graphical display client on SSH session, you should flag either `-X` or `-Y` when logging-in to Linux.
 
 **Required module**
@@ -64,38 +64,27 @@ The current version of OctaDist only supports the cartesian (XYZ) coordinate fil
 ***
 
 ## Screenshots
+**Program GUI**
 
 Program UI | Console window |
 :-------------------------:|:-------------------------:
 ![](images/Capture_Program.png)   | ![](images/Capture_Window.png) 
 
+
 **Display of full complex and selected octahedron**
 
-Full complex | Full complex with faces of octahedron |
-:-------------------------:|:-------------------------:
-![](images/Figure_1.png)   | ![](images/Figure_2.png) 
-**Selected octahedral structure** | **Optimal 4 faces** 
-![](images/Figure_3.png)  | ![](images/Figure_4.png)
-
-***
+|Full complex                      | Full complex with faces of octahedron  |
+|:--------------------------------:|:--------------------------------------:|
+|![](images/Figure_1.png)          | ![](images/Figure_2.png)               |
+|**Selected octahedral structure** | **Optimal 4 faces**                    |
+|![](images/Figure_3.png)          | ![](images/Figure_4.png)               |
 
 ## References
 1. [J. A. Alonso, M. J. Martı´nez-Lope, M. T. Casais, M. T. Ferna´ndez-Dı´az. Inorg. Chem. 2000, 39, 917-923](https://pubs.acs.org/doi/abs/10.1021/ic990921e)
 2. [J. K. McCusker, A. L. Rheingold, D. N. Hendrickson. Inorg. Chem. 1996, 35, 2100-2112](https://pubs.acs.org/doi/abs/10.1021/ic9507880)
 3. [M. Marchivie, P. Guionneau, J. F. Letard, D. Chasseau. Acta Crystal-logr. Sect. B Struct. Sci. 2005, 61, 25-28](https://onlinelibrary.wiley.com/doi/full/10.1107/S0108768104029751)
 
-## Special thanks
-I would like to thank
-
-- [Prof. Yuthana Tantirungrotechai](https://sites.google.com/site/compchem403/people/faculty/yuthana) (Thammasat University, Thailand)
-- [Prof. David J. Harding](https://www.funtechwu.com/david-j-harding) (Walailak University, Thailand)
-
-for useful advices and comments.
-
-## Author
-Rangsiman Ketkaew<br/>
-Computational Chemistry Research Unit <br/>
-Department of Chemistry, Faculty of Science and Technology <br/>
-Thammasat University, Pathum Thani, 12120 Thailand <br/>
-E-mail: [rangsiman1993@gmail.com](rangsiman1993@gmail.com) <br/>
-Website: [https://sites.google.com/site/rangsiman1993](https://sites.google.com/site/rangsiman1993)
+## Developer team
+- [Rangsiman Ketkaew](https://sites.google.com/site/rangsiman1993) (Thammasat University, Thailand) E-mail: rangsiman1993@gmail.com
+- [Yuthana Tantirungrotechai](https://sites.google.com/site/compchem403/people/faculty/yuthana) (Thammasat University, Thailand)
+- [David J. Harding](https://www.funtechwu.com/david-j-harding) (Walailak University, Thailand)
