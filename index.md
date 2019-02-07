@@ -52,7 +52,7 @@ PyInstaller==3.4
 ### Supported input file format
 - [XYZ file format](https://en.wikipedia.org/wiki/XYZ_file_format) (*.xyz)
 - Text file format (*.txt)
-- Output file of several computational chemistry programs (*.out, *.log): Gaussian, NWChem, and ORCA
+- Output file of several computational chemistry programs (*.out, *.log): Gaussian, NWChem, ORCA, and Q-Chem
 
 [Click here for input preparation and testing examples](./testing.md)
 
