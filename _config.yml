@@ -1,6 +1,6 @@
 theme: jekyll-theme-minimal
 title: OctaDist
-description: Structural distortion analysis of octahedral structure
+description: A program for determining the structural distortion of octahedral complexes
 logo: molecule.png
 show_downloads: true
 google_analytics:
