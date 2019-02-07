@@ -1,4 +1,4 @@
-## Welcome to OctaDist Pages
+## OctaDist Pages
 
 <p align="center">
    <img alt="molecule" src="images/molecule.png" align=middle width="200pt" />
