@@ -4,16 +4,17 @@ layout: default
 
 ## OctaDist
 
-OctaDist (**Octa**hedral **Dist**ortion Analysis) is a program for computing the octahedral distortion parameters of a distorted octahedral complexes. Octahedral distortion parameters have been being widely used in inorganic cheemistry, especially crystallography, for determining the structural distortion of octahedral metal complex. Even though the people in community generally compute these parameters for their synthesized complex, but they not used a certain way to do this. Moreover, there is no software for determining this kind of parameter yet. Therefore, we present the OctaDist program as a choice for those who are interested in this. 
-<br/>
-[Click here to read more about theretical background of OctaDist](./param.md)
+OctaDist (**Octa**hedral **Dist**ortion Analysis) is a program for computing the octahedral distortion parameters of a distorted octahedral complexes. Octahedral distortion parameters have been being widely used in inorganic cheemistry, especially crystallography, for determining the structural distortion of octahedral metal complex. Even though the people in community generally compute these parameters for their synthesized complex, but they not used a certain way to do this. Moreover, there is no software for determining this kind of parameter yet. Therefore, we present the OctaDist program as a choice for those who are interested in this. [Click here to read more about theretical background of OctaDist](./param.md)
 
 ***
 
 ## Development
 OctaDist has been written in Python 3.7.2 and tested on PyCharm 2018.3.2 (Community Edition). Program executable was compiled by Pyinstaller. The program supports Windows systems, Mac OS, and GNU/Linux OS.
-<br/>
-[The stable release of OctaDist 2.2 is available here](https://github.com/OctaDist/OctaDist/releases/latest) 
+
+***
+
+## Release
+The latest stable version of OctaDist is 2.2 (February 2019). [The release is available here](https://github.com/OctaDist/OctaDist/releases/latest) 
 
 ***
 
