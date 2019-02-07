@@ -1,5 +1,5 @@
 theme: jekyll-theme-minimal
 title: OctaDist
 description: Structural distortion analysis of octahedral structure
-logo: molecule.png
+logo: https://github.com/OctaDist/OctaDist.github.io/blob/master/molecule.png
 show_downloads: true
