@@ -26,6 +26,7 @@ The latest stable version of OctaDist is 2.2 (February 2019). [The release is av
 4. Wait program for process until open
 
 **Mac OS X**
+<br/>
 _Please wait for update_
 
 **Linux OS**
