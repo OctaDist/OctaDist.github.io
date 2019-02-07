@@ -30,8 +30,8 @@ _Please wait for update_
 
 ### Linux OS
 **Requirements**
-* For Linux user, use `python3 -V` to check python version and use `python3 -m pip install -U PACKAGE_NAME` to update python packages.
-* Optional: If you want to use OctaDist through graphical display client on SSH session, you should flag either `-X` or `-Y` when logging-in to Linux.
+* Use `python3 -V` to check python version and use `python3 -m pip install -U PACKAGE_NAME` to update python packages.
+* For running OctaDist on graphical display client through SSH session, you should add `-X` or `-Y` when logging-in SSH.
 
 **Required module**
 ```
@@ -47,17 +47,14 @@ PyInstaller==3.4
 4. Change file permission of all python files: `chmod +x *.py`
 5. Execute program: `python3 main.py`
 
-### 
-
 ### Supported input file format
 - [XYZ file format](https://en.wikipedia.org/wiki/XYZ_file_format) (*.xyz)
 - Text file format (*.txt)
 - Output file of several computational chemistry programs (*.out, *.log): Gaussian, NWChem, and ORCA
 
 ### Input preparation
-The current version of OctaDist only supports the cartesian (XYZ) coordinate file (see [Testing](#testing)) <br/>
-**1. First seven atoms must be the studied octahedral structure.** <br/>
-**2. A metal center atom of octahedron must be the first atom. So the next six atoms would be six ligand atoms.**
+1. First seven atoms must be the studied octahedral structure.
+2. A metal center atom of octahedron must be the first atom. So the next six atoms would be six ligand atoms.
 
 
 [Click here for testing examples](./testing.md)
