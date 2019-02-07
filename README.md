@@ -2,7 +2,7 @@
 
 * [OctaDist source code repository](https://github.com/OctaDist)
 * [OctaDist page repository](https://github.com/OctaDist/OctaDist.github.io)
-* [OctaDist homepage](https://octadist.github.io)
+* [https://octadist.github.io](https://octadist.github.io)
 
 ## Author
 Rangsiman Ketkaew <br/>
