@@ -5,7 +5,7 @@ layout: default
 # OctaDist
 
 <p align="center">
-   <img alt="Co-structure" src="images/molecule.png" align=middle width="200pt" />
+   <img alt="Co-structure" src="./images/molecule.png" align=middle width="200pt" />
 <p/>
 
 Octahedral Distortion Analysis: determining the structural distortion of octahedral complex. <br/>
