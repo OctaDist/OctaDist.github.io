@@ -5,6 +5,7 @@ layout: default
 [back to homepage](./)
 
 ## Input preparation
+***
 
 First seven atoms must be the studied octahedral structure. A metal center atom of octahedron must be the first atom. So the next six atoms would be six ligand atoms.
 
