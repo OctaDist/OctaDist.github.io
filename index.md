@@ -39,8 +39,7 @@ _Please wait for update_
 **Requirements**
 * Use `python3 -V` to check python version and use `python3 -m pip install -U PACKAGE_NAME` to update python packages.
 * For running OctaDist on graphical display client through SSH session, you should add `-X` or `-Y` when logging-in SSH.
-
-**Required module**
+* The following Python modules are required
 ```
 numpy==1.16.0
 tkinter==8.6
@@ -67,11 +66,19 @@ Program UI | Console window |
 
 **Display of full complex and selected octahedron**
 
-|Full complex                      | Full complex with faces of octahedron  |
+|All atoms                         | Full complex with faces of octahedron  |
 |:--------------------------------:|:--------------------------------------:|
 |![](images/Figure_1.png)          | ![](images/Figure_2.png)               |
 |**Selected octahedral structure** | **Optimal 4 faces**                    |
 |![](images/Figure_3.png)          | ![](images/Figure_4.png)               |
+
+## Citation
+If your work has been done by OctaDist, please citing as following
+
+```
+OctaDist - A program for determining the structural distortion of the octahedral complexes.
+https://octadist.github.io
+```
 
 ## References
 1. [J. A. Alonso, M. J. Martı´nez-Lope, M. T. Casais, M. T. Ferna´ndez-Dı´az. Inorg. Chem. 2000, 39, 917-923](https://pubs.acs.org/doi/abs/10.1021/ic990921e)
