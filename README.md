@@ -5,12 +5,12 @@
 <p/>
 
 * Official home page: [https://octadist.github.io](https://octadist.github.io)
-* Program source code: [OctaDist source code repository](https://github.com/OctaDist/OctaDist)
+* Source code page: [OctaDist source code repository](https://github.com/OctaDist/OctaDist)
 
-## Author
-Rangsiman Ketkaew <br/>
-Computational Chemistry Research Unit <br/>
-Department of Chemistry, Faculty of Science and Technology <br/>
-Thammasat University, Pathum Thani, 12120 Thailand <br/>
-E-mail: [rangsiman1993@gmail.com](rangsiman1993@gmail.com) <br/>
-Website: [https://sites.google.com/site/rangsiman1993](https://sites.google.com/site/rangsiman1993)
+## Team
+* [Rangsiman Ketkaew](https://sites.google.com/site/rangsiman1993) (Thammasat University) <br/>
+  * E-mail: rangsiman1993@gmail.com <br/>
+* [Yuthana Tantirungrotechai](https://sites.google.com/site/compchem403/people/faculty/yuthana) (Thammasat University)
+  * E-mail: yt203y@gmail.com
+* [David J. Harding](https://www.funtechwu.com/david-j-harding) (Walailak University)
+  * E-mail: hdavid@mail.wu.ac.th
