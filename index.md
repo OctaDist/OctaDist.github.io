@@ -9,7 +9,7 @@ OctaDist (**Octa**hedral **Dist**ortion Analysis) is a program for computing the
 ***
 
 ## Development
-OctaDist has been written in Python 3.7.2 and tested on PyCharm 2018.3.2 (Community Edition). Program executable was compiled by Pyinstaller. The program supports Windows systems, Mac OS, and GNU/Linux OS.
+OctaDist has been written in Python 3.7.2 and tested on PyCharm 2018.3.2 (Community Edition). Program executable was compiled by Pyinstaller. The program supports Windows, macOS, and Linux OS. both in 32-bit and 64-bit systems
 
 ***
 
