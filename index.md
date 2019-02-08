@@ -4,7 +4,7 @@ layout: default
 
 ## OctaDist
 
-OctaDist (**Octa**hedral **Dist**ortion Analysis) is a program for computing the octahedral distortion parameters of a distorted octahedral complexes. Octahedral distortion parameters have been being widely used in inorganic cheemistry, especially crystallography, for determining the structural distortion of octahedral metal complex. Even though the people in community generally compute these parameters for their synthesized complex, but they not used a certain way to do this. Moreover, there is no software for determining this kind of parameter yet. Therefore, we present the OctaDist program as a choice for those who are interested in this. [Click here to read more about theretical background of OctaDist](./param.md)
+OctaDist (**Octa**hedral **Dist**ortion Analysis) is a program for determining the structural distortion and computing the octahedral distortion parameters of a distorted octahedral complexes. Octahedral distortion parameters have been being widely used in inorganic chemistry, especially crystallography and spin-crossover. These parameters is useful for tracking the change of structures in different chemical behavior such as spin-state. Even though the people in community generally compute the octahedral distortion parameters for their synthesized complex, but they not used a certain way to do this. Moreover, there is no software for determining this kind of parameter yet. Therefore, we present the OctaDist program as a choice for those who are interested in this. [Click here to read more about theretical background of OctaDist](./param.md)
 
 ***
 
