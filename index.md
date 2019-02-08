@@ -9,7 +9,7 @@ OctaDist (**Octa**hedral **Dist**ortion Analysis) is a program for computing the
 ***
 
 ## Development
-OctaDist has been written in Python 3.7.2 and tested on PyCharm 2018.3.2 (Community Edition). Program executable was compiled by Pyinstaller. The program supports Windows, macOS, and Linux OS. both in 32-bit and 64-bit systems
+OctaDist has been written in Python 3.7.2 binding to TkInter graphical interface and tested on PyCharm 2018.3.2 (Community Edition). Program executable was compiled by Pyinstaller. The program supports Windows, macOS, and Linux OS for both 32-bit and 64-bit systems
 
 ***
 
@@ -19,18 +19,18 @@ The latest stable version of OctaDist is 2.2 (February 2019). [The release is av
 ***
 
 ## Usage
-**Windows OS**
-1. Download program executable `.exe` to your computer
+**Windows**
+1. Download program executable `.exe` to your machine
 2. Right click on program icon and select `Run as administrator`
 3. Click `Yes`
 4. Wait program for process until open
 
-**Mac OS X**
+**macOS**
 <br/>
 _Please wait for update_
 
-**Linux OS**
-1. Download program source code from [this page](https://github.com/rangsimanketkaew/OctaDist/src)
+**Linux**
+1. Download the tarbal of program source code from to your machine
 2. Uncompress the tarball: `tar -xzvf OctaDist-*`
 3. Enter OctaDist directory: `cd OctaDist-*/src`
 4. Change file permission of all python files: `chmod +x *.py`
