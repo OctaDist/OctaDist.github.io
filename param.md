@@ -1,6 +1,11 @@
-## Theoretical background
+---
+layout: default
+---
 
 [back to homepage](./)
+
+## Theoretical background
+***
 
 ### Octahedral complex
 
