@@ -10,7 +10,7 @@ layout: default
 First seven atoms must be the studied octahedral structure. A metal center atom of octahedron must be the first atom. So the next six atoms would be six ligand atoms.
 
 **Perfect octahedral metal complex** <br/>
-([Perfect-octahedron.xyz](test/Perfect-octahedron.xyz))
+([Perfect-octahedron.xyz](https://raw.githubusercontent.com/OctaDist/OctaDist/master/test/Perfect-octahedron.xyz))
 
 Calculate octahedral distortion parameters
 
@@ -21,7 +21,7 @@ Calculate octahedral distortion parameters
 ---
 
 **XRD structure of [Fe(1-bpp)2][BF4]2 complex in low-spin state, taken from Malcolm Halcrow's CCDC library** <br/>
-([[Fe(1-bpp)2][BF4]2-LS-Full.xyz](test/[Fe(1-bpp)2][BF4]2-LS-Full.xyz))
+([[Fe(1-bpp)2][BF4]2-LS-Full.xyz](https://raw.githubusercontent.com/OctaDist/OctaDist/master/test/%5BFe(1-bpp)2%5D%5BBF4%5D2-LS-Full.xyz))
 
 Calculate octahedral distortion parameters
 - ![](https://latex.codecogs.com/svg.Latex?%5CDelta) = 0.000348
@@ -31,7 +31,7 @@ Calculate octahedral distortion parameters
 ---
 
 **XRD structure of [Fe(1-bpp)2][BF4]2 complex in high-spin state, taken from Malcolm Halcrow's CCDC library** <br/>
-([[Fe(1-bpp)2][BF4]2-HS-Full.xyz](test/[Fe(1-bpp)2][BF4]2-HS-Full.xyz))
+([[Fe(1-bpp)2][BF4]2-HS-Full.xyz](https://raw.githubusercontent.com/OctaDist/OctaDist/master/test/%5BFe(1-bpp)2%5D%5BBF4%5D2-HS-Full.xyz))
 
 Calculate octahedral distortion parameters
 - ![](https://latex.codecogs.com/svg.Latex?%5CDelta) = 0.000168
