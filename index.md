@@ -80,6 +80,9 @@ https://octadist.github.io
 OctaDist has been written in Python 3.7.2 binding to TkInter graphical interface and tested on PyCharm 2018.3.2 (Community Edition). Program executable was compiled by Pyinstaller. The program supports Windows, macOS, and Linux OS for both 32-bit and 64-bit systems
 
 ### Team
-- [Rangsiman Ketkaew](https://sites.google.com/site/rangsiman1993) (Thammasat University, Thailand) E-mail: rangsiman1993@gmail.com
+- [Rangsiman Ketkaew](https://sites.google.com/site/rangsiman1993) (Thammasat University, Thailand) 
+  - E-mail: rangsiman1993@gmail.com
 - [Yuthana Tantirungrotechai](https://sites.google.com/site/compchem403/people/faculty/yuthana) (Thammasat University, Thailand)
+  - E-mail: yt203y@gmail.com
 - [David J. Harding](https://www.funtechwu.com/david-j-harding) (Walailak University, Thailand)
+  - E-mail: hdavid@mail.wu.ac.th
