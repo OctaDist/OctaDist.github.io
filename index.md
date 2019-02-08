@@ -8,11 +8,6 @@ OctaDist (**Octa**hedral **Dist**ortion Analysis) is a program for computing the
 
 ***
 
-## Development
-OctaDist has been written in Python 3.7.2 binding to TkInter graphical interface and tested on PyCharm 2018.3.2 (Community Edition). Program executable was compiled by Pyinstaller. The program supports Windows, macOS, and Linux OS for both 32-bit and 64-bit systems
-
-***
-
 ## Release
 The latest stable version of OctaDist is 2.2 (February 2019). [The release is available here](https://github.com/OctaDist/OctaDist/releases/latest) 
 
@@ -80,7 +75,11 @@ OctaDist - A program for determining the structural distortion of the octahedral
 https://octadist.github.io
 ```
 
-## Developer team
+## Development
+### Architecture
+OctaDist has been written in Python 3.7.2 binding to TkInter graphical interface and tested on PyCharm 2018.3.2 (Community Edition). Program executable was compiled by Pyinstaller. The program supports Windows, macOS, and Linux OS for both 32-bit and 64-bit systems
+
+### Team
 - [Rangsiman Ketkaew](https://sites.google.com/site/rangsiman1993) (Thammasat University, Thailand) E-mail: rangsiman1993@gmail.com
 - [Yuthana Tantirungrotechai](https://sites.google.com/site/compchem403/people/faculty/yuthana) (Thammasat University, Thailand)
 - [David J. Harding](https://www.funtechwu.com/david-j-harding) (Walailak University, Thailand)
