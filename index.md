@@ -3,26 +3,22 @@ layout: default
 ---
 
 ## OctaDist
-***
 OctaDist (**Octa**hedral **Dist**ortion Analysis) is a program for determining the structural distortion and computing the octahedral distortion parameters of a distorted octahedral complexes. Octahedral distortion parameters have been being widely used in inorganic chemistry, especially crystallography and spin-crossover. These parameters is useful for tracking the change of structures in different chemical behavior such as spin-state. Even though the people in community generally compute the octahedral distortion parameters for their synthesized complex, but they not used a certain way to do this. Moreover, there is no software for determining this kind of parameter yet. Therefore, we present the OctaDist program as a choice for those who are interested in this. [Click here to learn more about the OctaDist](./param.md)
 
 ## Release
-***
 [The release of OctaDist 2.2 (February 2019) is available](https://github.com/OctaDist/OctaDist/releases/latest) 
 
 ## Usage
-***
-**Windows**
+**- Windows**
 1. Download program executable `.exe` to your machine
 2. Right click on program icon and select `Run as administrator`
 3. Click `Yes`
 4. Wait program for process until open
 
-**macOS**
-<br/>
-_Please wait for update_
+**- macOS**
+1. _Please wait for update_
 
-**Linux**
+**- Linux**
 1. Download the tarbal of program source code from to your machine
 2. Uncompress the tarball: `tar -xzvf OctaDist-*`
 3. Enter OctaDist directory: `cd OctaDist-*/src`
@@ -41,7 +37,6 @@ _Please wait for update_
 [Click here for input preparation and testing examples](./testing.md)
 
 ## Screenshots
-***
 **Program GUI**
 
 Program UI | Console window |
@@ -58,7 +53,6 @@ Program UI | Console window |
 |![](images/Figure_3.png)          | ![](images/Figure_4.png)               |
 
 ## Citation
-***
 If your work has been done by OctaDist, please citing as following
 
 ```
@@ -67,9 +61,8 @@ https://octadist.github.io
 ```
 
 ## Development
-***
 ### Architecture
-OctaDist has been written in Python 3.7.2 binding to TkInter graphical interface and tested on PyCharm 2018.3.2 (Community Edition). Program executable was compiled by Pyinstaller. The program supports Windows, macOS, and Linux OS for both 32-bit and 64-bit systems
+OctaDist has been written in Python 3 binding to TkInter graphical interface and tested on PyCharm (Community Edition). Program executable was compiled by Pyinstaller. The program supports Windows, macOS, and Linux OS for both 32-bit and 64-bit systems
 
 ### Team
 - [Rangsiman Ketkaew](https://sites.google.com/site/rangsiman1993) (Thammasat University, Thailand) 
