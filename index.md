@@ -9,25 +9,21 @@ OctaDist (**Octa**hedral **Dist**ortion Analysis) is a program for determining t
 [The release of OctaDist 2.2 (February 2019) is available](https://github.com/OctaDist/OctaDist/releases/latest) 
 
 ## Usage
-**- Windows**
+**Windows**
 1. Download program executable `.exe` to your machine
 2. Right click on program icon and select `Run as administrator`
 3. Click `Yes`
 4. Wait program for process until open
 
-**- macOS**
+**macOS**
 1. _Please wait for update_
 
-**- Linux**
+**Linux**
 1. Download the tarbal of program source code from to your machine
 2. Uncompress the tarball: `tar -xzvf OctaDist-*`
 3. Enter OctaDist directory: `cd OctaDist-*/src`
 4. Change file permission of all python files: `chmod +x *.py`
 5. Execute program: `python3 main.py`
-
-**Requirements**
-* Use `python3 -V` to check python version and use `python3 -m pip install -U PACKAGE_NAME` to update python packages.
-* For running OctaDist on graphical display client through SSH session, you should add `-X` or `-Y` when logging-in SSH.
 
 **Supported input file format**
 - [XYZ file format](https://en.wikipedia.org/wiki/XYZ_file_format) (*.xyz)
