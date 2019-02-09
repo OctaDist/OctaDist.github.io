@@ -35,6 +35,7 @@ Mathematical expression of three parameters are given by following equations
 
 **Graphical representation of orthogonal projection and twisting triangular faces**
 
+***
 |Distorted octahedron | Orthogonal projection of atoms onto the given (opposite) plane | The ![](https://latex.codecogs.com/svg.Latex?%5Ctheta) angle between the atom vectors defined by two twisting triangular faces|
 |:-------------------------:|:-------------------------:|:-------------------------:|
 |![](images/Co-complex-8faces.png) | ![](images/Co-complex-projection.png) | ![](images/Co-complex-2D-projection.png)|
