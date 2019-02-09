@@ -4,7 +4,7 @@ layout: default
 
 [back to homepage](./)
 
-## Theoretical background
+## Background
 ***
 
 ### Octahedral complex
