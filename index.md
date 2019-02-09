@@ -42,8 +42,6 @@ Program UI | Console window |
 
 **Display of full complex and selected octahedron**
 
-***
-
 |All atoms                         | Full complex with faces of octahedron  |
 |:--------------------------------:|:--------------------------------------:|
 |![](images/Figure_1.png)          | ![](images/Figure_2.png)               |
