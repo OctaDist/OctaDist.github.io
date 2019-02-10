@@ -10,7 +10,7 @@ OctaDist (**Octa**hedral **Dist**ortion Analysis) is a program for determining t
 
 ## Usage
 **Windows**
-1. Download program executable `.exe` to your machine
+1. Download program executable `.exe`
 2. Right click on program icon and select `Run as administrator`
 3. Click `Yes`
 4. Wait program for process until open
@@ -19,7 +19,7 @@ OctaDist (**Octa**hedral **Dist**ortion Analysis) is a program for determining t
 1. _Please wait for update_
 
 **Linux**
-1. Download the tarbal of program source code from to your machine
+1. Download the tarbal of program source code
 2. Uncompress the tarball: `tar -xzvf OctaDist-*`
 3. Enter OctaDist directory: `cd OctaDist-*/src`
 4. Change file permission of all python files: `chmod +x *.py`
