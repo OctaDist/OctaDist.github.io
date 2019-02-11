@@ -16,7 +16,7 @@ OctaDist (**Octa**hedral **Dist**ortion Analysis) is a program for determining t
 4. Wait program for process until open
 
 **macOS**
-1. _Please wait for update_
+* _Please wait for update_
 
 **Linux**
 1. Download the tarbal of program source code
