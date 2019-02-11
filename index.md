@@ -8,7 +8,7 @@ OctaDist (**Octa**hedral **Dist**ortion Analysis) is a program for determining t
 ## Release
 [The release of OctaDist 2.2 (February 2019) is now available](https://github.com/OctaDist/OctaDist/releases/latest) 
 
-## Usage
+## Installation
 **Windows**
 1. Download program executable `.exe`
 2. Right click on program icon and select `Run as administrator`
@@ -25,6 +25,7 @@ OctaDist (**Octa**hedral **Dist**ortion Analysis) is a program for determining t
 4. Change file permission of all python files: `chmod +x *.py`
 5. Execute program: `python3 main.py`
 
+## Usage
 **Supported input file format**
 - [XYZ file format](https://en.wikipedia.org/wiki/XYZ_file_format) (*.xyz)
 - Text file format (*.txt)
@@ -35,10 +36,9 @@ OctaDist (**Octa**hedral **Dist**ortion Analysis) is a program for determining t
 ## Screenshots
 **Program GUI**
 
-Program UI | Console window |
-:-------------------------:|:-------------------------:
-![](images/Capture_Program.png)   | ![](images/Capture_Window.png) 
-
+|            Program UI            |         Console window        |
+|:--------------------------------:|:-----------------------------:|
+|![](images/Capture_Program.png)   | ![](images/Capture_Window.png)| 
 
 **Display of full complex and selected octahedron**
 
@@ -49,7 +49,7 @@ Program UI | Console window |
 |![](images/Figure_3.png)          | ![](images/Figure_4.png)               |
 
 ## Citation
-If your work has been done by OctaDist, please citing as following
+Please site this project when you use it for scientific publication.
 
 ```
 OctaDist - A program for determining the structural distortion of the octahedral complexes.
