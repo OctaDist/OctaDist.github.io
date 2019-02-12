@@ -7,7 +7,7 @@
 * Official home page: [https://octadist.github.io](https://octadist.github.io)
 * Source code repo: [https://github.com/OctaDist](https://github.com/OctaDist/OctaDist)
 
-## Team
+## Project team
 * [Rangsiman Ketkaew](https://sites.google.com/site/rangsiman1993) (Thammasat University) <br/>
   * E-mail: rangsiman1993@gmail.com <br/>
 * [Yuthana Tantirungrotechai](https://sites.google.com/site/compchem403/people/faculty/yuthana) (Thammasat University)
