@@ -42,10 +42,10 @@ OctaDist (**Octa**hedral **Dist**ortion Analysis) is a program for determining t
 
 **Display of full complex and selected octahedron**
 
-|All atoms                         | Full complex with faces of octahedron  |
+|             All atoms            |    All atoms and faces of octahedron   |
 |:--------------------------------:|:--------------------------------------:|
 |![](images/Figure_1.png)          | ![](images/Figure_2.png)               |
-|**Selected octahedral structure** | **Optimal 4 faces**                    |
+|**Selected octahedral structure** |       **Selected optimal 4 faces**     |
 |![](images/Figure_3.png)          | ![](images/Figure_4.png)               |
 
 ## Citation
@@ -60,7 +60,7 @@ https://octadist.github.io
 ### Architecture
 OctaDist has been written in Python 3 binding to TkInter graphical interface and tested on PyCharm (Community Edition). Program executable was compiled by Pyinstaller. The program supports Windows, macOS, and Linux OS for both 32-bit and 64-bit systems
 
-### Team
+### Project team
 - [Rangsiman Ketkaew](https://sites.google.com/site/rangsiman1993) (Thammasat University, Thailand) 
   - E-mail: rangsiman1993@gmail.com
 - [Yuthana Tantirungrotechai](https://sites.google.com/site/compchem403/people/faculty/yuthana) (Thammasat University, Thailand)
