@@ -2,6 +2,13 @@
 layout: default
 ---
 
+[![Travis-CI Test](https://img.shields.io/travis/OctaDist/OctaDist/master.svg
+)](https://travis-ci.org/OctaDist/OctaDist)
+[![Github release](https://img.shields.io/github/release/rangsimanketkaew/octadist.svg
+)](https://github.com/rangsimanketkaew/OctaDist/releases)
+[![Github Download All releases](https://img.shields.io/github/downloads/rangsimanketkaew/octadist/total.svg)](https://github.com/rangsimanketkaew/OctaDist/releases)
+
+
 ## OctaDist
 OctaDist (**Octa**hedral **Dist**ortion Analysis) is a program for determining the structural distortion of the distorted octahedral complexes. OctaDist does compute the octahedral distortion parameters: ![](https://latex.codecogs.com/svg.Latex?%5CDelta), ![](https://latex.codecogs.com/svg.Latex?%5CSigma), and ![](https://latex.codecogs.com/svg.Latex?%5CTheta). These parameters have been widely used in inorganic chemistry and crystallography. For example, they are useful for tracking the structural change of spin-crossover complex when the electrocnics spin-state changing from low-spin to high-spin and vice versa. Even though the people in community generally compute the octahedral distortion parameters for their complexes, but they not used a certain way to do this. Moreover, there is no software for determining this kind of parameter yet. Therefore, we present the OctaDist program as a choice for those who are interested in this. [Click here to learn more about the OctaDist](./about.md)
 
