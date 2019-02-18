@@ -35,7 +35,7 @@ OctaDist (**Octa**hedral **Dist**ortion Analysis) is a program for determining t
 ## Usage
 **Supported input file format**
 - [XYZ file format](https://en.wikipedia.org/wiki/XYZ_file_format) (*.xyz)
-- Output file of several computational chemistry programs (*.out, *.log): Gaussian, NWChem, ORCA, and Q-Chem
+- Output file of computational chemistry programs (*.out, *.log): Gaussian, NWChem, ORCA, and Q-Chem
 
 [Click here for input preparation and testing examples](./testing.md)
 
