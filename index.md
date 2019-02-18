@@ -47,7 +47,7 @@ OctaDist (**Octa**hedral **Dist**ortion Analysis) is a program for determining t
 |:--------------------------------:|:-----------------------------:|
 |![](images/Capture_Program.png)   | ![](images/Capture_Window.png)| 
 
-**Display of full complex and selected octahedron**
+**Display of metal complexes and selected octahedral structures**
 
 |             All atoms            |    All atoms and faces of octahedron   |
 |:--------------------------------:|:--------------------------------------:|
