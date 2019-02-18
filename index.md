@@ -17,16 +17,16 @@ OctaDist (**Octa**hedral **Dist**ortion Analysis) is a program for determining t
 
 ## Installation
 **Windows**
-1. Download program executable `.exe`
+1. Download program executable (.exe)
 2. Right click on program icon and select `Run as administrator`
 3. Click `Yes`
 4. Wait program for process until open
 
 **macOS**
-* _Please wait for update_
+* _Wait for update_
 
 **Linux**
-1. Download the tarbal of program source code
+1. Download the tarbal of source code
 2. Uncompress the tarball: `tar -xzvf OctaDist-*`
 3. Enter OctaDist directory: `cd OctaDist-*/src`
 4. Change file permission of all python files: `chmod +x *.py`
@@ -56,7 +56,7 @@ OctaDist (**Octa**hedral **Dist**ortion Analysis) is a program for determining t
 |![](images/Figure_3.png)          | ![](images/Figure_4.png)               |
 
 ## Citation
-Please site this project when you use it for scientific publication.
+Please site this project when you use OctaDist for scientific publication.
 
 ```
 OctaDist - A program for determining the structural distortion of the octahedral complexes.
@@ -64,7 +64,7 @@ https://octadist.github.io
 ```
 
 ## Development
-### Architecture
+### Tools
 OctaDist has been written in Python 3 binding to TkInter graphical interface and tested on PyCharm (Community Edition). Program executable was compiled by Pyinstaller. The program supports Windows, macOS, and Linux OS for both 32-bit and 64-bit systems
 
 ### Project team
