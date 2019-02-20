@@ -64,7 +64,7 @@ https://octadist.github.io
 
 ## Development
 ### Tools
-OctaDist has been written in Python 3 binding to TkInter graphical interface and tested on PyCharm (Community Edition). Program executable was compiled by Pyinstaller. The program supports Windows, macOS, and Linux OS for both 32-bit and 64-bit systems
+OctaDist has been written in Python 3 binding to TkInter graphical interface and tested on PyCharm (Community Edition). Program executable was compiled by PyInstaller. The program supports Windows, macOS, and Linux OS for both 32-bit and 64-bit systems
 
 ### Project team
 - [Rangsiman Ketkaew](https://sites.google.com/site/rangsiman1993) (Thammasat University, Thailand) 
