@@ -62,7 +62,7 @@ OctaDist - A program for determining the structural distortion of the octahedral
 https://octadist.github.io
 ```
 
-## But report
+## Bug report
 If you have any problem, [please submit issues](https://github.com/OctaDist/OctaDist/issues) 
 or pull requests on [OctaDist Github](https://github.com/OctaDist/OctaDist)
 
