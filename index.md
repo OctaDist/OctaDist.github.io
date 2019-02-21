@@ -62,6 +62,10 @@ OctaDist - A program for determining the structural distortion of the octahedral
 https://octadist.github.io
 ```
 
+## But report
+If you have any problem, [please submit issues](https://github.com/OctaDist/OctaDist/issues) 
+or pull requests on [OctaDist Github](https://github.com/OctaDist/OctaDist)
+
 ## Development
 ### Tools
 OctaDist has been written in Python 3 binding to TkInter graphical interface and tested on PyCharm (Community Edition). Program executable was compiled by PyInstaller. The program supports Windows, macOS, and Linux OS for both 32-bit and 64-bit systems
@@ -73,3 +77,8 @@ OctaDist has been written in Python 3 binding to TkInter graphical interface and
   - E-mail: yt203y@gmail.com
 - [David J. Harding](https://www.funtechwu.com/david-j-harding) (Walailak University, Thailand)
   - E-mail: hdavid@mail.wu.ac.th
+- [Phimphaka Harding](https://www.funtechwu.com/phimphaka-harding) (Walailak University, Thailand)
+  - E-mail: kphimpha@mail.wu.ac.th
+- [Mathieu Marchivie](http://www.icmcb-bordeaux.cnrs.fr/spip.php?article562&lang=fr) (Université de Bordeaux, France)
+  - E-mail: mathieu.marchivie@icmcb.cnrs.fr
+  
