@@ -7,7 +7,7 @@ layout: default
 ## Input preparation
 ***
 
-First seven atoms must be the studied octahedral structure. A metal center atom of octahedron must be the first atom. So the next six atoms would be six ligand atoms.
+OctaDist can automatically search and extract the octahedral structure (1 metal center and 6 ligand atoms) from the complex that user submitted.
 
 **Perfect octahedral metal complex** <br/>
 ([Perfect-octahedron.xyz](https://raw.githubusercontent.com/OctaDist/OctaDist/master/test/Perfect-octahedron.xyz))
