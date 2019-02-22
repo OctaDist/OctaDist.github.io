@@ -63,8 +63,8 @@ https://octadist.github.io
 ```
 
 ## Bug report
-If you have any problem, [please submit issues](https://github.com/OctaDist/OctaDist/issues) 
-or pull requests on [OctaDist Github](https://github.com/OctaDist/OctaDist)
+For reporting bugs in OctaDist, please [submit issues](https://github.com/OctaDist/OctaDist/issues) 
+or [pull requests](https://github.com/OctaDist/OctaDist/pulls) on OctaDist Github.
 
 ## Development
 ### Tools
