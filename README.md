@@ -5,7 +5,7 @@
 <p/>
 
 - Official home page: [https://octadist.github.io](https://octadist.github.io)
-- Source code repo: [https://github.com/OctaDist](https://github.com/OctaDist/OctaDist)
+- Source code repo: [https://github.com/OctaDist/OctaDist](https://github.com/OctaDist/OctaDist)
 
 ## Project team
 - [Rangsiman Ketkaew](https://sites.google.com/site/rangsiman1993) (Thammasat University) <br/>
