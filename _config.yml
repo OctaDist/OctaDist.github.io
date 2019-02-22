@@ -3,7 +3,7 @@ title: OctaDist
 description: A program for determining the structural distortion of the octahedral complexes
 logo: images/molecule.png
 show_downloads: true
-google_analytics:
+google_analytics: UA-135002233-1
 
 gems:
   - jekyll-mentions
