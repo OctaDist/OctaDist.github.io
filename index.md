@@ -9,9 +9,9 @@ OctaDist (**Octa**hedral **Dist**ortion Analysis) is a program for determining t
 
 [![Travis-CI Test](https://img.shields.io/travis/OctaDist/OctaDist/master.svg
 )](https://travis-ci.org/OctaDist/OctaDist)
-[![Github release](https://img.shields.io/github/release/rangsimanketkaew/octadist.svg
-)](https://github.com/rangsimanketkaew/OctaDist/releases)
-[![Github Download All releases](https://img.shields.io/github/downloads/rangsimanketkaew/octadist/total.svg)](https://github.com/rangsimanketkaew/OctaDist/releases)
+[![Github release](https://img.shields.io/github/release/OctaDist/octadist.svg
+)](https://github.com/OctaDist/OctaDist/releases)
+[![Github Download All releases](https://img.shields.io/github/downloads/OctaDist/octadist/total.svg)](https://github.com/OctaDist/OctaDist/releases)
 
 [The release of OctaDist 2.2 (February 2019) is now available](https://github.com/OctaDist/OctaDist/releases/latest) 
 
