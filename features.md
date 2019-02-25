@@ -5,13 +5,11 @@ layout: default
 
 ## Features
 ***
-- Distortion analysis
+- Structural distortion analysis
   - Automatically search metal center and extract octahedral structure
-- Octahedral distortion parameter (![](https://latex.codecogs.com/svg.Latex?%5CDelta), 
+  - Octahedral distortion parameter (![](https://latex.codecogs.com/svg.Latex?%5CDelta), 
 ![](https://latex.codecogs.com/svg.Latex?%5CSigma), and 
 ![](https://latex.codecogs.com/svg.Latex?%5CTheta))
-
-- Structural analysis
   - RMSD
 - Visualization
   - The metal complex
@@ -19,11 +17,7 @@ layout: default
   - Projection plane
   - Twisting triangular faces
   
-- Supports output file of several computational chemistry software
-  - Gaussian
-  - Q-Chem
-  - ORCA
-  - NWChem
+- Support of several input file format and output of computational chemistry software (Gaussian, Q-Chem, ORCA, and NWChem)
   
 - Python-based program binding to TkInter GUI
 
