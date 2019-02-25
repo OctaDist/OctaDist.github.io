@@ -1,7 +1,6 @@
 ---
 layout: default
 ---
-
 [back to homepage](./)
 
 ## Features
