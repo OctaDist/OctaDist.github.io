@@ -21,21 +21,6 @@ OctaDist (**Octa**hedral **Dist**ortion Analysis) is a program for determining t
 
 [The release of OctaDist 2.2 (February 2019) is now available](https://github.com/OctaDist/OctaDist/releases/latest)
 
-## Screenshots
-**Program GUI**
-
-|            Program UI            |         Console window        |
-|:--------------------------------:|:-----------------------------:|
-|![](images/Capture_Program.png)   | ![](images/Capture_Window.png)| 
-
-**Display of metal complexes and selected octahedral structures**
-
-|             All atoms            |    All atoms and faces of octahedron   |
-|:--------------------------------:|:--------------------------------------:|
-|![](images/Figure_1.png)          | ![](images/Figure_2.png)               |
-|**Selected octahedral structure** |       **Selected optimal 4 faces**     |
-|![](images/Figure_3.png)          | ![](images/Figure_4.png)               |
-
 ## Citation
 Please site this project when you use OctaDist for scientific publication.
 
