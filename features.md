@@ -6,8 +6,8 @@ layout: default
 ## Features
 ***
 - Structural distortion analysis
-  - Automatically search metal center and extract octahedral structure
-  - Octahedral distortion parameter (![](https://latex.codecogs.com/svg.Latex?%5CDelta), 
+  - Automatic search of metal center and extract octahedral structure
+  - Octahedral distortion parameters (![](https://latex.codecogs.com/svg.Latex?%5CDelta), 
 ![](https://latex.codecogs.com/svg.Latex?%5CSigma), and 
 ![](https://latex.codecogs.com/svg.Latex?%5CTheta))
   - RMSD
