@@ -10,8 +10,6 @@ layout: default
 
 ## Running OctaDist
 ***
-OctaDist can automatically search and extract the octahedral structure from the complex that user submitted.
-
 ### Windows OS
 1. Download program executable (*.exe) to your PC/Laptop
 2. Right click on program icon and select `Run as administrator`
@@ -30,7 +28,10 @@ OctaDist can automatically search and extract the octahedral structure from the 
 
 ## Prerequisite
 ***
-- OctaDist can run only with Python 3. For Linux user, use `python3 -V` to check python version.
+- OctaDist can run only with Python 3. For Linux user, use following command to check python version.
+```
+python3 -V
+```
 
 - The following packages/modules are required.
 ```
@@ -52,6 +53,8 @@ OctaDist source code can be compiled to executable easily using PyInstaller.
 
 ## Example usage
 ***
+OctaDist can automatically search and extract the octahedral structure from the complex that user submitted.
+
 **Perfect octahedral metal complex** <br/>
 ([Perfect-octahedron.xyz](https://raw.githubusercontent.com/OctaDist/OctaDist/master/test/Perfect-octahedron.xyz))
 
