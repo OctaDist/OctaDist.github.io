@@ -8,13 +8,12 @@ layout: default
 1. [XYZ file format](https://en.wikipedia.org/wiki/XYZ_file_format) (*.xyz)
 2. Output file of computational chemistry programs (*.out, *.log): Gaussian, NWChem, ORCA, and Q-Chem
 
-
 ## Running OctaDist
 ***
 OctaDist can automatically search and extract the octahedral structure from the complex that user submitted.
 
 ### Windows OS
-1. Download program executable to your PC/Laptop
+1. Download program executable (*.exe) to your PC/Laptop
 2. Right click on program icon and select `Run as administrator`
 3. Click `Yes`
 4. Wait program for process until open
@@ -23,7 +22,7 @@ OctaDist can automatically search and extract the octahedral structure from the 
 - More to come.
 
 ### Linux OS
-1. Download program source code from [this page](https://github.com/OctaDist/OctaDist/src)
+1. Download the source code (*.tar.gz) to your machine
 2. Uncompress the tarball: `tar -xzvf OctaDist-*`
 3. Enter OctaDist directory: `cd OctaDist-*/src`
 4. Change file permission of all python files: `chmod +x *.py`
