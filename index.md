@@ -12,7 +12,6 @@ OctaDist (**Octa**hedral **Dist**ortion Analysis) is a program for determining t
 - [User manual](manual.md)
 
 ## Release
-
 [![Travis-CI Test](https://img.shields.io/travis/OctaDist/OctaDist/master.svg
 )](https://travis-ci.org/OctaDist/OctaDist)
 [![Github release](https://img.shields.io/github/release/OctaDist/octadist.svg
@@ -33,11 +32,7 @@ https://octadist.github.io
 For reporting bugs in OctaDist, please [submit issues](https://github.com/OctaDist/OctaDist/issues) 
 or [pull requests](https://github.com/OctaDist/OctaDist/pulls) on OctaDist Github.
 
-## Development
-### Tools
-OctaDist is written in Python 3 binding to TkInter graphical interface and tested on PyCharm (Community Edition). Program executable was compiled by PyInstaller. The program supports Windows, macOS, and Linux OS for both 32-bit and 64-bit systems
-
-### Project team
+## Project team
 - [Rangsiman Ketkaew](https://sites.google.com/site/rangsiman1993) (Thammasat University, Thailand) 
   - E-mail: rangsiman1993@gmail.com
 - [Yuthana Tantirungrotechai](https://sites.google.com/site/compchem403/people/faculty/yuthana) (Thammasat University, Thailand)
