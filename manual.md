@@ -3,15 +3,56 @@ layout: default
 ---
 [back to homepage](./)
 
-## Usage
-**Supported input file format**
-- [XYZ file format](https://en.wikipedia.org/wiki/XYZ_file_format) (*.xyz)
-- Output file of computational chemistry programs (*.out, *.log): Gaussian, NWChem, ORCA, and Q-Chem
-
-## Example input file
+## Supported file format
 ***
-OctaDist can automatically search and extract the octahedral structure (1 metal center and 6 ligand atoms) from the complex that user submitted.
+1. [XYZ file format](https://en.wikipedia.org/wiki/XYZ_file_format) (*.xyz)
+2. Output file of computational chemistry programs (*.out, *.log): Gaussian, NWChem, ORCA, and Q-Chem
 
+
+## Running OctaDist
+***
+OctaDist can automatically search and extract the octahedral structure from the complex that user submitted.
+
+### Windows OS
+1. Download program executable to your PC/Laptop
+2. Right click on program icon and select `Run as administrator`
+3. Click `Yes`
+4. Wait program for process until open
+
+### macOS
+- More to come.
+
+### Linux OS
+1. Download program source code from [this page](https://github.com/OctaDist/OctaDist/src)
+2. Uncompress the tarball: `tar -xzvf OctaDist-*`
+3. Enter OctaDist directory: `cd OctaDist-*/src`
+4. Change file permission of all python files: `chmod +x *.py`
+5. Execute program: `python3 main.py`
+
+## Prerequisite
+***
+- OctaDist can run only with Python 3. For Linux user, use `python3 -V` to check python version.
+
+- The following packages/modules are required.
+```
+numpy==1.16.0
+tkinter==8.6
+matplotlib==3.0.2
+PyInstaller==3.4
+```
+
+## Program compilation
+***
+OctaDist source code can be compiled to executable easily using PyInstaller.
+1. Install [PyInstaller](https://www.pyinstaller.org/)
+2. Change directory to `./src`.
+3. Compile the source code, for example, using following command
+```
+`pyinstaller --onefile --version-file=version.txt --distpath=../ -i molecule.ico --windowed main.py`
+```
+
+## Example usage
+***
 **Perfect octahedral metal complex** <br/>
 ([Perfect-octahedron.xyz](https://raw.githubusercontent.com/OctaDist/OctaDist/master/test/Perfect-octahedron.xyz))
 
