@@ -19,21 +19,8 @@ layout: default
   
 - Support of several input file format and output of computational chemistry software (Gaussian, Q-Chem, ORCA, and NWChem)
   
-- Python-based program binding to TkInter GUI
+- Python-based program binding to TkInter graphical interface and tested on PyCharm (Community Edition).
 
-## Screenshots
-**Program GUI**
-
-|            Program UI            |         Console window        |
-|:--------------------------------:|:-----------------------------:|
-|![](images/Capture_Program.png)   | ![](images/Capture_Window.png)| 
-
-**Display of metal complexes and selected octahedral structures**
-
-|             All atoms            |    All atoms and faces of octahedron   |
-|:--------------------------------:|:--------------------------------------:|
-|![](images/Figure_1.png)          | ![](images/Figure_2.png)               |
-|**Selected octahedral structure** |       **Selected optimal 4 faces**     |
-|![](images/Figure_3.png)          | ![](images/Figure_4.png)               |
+- The program supports Windows, macOS, and Linux OS for both 32-bit and 64-bit systems
 
 [back to homepage](./)
