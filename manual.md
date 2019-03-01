@@ -26,31 +26,6 @@ layout: default
 4. Change file permission of all python files: `chmod +x *.py`
 5. Execute program: `python3 main.py`
 
-## Prerequisite
-***
-- OctaDist can run only with Python 3. For Linux user, use following command to check python version.
-```
-python3 -V
-```
-
-- The following packages/modules are required.
-```
-numpy==1.16.0
-tkinter==8.6
-matplotlib==3.0.2
-PyInstaller==3.4
-```
-
-## Program compilation
-***
-OctaDist source code can be compiled to executable easily using PyInstaller.
-1. Install [PyInstaller](https://www.pyinstaller.org/)
-2. Change directory to `./src`.
-3. Compile the source code, for example, using following command
-```
-`pyinstaller --onefile --version-file=version.txt --distpath=../ -i molecule.ico --windowed main.py`
-```
-
 ## Example usage
 ***
 OctaDist can automatically search and extract the octahedral structure from the complex that user submitted.
