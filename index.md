@@ -8,7 +8,6 @@ OctaDist (**Octa**hedral **Dist**ortion Analysis) is a program for determining t
 ## Further information
 - [About OctaDist](./about.md) <br/>
 - [Features](./features.md) <br/>
-- [Installation](./installation.md) <br/>
 - [User manual](./manual.md) <br/>
 - [Screenshots](./screenshots.md)
 
