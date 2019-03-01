@@ -10,6 +10,7 @@ OctaDist (**Octa**hedral **Dist**ortion Analysis) is a program for determining t
 - [Features](./features.md) <br/>
 - [User manual](./manual.md) <br/>
 - [Screenshots](./screenshots.md)
+- [Development](./development.md)
 
 ## Release
 [![Travis-CI Test](https://img.shields.io/travis/OctaDist/OctaDist/master.svg
@@ -29,8 +30,7 @@ https://octadist.github.io
 ```
 
 ## Bug report
-For reporting bugs in OctaDist, please [submit issues](https://github.com/OctaDist/OctaDist/issues) 
-or [pull requests](https://github.com/OctaDist/OctaDist/pulls) on OctaDist Github.
+For reporting bugs in OctaDist, please [submit issues](https://github.com/OctaDist/OctaDist/issues) on OctaDist Github.
 
 ## Project team
 - [Rangsiman Ketkaew](https://sites.google.com/site/rangsiman1993) (Thammasat University, Thailand) 
