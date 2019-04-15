@@ -20,8 +20,8 @@ OctaDist (**Octa**hedral **Dist**ortion Analysis) is a program for determining t
 [![Github Download All releases](https://img.shields.io/github/downloads/OctaDist/octadist/total.svg)](https://github.com/OctaDist/OctaDist/releases)
 <br/>
 The release of [OctaDist 2.3.beta (April 2019)](https://github.com/OctaDist/OctaDist/releases/latest) for Windows OS is now avaialble. The program source code is avaialable on [Github repository](https://github.com/OctaDist/OctaDist).
-- [OctaDist 2.3.beta (Light version)](https://github.com/OctaDist/OctaDist/releases/download/v.2.3-beta/OctaDist-2.3.beta-Win-x86-64-Light.exe) (No molecular visualization and others structural analysis functions)
-- [OctaDist 2.3.beta (Full version)](https://github.com/OctaDist/OctaDist/releases/download/v.2.3-beta/OctaDist-2.3.beta-Win-x86-64.exe) (Some features are being in developed)
+- [OctaDist 2.3.beta (Light version)](https://github.com/OctaDist/OctaDist/releases/download/v.2.3-beta/OctaDist-2.3.beta-Win-x86-64-Light.exe)
+- [OctaDist 2.3.beta (Full version)](https://github.com/OctaDist/OctaDist/releases/download/v.2.3-beta/OctaDist-2.3.beta-Win-x86-64.exe) (Some features are being developed)
 
 ## Citation
 Please site this project when you use OctaDist for scientific publication.
