@@ -33,12 +33,23 @@ OctaDist source code can be compiled to executable easily using PyInstaller.
 ```
 PyInstaller==3.4
 ```
-Installation instruction of PyInstaller
+Compilation instruction
 1. Install [PyInstaller](https://www.pyinstaller.org/)
-2. Change directory to `./src`.
-3. Compile the source code, for example, using following command
 ```
-`pyinstaller --onefile --version-file=version.txt --distpath=../ -i molecule.ico --windowed main.py`
+pip install pyinstaller
 ```
+2. Check the version of PyInstaller
+```
+pyinstaller --version
+```
+3. Change directory to `./src`, e.g.
+```
+cd OctaDist-XXX/src/
+```
+4. Compile the source code, for example, using following command
+```
+pyinstaller --windowed --onefile -i molecule.ico --version-file=version.txt --distpath=../ main.py
+```
+5. A standalone executable will be build in `build` directory
 
 [back to homepage](./)
