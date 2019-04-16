@@ -5,12 +5,13 @@ layout: default
 
 ## Development
 ***
-OctaDist is maintained on Github version control system. The program is written in Python 3 binding to TkInter GUI platform. 
-It is tested on Windows 10 64-bit system and on CentOS 7 for Linux platform.
+OctaDist is written in Python 3 binding to TkInter GUI platform. 
+It has been tested on Windows OS, macOS, and Linux OS for 32/64-bit system. 
 Matplotlib library is used for plotting the graph and displaying the molecule and octahedral structure. <br/>
 
-To submit a bug in program and give a contribution on program development, 
-please pull request on [the source code Github](https://github.com/OctaDist/OctaDist).
+The program is maintained on Github version control system. If you found a bug in program, please submit it on [issues page](https://github.com/OctaDist/OctaDist/issues). 
+To give a contribution on program development, please pull request on [the source code Github](https://github.com/OctaDist/OctaDist). <br/>
+
 We appreciate all help and contribution in getting program development.
 
 ## Prerequisite
