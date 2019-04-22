@@ -5,7 +5,7 @@ layout: default
 
 ## Screenshots
 ***
-### Program GUI**
+### Program GUI
 
 |            Program UI            |         Console window        |
 |:--------------------------------:|:-----------------------------:|
