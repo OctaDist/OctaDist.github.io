@@ -6,15 +6,17 @@ layout: default
 ## Features
 ***
 - Structural distortion analysis
-  - Automatic search of metal center and extract octahedral structure
-  - Octahedral distortion parameters (![](https://latex.codecogs.com/svg.Latex?%5CDelta), 
-![](https://latex.codecogs.com/svg.Latex?%5CSigma), and 
-![](https://latex.codecogs.com/svg.Latex?%5CTheta))
-  - RMSD
-- Visualization
-  - The metal complex
-  - Octahedral structure
-  - Projection plane
+  - Determination of regular and irregular distorted octahedrons
+  - Structural and octahedral distortion analysis
+    - Distance distortion parameters: mean distance *\<D\>*, ![](https://latex.codecogs.com/svg.Latex?%5Czeta) and ![](https://latex.codecogs.com/svg.Latex?%5CDelta), 
+    - Angle distortion parameter: ![](https://latex.codecogs.com/svg.Latex?%5CSigma)
+    - Tortional distortion parameter: ![](https://latex.codecogs.com/svg.Latex?%5CTheta)
+  - RMSD calculation
+  - Supporting multiple complexes
+  
+- Graphical displays
+  - Octahedral structure with faces of interest
+  - Projection plane and direction of orthogonal projection
   - Twisting triangular faces
   
 - Support of several input file format and output of computational chemistry software (Gaussian, Q-Chem, ORCA, and NWChem)
