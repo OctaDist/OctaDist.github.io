@@ -11,7 +11,7 @@ layout: default
 |:--------------------------------:|:-----------------------------:|
 |![](images/Capture_Program.png)   | ![](images/Capture_Window.png)| 
 
-### Display of metal complexes and selected octahedral structures**
+### Display of metal complexes and selected octahedral structures
 
 |             All atoms            |    All atoms and faces of octahedron   |
 |:--------------------------------:|:--------------------------------------:|
