@@ -8,7 +8,7 @@ layout: default
 - Structural distortion analysis
   - Determination of regular and irregular distorted octahedrons
   - Structural and octahedral distortion analysis
-    - Distance distortion parameters: mean distance *\<D\>*, ![](https://latex.codecogs.com/svg.Latex?%5Czeta) and ![](https://latex.codecogs.com/svg.Latex?%5CDelta), 
+    - Distance distortion parameters: *\<D\>*, ![](https://latex.codecogs.com/svg.Latex?%5Czeta) and ![](https://latex.codecogs.com/svg.Latex?%5CDelta)
     - Angle distortion parameter: ![](https://latex.codecogs.com/svg.Latex?%5CSigma)
     - Tortional distortion parameter: ![](https://latex.codecogs.com/svg.Latex?%5CTheta)
   - RMSD calculation
