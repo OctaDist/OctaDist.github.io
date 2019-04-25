@@ -3,7 +3,7 @@ layout: default
 ---
 
 ## OctaDist
-OctaDist (**Octa**hedral **Dist**ortion Analysis) is a program for computing the octahedral distortion parameters: ![](https://latex.codecogs.com/svg.Latex?%5CDelta), ![](https://latex.codecogs.com/svg.Latex?%5CSigma), and ![](https://latex.codecogs.com/svg.Latex?%5CTheta), of the octahedral metal complexes. These parameters have been widely used in inorganic chemistry and crystallography. For example, they are useful for tracking the structural change of the spin-crossover complex when the electrocnics spin-state changing from low-spin to high-spin, and vice versa. The source and executable code of OctaDist is open and freely avaialble for everybody under the GNU license.
+OctaDist (**Octa**hedral **Dist**ortion calculator) is a program for computing the octahedral distortion parameters: ![](https://latex.codecogs.com/svg.Latex?%5CDelta), ![](https://latex.codecogs.com/svg.Latex?%5CSigma), and ![](https://latex.codecogs.com/svg.Latex?%5CTheta), of the octahedral metal complexes. These parameters have been widely used in inorganic chemistry and crystallography. For example, they are useful for tracking the structural change of the spin-crossover complex when the electrocnics spin-state changing from low-spin to high-spin, and vice versa. The source and executable code of OctaDist is open and freely avaialble for everybody under the GNU license.
 
 ## Further information
 - [About OctaDist](./about.md) <br/>
