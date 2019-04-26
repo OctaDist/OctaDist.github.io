@@ -23,7 +23,7 @@ The latest release is [OctaDist 2.4 (April 2019)](https://github.com/OctaDist/Oc
 
 |Version| Windows | Linux | macOS |
 |-------|---------|-------|-------|
-|Stable | [OctaDist-2.4-win-x86-64](https://github.com/OctaDist/OctaDist/releases/download/v.2.4/OctaDist-2.4-Win-x86-64.exe) | [OctaDist-2.4-Linux-x86-64](https://github.com/OctaDist/OctaDist/releases/download/v.2.4/OctaDist-2.4-Linux-x86-64.tar.gz) | - |
+|Stable | [OctaDist-2.4-win](https://github.com/OctaDist/OctaDist/releases/download/v.2.4/OctaDist-2.4-Win-x86-64.exe) | [OctaDist-2.4-linux](https://github.com/OctaDist/OctaDist/releases/download/v.2.4/OctaDist-2.4-Linux-x86-64.tar.gz) | - |
 |Development| - | [OctaDist-2.5-dev](https://github.com/OctaDist/OctaDist/archive/octadist-2.5.zip) | - |
 
 ## Citation
