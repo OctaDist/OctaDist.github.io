@@ -20,8 +20,11 @@ OctaDist (**Octa**hedral **Dist**ortion calculator) is a program for computing t
 [![Github Download All releases](https://img.shields.io/github/downloads/OctaDist/octadist/total.svg)](https://github.com/OctaDist/OctaDist/releases)
 <br/>
 The latest release is [OctaDist 2.4 (April 2019)](https://github.com/OctaDist/OctaDist/releases/latest). The program source code is avaialable on [Github repository](https://github.com/OctaDist/OctaDist).
-- [OctaDist 2.4 - Windows-x86-64](https://github.com/OctaDist/OctaDist/releases/download/v.2.4/OctaDist-2.4-Win-x86-64.exe)
-- [OctaDist 2.4 - Linux-x86-64](https://github.com/OctaDist/OctaDist/releases/download/v.2.4/OctaDist-2.4-Linux-x86-64.tar.gz)
+
+|Version| Windows | Linux | macOS |
+|-------|---------|-------|-------|
+|Stable | [OctaDist-2.4-win-x86-64](https://github.com/OctaDist/OctaDist/releases/download/v.2.4/OctaDist-2.4-Win-x86-64.exe) | [OctaDist-2.4-Linux-x86-64](https://github.com/OctaDist/OctaDist/releases/download/v.2.4/OctaDist-2.4-Linux-x86-64.tar.gz) | - |
+|Development| - | [OctaDist-2.5-dev](https://github.com/OctaDist/OctaDist/archive/octadist-2.5.zip) | - |
 
 ## Citation
 Please site this project when you use OctaDist for scientific publication.
