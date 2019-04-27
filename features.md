@@ -27,7 +27,7 @@ layout: default
   
 - Program performances
   - Supporting multiple complexes
-  - Suppoting several input file format and output of computational chemistry software (Gaussian, Q-Chem, ORCA, and NWChem)
+  - Supporting several file format including output of computational chemistry software (Gaussian, Q-Chem, ORCA, and NWChem)
   
 - Python-based program binding to TkInter graphical interface and tested on PyCharm (Community Edition).
 
