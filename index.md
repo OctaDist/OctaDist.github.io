@@ -21,7 +21,7 @@ OctaDist (**Octa**hedral **Dist**ortion calculator) is a program for computing t
 <br/>
 The latest release is [OctaDist 2.4 (April 2019)](https://github.com/OctaDist/OctaDist/releases/latest). The program source code is avaialable on [Github repository](https://github.com/OctaDist/OctaDist).
 
-|Operating System| Stable version | Development version (tar.gz) |
+|Operating System| Stable version | Development version |
 |----------------|----------------|---------------------|
 |    Windows     | [OctaDist-2.4 (exe)](https://github.com/OctaDist/OctaDist/releases/download/v.2.4/OctaDist-2.4-Win-x86-64.exe) | [OctaDist-2.5-dev](https://github.com/OctaDist/OctaDist/releases/download/v.2.5/OctaDist-2.5-dev-Win-x86-64.exe) |
 |     Linux      | [OctaDist-2.4 (tar.gz)](https://github.com/OctaDist/OctaDist/releases/download/v.2.4/OctaDist-2.4-Linux-x86-64.tar.gz) | [OctaDist-2.5-dev](https://github.com/OctaDist/OctaDist/releases/download/v.2.5/OctaDist-2.5-dev-Linux-x86-64.tar.gz) |
