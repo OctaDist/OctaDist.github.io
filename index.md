@@ -21,10 +21,11 @@ OctaDist (**Octa**hedral **Dist**ortion calculator) is a program for computing t
 <br/>
 The latest release is [OctaDist 2.4 (April 2019)](https://github.com/OctaDist/OctaDist/releases/latest). The program source code is avaialable on [Github repository](https://github.com/OctaDist/OctaDist).
 
-|Version| Windows | Linux | macOS |
-|-------|---------|-------|-------|
-|Stable | [OctaDist-2.4-win](https://github.com/OctaDist/OctaDist/releases/download/v.2.4/OctaDist-2.4-Win-x86-64.exe) | [OctaDist-2.4-linux](https://github.com/OctaDist/OctaDist/releases/download/v.2.4/OctaDist-2.4-Linux-x86-64.tar.gz) | - |
-|Development| - | [OctaDist-2.5-dev](https://github.com/OctaDist/OctaDist/archive/octadist-2.5.zip) | - |
+|Operating System| Stable version | Development version (tar.gz) |
+|----------------|----------------|---------------------|
+|    Windows     | [OctaDist-2.4 (exe)](https://github.com/OctaDist/OctaDist/releases/download/v.2.4/OctaDist-2.4-Win-x86-64.exe) | [OctaDist-2.5-dev](https://github.com/OctaDist/OctaDist/releases/download/v.2.5/OctaDist-2.5-dev-Win-x86-64.exe) |
+|     Linux      | [OctaDist-2.4 (tar.gz)](https://github.com/OctaDist/OctaDist/releases/download/v.2.4/OctaDist-2.4-Linux-x86-64.tar.gz) | [OctaDist-2.5-dev](https://github.com/OctaDist/OctaDist/releases/download/v.2.5/OctaDist-2.5-dev-Linux-x86-64.tar.gz) |
+|     macOS      | [OctaDist-2.4 (Mach-O)](https://github.com/OctaDist/OctaDist/releases/download/v.2.4/OctaDist-2.4-macOS-x86-64) | [OctaDist-2.5-dev](https://github.com/OctaDist/OctaDist/releases/download/v.2.5/OctaDist-2.5-dev-macOS-x86-64) |
 
 ## Citation
 Please site this project when you use OctaDist for scientific publication.
