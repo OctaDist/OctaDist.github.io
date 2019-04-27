@@ -12,7 +12,7 @@ layout: default
     - Angle distortion: ![](https://latex.codecogs.com/svg.Latex?%5CSigma)
     - Tortional distortion: ![](https://latex.codecogs.com/svg.Latex?%5CTheta)
   - RMSD calculation
-  - Supporting multiple complexes
+
   
 - Utilities
   - Surface area
@@ -25,7 +25,9 @@ layout: default
   - Orthogonal projection atoms and projection plane
   - Twisting triangular faces
   
-- Support of several input file format and output of computational chemistry software (Gaussian, Q-Chem, ORCA, and NWChem)
+- Program performances
+  - Supporting multiple complexes
+  - Suppoting several input file format and output of computational chemistry software (Gaussian, Q-Chem, ORCA, and NWChem)
   
 - Python-based program binding to TkInter graphical interface and tested on PyCharm (Community Edition).
 
