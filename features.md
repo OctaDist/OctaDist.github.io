@@ -7,16 +7,22 @@ layout: default
 ***
 - Structural distortion analysis
   - Determination of regular and irregular distorted octahedrons
-  - Structural and octahedral distortion analysis
-    - Distance distortion parameters: *\<D\>*, ![](https://latex.codecogs.com/svg.Latex?%5Czeta) and ![](https://latex.codecogs.com/svg.Latex?%5CDelta)
-    - Angle distortion parameter: ![](https://latex.codecogs.com/svg.Latex?%5CSigma)
-    - Tortional distortion parameter: ![](https://latex.codecogs.com/svg.Latex?%5CTheta)
+  - Calculation of octahedral distortion parameters
+    - Distance distortion: *\<D\>*, ![](https://latex.codecogs.com/svg.Latex?%5Czeta) and ![](https://latex.codecogs.com/svg.Latex?%5CDelta)
+    - Angle distortion: ![](https://latex.codecogs.com/svg.Latex?%5CSigma)
+    - Tortional distortion: ![](https://latex.codecogs.com/svg.Latex?%5CTheta)
   - RMSD calculation
   - Supporting multiple complexes
   
+- Utilities
+  - Surface area
+  - Relationship plot between parameters
+  - Angular Jahn-Teller distortion
+  
 - Graphical displays
-  - Octahedral structure with faces of interest
-  - Projection plane and direction of orthogonal projection
+  - Metal complex 
+  - Eight faces of octahedron
+  - Orthogonal projection atoms and projection plane
   - Twisting triangular faces
   
 - Support of several input file format and output of computational chemistry software (Gaussian, Q-Chem, ORCA, and NWChem)
