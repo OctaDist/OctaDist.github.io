@@ -14,6 +14,20 @@ To give a contribution on program development, please pull request on [the sourc
 
 We appreciate all help and contribution in getting program development.
 
+## Program structure
+| Module | Description |
+| ------ | ----------- |
+| main   | Main program |
+| coord | Read and extract atomic coordinate from input file |
+| elements | Atomic properties |
+| calc | Calculate octahedral distortion parameters |
+| linear | Linear algebra functions |
+| projection | Vector projection |
+| plane | Manipulate projection plane |
+| tools | Utilities |
+| draw | Molecular displays |
+| popup | Error, warning, and info messages |
+
 ## Prerequisite
 ***
 OctaDist can run only with Python 3. For Linux user, use following command to check the version of your python.
