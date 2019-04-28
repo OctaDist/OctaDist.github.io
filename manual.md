@@ -11,20 +11,33 @@ layout: default
 ## Running OctaDist
 ***
 ### Windows OS
-1. Download program executable (*.exe) to your PC/Laptop
-2. Right click on program icon and select `Run as administrator`
-3. Click `Yes`
-4. Wait program for process until open
+1. Download program executable (\*.exe) to your PC/Laptop.
+2. Right click on program icon and select `Run as administrator`.
+3. Click `Yes`.
+4. Wait program for process until open.
 
 ### macOS
-- More to come.
+1. Download program executable ([Mach-O](https://en.wikipedia.org/wiki/Mach-O)) to your Mac.
+2. Press Command - spacebar to launch Spotlight and type "*Terminal*", then double-click the search result.
+3. Navigate to directory where the OctaDist file is, using `cd`.
+4. Execute program: `./OctaDist-*`.
 
 ### Linux OS
-1. Download the source code (*.tar.gz) to your machine
-2. Uncompress the tarball: `tar -xzvf OctaDist-*`
-3. Enter OctaDist directory: `cd OctaDist-*/src`
-4. Change file permission of all python files: `chmod +x *.py`
-5. Execute program: `python3 main.py`
+1. Download the source code (*.tar.gz) to your machine.
+2. Uncompress the tarball: `tar -xzvf OctaDist-*`.
+3. Enter OctaDist directory: `cd OctaDist-*`.
+4. Check is your machine has required packages for running OctaDist: `python3 CheckPyModule.py`.
+5. Enter OctaDist source code sub-directory: `cd src`.
+6. Execute program: `python3 main.py`.
+
+## Computing the parameters
+***
+1. Click `Browse file`, choose one or multiple input files, then click `Open`.
+2. Check whether the program has loaded and read input file successfully.
+3. If yes, then click `Compute`.
+4. The computed parameters will be shown.
+5. To save the computational results, click `File`, then `Save results`.
+
 
 ## Example usage
 ***
