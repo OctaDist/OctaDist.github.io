@@ -28,7 +28,7 @@ The latest release is [OctaDist 2.4 (April 2019)](https://github.com/OctaDist/Oc
 |     macOS      | [OctaDist-2.4 (Mach-O)](https://github.com/OctaDist/OctaDist/releases/download/v.2.4/OctaDist-2.4-macOS-x86-64) | [OctaDist-2.5-dev](https://github.com/OctaDist/OctaDist/releases/download/v.2.5/OctaDist-2.5-dev-macOS-x86-64) |
 
 ## Citation
-Please site this project when you use OctaDist for scientific publication.
+Please cite this project when you use OctaDist for scientific publication.
 
 ```
 OctaDist - A program for determining the structural distortion of the octahedral complexes.
@@ -47,6 +47,6 @@ For reporting bugs in OctaDist, please [submit issues](https://github.com/OctaDi
   - E-mail: hdavid@mail.wu.ac.th
 - [Phimphaka Harding](https://www.funtechwu.com/phimphaka-harding) (Walailak University, Thailand)
   - E-mail: kphimpha@mail.wu.ac.th
-- [Mathieu Marchivie](http://www.icmcb-bordeaux.cnrs.fr/spip.php?article562&lang=fr) (Université de Bordeaux, France)
+- [Mathieu Marchivie](http://www.icmcb-bordeaux.cnrs.fr/spip.php?article562&lang=fr) (Université de Bordeaux, France)
   - E-mail: mathieu.marchivie@icmcb.cnrs.fr
   
