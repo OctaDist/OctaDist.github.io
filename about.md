@@ -31,6 +31,10 @@ To determine the distortion parameters, OctaDist firstly find the optimal 4 face
 |:-------------------------:|:-------------------------:|:-------------------------:|
 |![](images/Co-complex-8faces.png) | ![](images/Co-complex-projection.png) | ![](images/Co-complex-2D-projection.png)|
 
+### External links
+1. [OctaDist wikipedia](https://en.wikipedia.org/wiki/Draft:OctaDist)
+2. [International Union of Crystallography software list](https://www.iucr.org/resources/other-directories/software/octadist)
+
 ### References
 1. [M. Buron-Le Cointe, J. H´ebert, C. Bald´e, N. Moisan, L. Toupet, P. Guionneau, J. F. L´etard, E. Freysz, H. Cailleau, E. Collet. Physical Review B 2012, 85, 064114](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.85.064114)
 2. [J. A. Alonso, M. J. Martı´nez-Lope, M. T. Casais, M. T. Ferna´ndez-Dı´az. Inorg. Chem. 2000, 39, 917-923](https://pubs.acs.org/doi/abs/10.1021/ic990921e)
