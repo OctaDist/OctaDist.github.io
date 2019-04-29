@@ -11,14 +11,12 @@ layout: default
     - Distance distortion: *\<D\>*, ![](https://latex.codecogs.com/svg.Latex?%5Czeta) and ![](https://latex.codecogs.com/svg.Latex?%5CDelta)
     - Angle distortion: ![](https://latex.codecogs.com/svg.Latex?%5CSigma)
     - Tortional distortion: ![](https://latex.codecogs.com/svg.Latex?%5CTheta)
-  - RMSD calculation
-
-  
+  - Tilting distortion parameter of perovskite complex
+  - Root-mean-square deviation of atomic positions
 - Utilities
   - Surface area
   - Relationship plot between parameters
-  - Angular Jahn-Teller distortion
-  
+  - Jahn-Teller distortion parameter
 - Graphical displays
   - Metal complex 
   - Eight faces of octahedron
