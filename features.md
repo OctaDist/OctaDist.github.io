@@ -6,29 +6,32 @@ layout: default
 ## Features
 ***
 - Structural distortion analysis
-  - Determination of regular and irregular distorted octahedrons
+  - Determination of regular, irregular distorted, and very distorted octahedral complexes
   - Calculation of octahedral distortion parameters
-    - Distance distortion: *\<D\>*, ![](https://latex.codecogs.com/svg.Latex?%5Czeta) and ![](https://latex.codecogs.com/svg.Latex?%5CDelta)
+    - Mean distance: *\<D\>*, 
+    - Distance distortion: ![](https://latex.codecogs.com/svg.Latex?%5Czeta) and ![](https://latex.codecogs.com/svg.Latex?%5CDelta)
     - Angle distortion: ![](https://latex.codecogs.com/svg.Latex?%5CSigma)
-    - Tortional distortion: ![](https://latex.codecogs.com/svg.Latex?%5CTheta)
+    - Torsional distortion: ![](https://latex.codecogs.com/svg.Latex?%5CTheta)
   - Tilting distortion parameter of perovskite complex
-  - Root-mean-square deviation of atomic positions
-- Utilities
+  - Root-mean-square deviation of atomic positions (RMSD)
+- Molecular visualizations
+  - 3D modelling of complex
+  - Display of eight faces of octahedron
+  - Atomic orthogonal projection and projection plane
+  - Twisting triangular faces
+  - Molecular superposition (Overlay)
+- Other utilities
+  - Structural parameters
   - Surface area
   - Relationship plot between parameters
-  - Jahn-Teller distortion parameter
-- Graphical displays
-  - Metal complex 
-  - Eight faces of octahedron
-  - Orthogonal projection atoms and projection plane
-  - Twisting triangular faces
-  
-- Program performances
-  - Supporting multiple complexes
-  - Supporting several file format including output of computational chemistry software (Gaussian, Q-Chem, ORCA, and NWChem)
-  
-- Python-based program binding to TkInter graphical interface and tested on PyCharm (Community Edition).
-
-- The program supports Windows, macOS, and Linux OS for both 32-bit and 64-bit systems
+  - Least-squares plane of selected ligand atoms
+  - Jahn-Teller distortion parameters
+- Flexibilities
+  - User-friendly graphical user interface (GUI)
+  - Support for multiple input files and multiple metal center atoms in complex
+  - Support for several output of computational chemistry software, including Gaussian, Q-Chem, ORCA, and NWChem
+- Architectures
+    - Python-based program binding to Tkinter GUI toolkit and tested on PyCharm (Community Edition)
+    - The program supports Windows, macOS, and Linux OS for both 32-bit and 64-bit systems
 
 [back to homepage](./)
