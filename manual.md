@@ -6,7 +6,11 @@ layout: default
 ## Supported file format
 ***
 1. [XYZ file format](https://en.wikipedia.org/wiki/XYZ_file_format) (*.xyz)
-2. Output file of computational chemistry programs (*.out, *.log): Gaussian, NWChem, ORCA, and Q-Chem
+2. Output file of computational chemistry programs (*.out, *.log): 
+[Gaussian](https://gaussian.com/), 
+[NWChem](http://www.nwchem-sw.org/index.php/Main_Page), 
+[ORCA](https://orcaforum.kofo.mpg.de/app.php/portal), 
+and [Q-Chem](https://www.q-chem.com)
 
 ## Running OctaDist
 ***

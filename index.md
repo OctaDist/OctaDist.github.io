@@ -23,8 +23,8 @@ The latest release is [OctaDist 2.5.1 (May 2019)](https://github.com/OctaDist/Oc
 
 |Operating System| Stable version | Nightly build |
 |----------------|----------------|---------------------|
-|    Windows     | [OctaDist-2.5.1 (exe)](https://github.com/OctaDist/OctaDist/releases/download/v.2.5.1/OctaDist-2.5.1-Win-x86-64.exe) / [(zip)](https://github.com/OctaDist/OctaDist/releases/download/v.2.5.1/OctaDist-2.5.1-Win-x86-64.zip) | [archive](https://github.com/OctaDist/OctaDist/archive/nightly-build.zip) |
-|     Linux      | [OctaDist-2.5.1 (tar.gz)](https://github.com/OctaDist/OctaDist/releases/download/v.2.5.1/OctaDist-2.5.1-Linux-x86-64.tar.gz) | - |
+|    Windows     | [OctaDist-2.5.1 (exe)](https://github.com/OctaDist/OctaDist/releases/download/v.2.5.1/OctaDist-2.5.1-Win-x86-64.exe) / [(zip)](https://github.com/OctaDist/OctaDist/releases/download/v.2.5.1/OctaDist-2.5.1-Win-x86-64.zip) | - |
+|     Linux      | [OctaDist-2.5.1 (tar.gz)](https://github.com/OctaDist/OctaDist/releases/download/v.2.5.1/OctaDist-2.5.1-Linux-x86-64.tar.gz) | [dev-build (zip)](https://github.com/OctaDist/OctaDist/archive/nightly-build.zip) |
 |     macOS      | [OctaDist-2.5.1 (Mach-O)](https://github.com/OctaDist/OctaDist/releases/download/v.2.5.1/OctaDist-2.5.1-macOS-x86-64) | - |
 |  PyPI package  | `pip install octadist` | - |
 
