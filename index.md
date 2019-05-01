@@ -19,13 +19,14 @@ OctaDist (**Octa**hedral **Dist**ortion calculator) is a program for computing t
 )](https://github.com/OctaDist/OctaDist/releases)
 [![Github Download All releases](https://img.shields.io/github/downloads/OctaDist/octadist/total.svg)](https://github.com/OctaDist/OctaDist/releases)
 <br/>
-The latest release is [OctaDist 2.4 (April 2019)](https://github.com/OctaDist/OctaDist/releases/latest). The program source code is avaialable on [Github repository](https://github.com/OctaDist/OctaDist).
+The latest release is [OctaDist 2.5.1 (May 2019)](https://github.com/OctaDist/OctaDist/releases/latest). The program source code is available on [Github repository](https://github.com/OctaDist/OctaDist).
 
-|Operating System| Stable version | Development version |
+|Operating System| Stable version | Nightly build |
 |----------------|----------------|---------------------|
-|    Windows     | [OctaDist-2.4 (exe)](https://github.com/OctaDist/OctaDist/releases/download/v.2.4/OctaDist-2.4-Win-x86-64.exe) | [OctaDist-2.5-dev](https://github.com/OctaDist/OctaDist/releases/download/v.2.5/OctaDist-2.5-dev-Win-x86-64.exe) |
-|     Linux      | [OctaDist-2.4 (tar.gz)](https://github.com/OctaDist/OctaDist/releases/download/v.2.4/OctaDist-2.4-Linux-x86-64.tar.gz) | [OctaDist-2.5-dev](https://github.com/OctaDist/OctaDist/releases/download/v.2.5/OctaDist-2.5-dev-Linux-x86-64.tar.gz) |
-|     macOS      | [OctaDist-2.4 (Mach-O)](https://github.com/OctaDist/OctaDist/releases/download/v.2.4/OctaDist-2.4-macOS-x86-64) | [OctaDist-2.5-dev](https://github.com/OctaDist/OctaDist/releases/download/v.2.5/OctaDist-2.5-dev-macOS-x86-64) |
+|    Windows     | [OctaDist-2.5.1 (exe)](https://github.com/OctaDist/OctaDist/releases/download/v.2.5.1/OctaDist-2.5.1-Win-x86-64.exe) / [(zip)](https://github.com/OctaDist/OctaDist/releases/download/v.2.5.1/OctaDist-2.5.1-Win-x86-64.zip) | [archive](https://github.com/OctaDist/OctaDist/archive/nightly-build.zip) |
+|     Linux      | [OctaDist-2.5.1 (tar.gz)](https://github.com/OctaDist/OctaDist/releases/download/v.2.5.1/OctaDist-2.5.1-Linux-x86-64.tar.gz) | - |
+|     macOS      | [OctaDist-2.5.1 (Mach-O)](https://github.com/OctaDist/OctaDist/releases/download/v.2.5.1/OctaDist-2.5.1-macOS-x86-64) | - |
+|  PyPI package  | `pip install octadist` | - |
 
 ## Citation
 Please cite this project when you use OctaDist for scientific publication.
