@@ -8,7 +8,7 @@ layout: default
 - Structural distortion analysis
   - Determination of regular, irregular distorted, and very distorted octahedral complexes
   - Calculation of octahedral distortion parameters
-    - Mean distance: *\<D\>*, 
+    - Mean distance: *\<D\>*
     - Distance distortion: ![](https://latex.codecogs.com/svg.Latex?%5Czeta) and ![](https://latex.codecogs.com/svg.Latex?%5CDelta)
     - Angle distortion: ![](https://latex.codecogs.com/svg.Latex?%5CSigma)
     - Torsional distortion: ![](https://latex.codecogs.com/svg.Latex?%5CTheta)
