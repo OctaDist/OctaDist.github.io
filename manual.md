@@ -46,7 +46,7 @@ Other way for using OctaDist is OctaDist package, which is available at [https:/
 The end-user can find and install it with `pip`, and use it for command line interface on the terminal in their OS.
 
 1. For dealing with OctaDist package, use the following command:
-   - Install the latest version: `pip install octadist`
+   - Install the latest version: ```pip install octadist```
    - Upgrade to the latest version: `pip install --upgrade octadist`
    - Upgrade/downgrade to a specific version: `pip install --upgrade octadist==2.5.0`
 
