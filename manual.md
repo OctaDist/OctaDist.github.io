@@ -20,25 +20,25 @@ and [Q-Chem](https://www.q-chem.com)
 #### Windows OS
 
 1. Download program executable (\*.exe) to your PC/Laptop.
-2. Right click on program icon and select `Run as administrator`.
-3. Click `Yes`.
+2. Right click on program icon and select **`Run as administrator`**.
+3. Click **`Yes`**.
 4. Wait program for process until open.
 
 #### macOS
 
 1. Download program executable ([Mach-O](https://en.wikipedia.org/wiki/Mach-O)) to your Mac.
 2. Press Command - spacebar to launch Spotlight and type "*Terminal*", then double-click the search result.
-3. Navigate to directory where the OctaDist file is, using `cd`.
-4. Execute program: `./OctaDist-*`.
+3. Navigate to directory where the OctaDist file is, using **`cd`**.
+4. Execute program: **`./OctaDist-*`**.
 
 #### Linux OS
 
 1. Download the source code (*.tar.gz) to your machine.
-2. Uncompress the tarball: `tar -xzvf OctaDist-*`.
-3. Enter OctaDist directory: `cd OctaDist-*`.
-4. Check is your machine has required packages for running OctaDist: `python3 CheckPyModule.py`.
-5. Enter OctaDist source code sub-directory: `cd src`.
-6. Execute program: `python3 main.py`.
+2. Uncompress the tarball: **`tar -xzvf OctaDist-*`**.
+3. Enter OctaDist directory: **`cd OctaDist-*`**.
+4. Check is your machine has required packages for running OctaDist: **`python3 CheckPyModule.py`**.
+5. Enter OctaDist source code sub-directory: **`cd src`**.
+6. Execute program: **`python3 main.py`**.
 
 #### PyPI
 
@@ -46,9 +46,9 @@ Other way for using OctaDist is OctaDist package, which is available at [https:/
 The end-user can find and install it with `pip`, and use it for command line interface on the terminal in their OS.
 
 1. For dealing with OctaDist package, use the following command:
-   - Install the latest version: ```pip install octadist```
-   - Upgrade to the latest version: `pip install --upgrade octadist`
-   - Upgrade/downgrade to a specific version: `pip install --upgrade octadist==2.5.0`
+   - Install the latest version: **`pip install octadist`**
+   - Upgrade to the latest version: **`pip install --upgrade octadist`**
+   - Upgrade/downgrade to a specific version: **`pip install --upgrade octadist==2.5.0`**
 
 2. Pip will find the dependencies at the same time, and install all packages.
 
@@ -59,20 +59,20 @@ More details on installing Python package is [here](https://packaging.python.org
 
 #### OctaDist - GUI version
 
-1. Click `Browse file`, choose one or multiple input files, then click `Open`.
+1. Click **`Browse file`**, choose one or multiple input files, then click **`Open`**.
 2. OctaDist will automatically search octahedral structure and atomic labels and coordinates from the complex that user submitted.
 3. Check whether the program has loaded and read input file successfully.
-4. If yes, then click `Compute`.
+4. If yes, then click **`Compute`**.
 5. The computed parameters will be shown in output box.
-6. To save the computational results, click `File`, then `Save results`.
+6. To save the computational results, click **`File`**, then **`Save results`**.
 
 #### OctaDist - CLI version
 
 Example scripts are available at [here](https://github.com/OctaDist/OctaDist-PyPI/tree/master/example-py).
 
-1. Install OctaDist using  `pip` (see above).
+1. Install OctaDist using  **`pip`** (see above).
 
-2. First of all, you have to import necessary modules for computing the octahedral distortion parameters, called `calc`:
+2. First of all, you have to import necessary modules for computing the octahedral distortion parameters, called **`calc`**:
 
     ```
     from octadist import calc
@@ -98,7 +98,7 @@ Example scripts are available at [here](https://github.com/OctaDist/OctaDist-PyP
     from octadist import coord, calc
     ```
 
-    For example, input file `full\path\of\your\input\file\Multiple-metals.xyz` 
+    For example, input file **`full\path\of\your\input\file\Multiple-metals.xyz`**
     (other example input files are available at [here](https://github.com/OctaDist/OctaDist-PyPI/tree/master/example-input)):
     
     ```
