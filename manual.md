@@ -47,11 +47,11 @@ At PyPI, the end-user can find and install OctaDist using `pip` command on the t
         ```
         pip install octadist
         ```
-    - Upgrade to the latest version: 
+   - Upgrade to the latest version: 
         ```
         pip install --upgrade octadist
         ```
-    - Upgrade/downgrade to a specific version: 
+   - Upgrade/downgrade to a specific version: 
         ```
         pip install --upgrade octadist==2.5.0
         ```
