@@ -43,15 +43,20 @@ Additionally, other way for using OctaDist is running it with command user inter
 At PyPI, the end-user can find and install OctaDist using `pip` command on the terminal command line in their OS.
 
 1. For installing OctaDist, use the following command:
-   - Install the latest version: 
+   - Install the latest version:
+   
         ```
         pip install octadist
         ```
+        
    - Upgrade to the latest version: 
+   
         ```
         pip install --upgrade octadist
         ```
+        
    - Upgrade/downgrade to a specific version: 
+   
         ```
         pip install --upgrade octadist==2.5.0
         ```
