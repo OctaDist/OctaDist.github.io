@@ -18,18 +18,21 @@ and [Q-Chem](https://www.q-chem.com)
 ***
 
 #### Windows OS
+
 1. Download program executable (\*.exe) to your PC/Laptop.
 2. Right click on program icon and select `Run as administrator`.
 3. Click `Yes`.
 4. Wait program for process until open.
 
 #### macOS
+
 1. Download program executable ([Mach-O](https://en.wikipedia.org/wiki/Mach-O)) to your Mac.
 2. Press Command - spacebar to launch Spotlight and type "*Terminal*", then double-click the search result.
 3. Navigate to directory where the OctaDist file is, using `cd`.
 4. Execute program: `./OctaDist-*`.
 
 #### Linux OS
+
 1. Download the source code (*.tar.gz) to your machine.
 2. Uncompress the tarball: `tar -xzvf OctaDist-*`.
 3. Enter OctaDist directory: `cd OctaDist-*`.
@@ -39,30 +42,15 @@ and [Q-Chem](https://www.q-chem.com)
 
 #### PyPI
 
-Additionally, other way for using OctaDist is running it with command user interface (CLI).
-At PyPI, the end-user can find and install OctaDist using `pip` command on the terminal command line in their OS.
+Other way for using OctaDist is OctaDist package, which is available at [https://pypi.org/project/octadist/](https://pypi.org/project/octadist/).
+The end-user can find and install it with `pip`, and use it for command line interface on the terminal in their OS.
 
-1. For installing OctaDist, use the following command:
-   - Install the latest version:
-   
-        ```
-        pip install octadist
-        ```
-        
-   - Upgrade to the latest version: 
-   
-        ```
-        pip install --upgrade octadist
-        ```
-        
-   - Upgrade/downgrade to a specific version: 
-   
-        ```
-        pip install --upgrade octadist==2.5.0
-        ```
+1. For dealing with OctaDist package, use the following command:
+   - Install the latest version: `pip install octadist`
+   - Upgrade to the latest version: `pip install --upgrade octadist`
+   - Upgrade/downgrade to a specific version: `pip install --upgrade octadist==2.5.0`
 
 2. Pip will find the dependencies at the same time, and install all packages.
-
 
 More details on installing Python package is [here](https://packaging.python.org/tutorials/installing-packages/).
 
@@ -70,6 +58,7 @@ More details on installing Python package is [here](https://packaging.python.org
 ***
 
 #### OctaDist - GUI version
+
 1. Click `Browse file`, choose one or multiple input files, then click `Open`.
 2. OctaDist will automatically search octahedral structure and atomic labels and coordinates from the complex that user submitted.
 3. Check whether the program has loaded and read input file successfully.
