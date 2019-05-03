@@ -72,13 +72,7 @@ Example scripts are available at [here](https://github.com/OctaDist/OctaDist-PyP
 
 1. Install OctaDist using  **`pip`** (see above).
 
-2. First of all, you have to import necessary modules for computing the octahedral distortion parameters, called **`calc`**:
-
-    ```
-    from octadist import calc
-    ```
-
-3. Prepare list (or array) for atomic labels and coordinates:
+2. Prepare lists of atomic labels and coordinates of octahedral structure
 
     ```
     atom = ['Fe', 'O', 'O', 'N', 'N', 'N', 'N']
@@ -92,29 +86,31 @@ Example scripts are available at [here](https://github.com/OctaDist/OctaDist-PyP
             [2.886404000, 5.392925000, 9.848966000]]
     ```
 
-    or you can open input file and extract the octahedral structure from input metal complex using a module called `coord`:
-
-    ```
-    from octadist import coord, calc
-    ```
-
-    For example, input file **`full\path\of\your\input\file\Multiple-metals.xyz`**
+    or you can use **`extract_octa`** method in **`coord`** module to open and read input file at the same time, it will also extract the octahedral structure from full complex.
+    For example, input file **`full/path/of/input/file/Multiple-metals.xyz`**
     (other example input files are available at [here](https://github.com/OctaDist/OctaDist-PyPI/tree/master/example-input)):
     
     ```
-    file = r"full\path\of\your\input\file\Multiple-metals.xyz"
+    from octadist import coord
     
+    file = r"full/path/of/input/file/Multiple-metals.xyz"
     atom, coor = coord.extract_octa(file)
     ```
-
-4. Then calculate all octahedral parameters
+    
+3.  Import **`calc`** module for computing the octahedral distortion parameters:
+    
+    ```
+    from octadist import calc
+    ```
+    
+4.  Use **`calc_all`** method Calculate all octahedral parameters
 
     ```
     d_mean, zeta, delta, sigma, theta = calc.calc_all(atom, coor)
     ```
 
-5. Print all computed parameters:
-
+5.  Print all computed parameters:
+    
     ```
     All computed parameters
     -----------------------
@@ -123,7 +119,7 @@ Example scripts are available at [here](https://github.com/OctaDist/OctaDist-PyP
     Sigma = 47.926528379270124
     Theta = 122.688972774546
     ```
-
+    
 ### Example usage
 ***
 
