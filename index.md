@@ -32,7 +32,7 @@ The latest release is [OctaDist 2.5.1 (May 2019)](https://github.com/OctaDist/Oc
 Please cite this project when you use OctaDist for scientific publication.
 
 ```
-OctaDist - A program for determining the structural distortion of the octahedral complexes.
+OctaDist: A tool for calculating distortion parameters in coordination complexes.
 https://octadist.github.io
 ```
 

@@ -6,7 +6,7 @@ layout: default
 ## Features
 ***
 - Structural distortion analysis
-  - Determination of regular, irregular distorted, and very distorted octahedral complexes
+  - Determination of regular, irregular distorted, very distorted, and non-octahedral octahedral complexes
   - Calculation of octahedral distortion parameters
     - Mean distance: *\<D\>*
     - Distance distortion: ![](https://latex.codecogs.com/svg.Latex?%5Czeta) and ![](https://latex.codecogs.com/svg.Latex?%5CDelta)
