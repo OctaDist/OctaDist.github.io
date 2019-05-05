@@ -5,7 +5,7 @@ layout: default
 
 <br/><br/>
 
-# Thank you very much for using OctaDist.
+# Thank you very much for using OctaDist.  :-)
 
 <br/><br/>
 
