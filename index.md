@@ -19,14 +19,16 @@ OctaDist (**Octa**hedral **Dist**ortion calculator) is a program for computing t
 )](https://github.com/OctaDist/OctaDist/releases)
 [![Github Download All releases](https://img.shields.io/github/downloads/OctaDist/octadist/total.svg)](https://github.com/OctaDist/OctaDist/releases)
 <br/>
-The latest release is [OctaDist 2.5.1 (May 2019)](https://github.com/OctaDist/OctaDist/releases/latest). The program source code is available on [Github repository](https://github.com/OctaDist/OctaDist).
+The latest release is [OctaDist 2.5.2 (May 2019)](https://github.com/OctaDist/OctaDist/releases/latest). The program source code is available on [Github repository](https://github.com/OctaDist/OctaDist).
 
-|Operating System| Stable version | Nightly build |
-|----------------|----------------|---------------------|
-|    Windows     | [OctaDist-2.5.1 (exe)](https://github.com/OctaDist/OctaDist/releases/download/v.2.5.1/OctaDist-2.5.1-Win-x86-64.exe) / [(zip)](https://github.com/OctaDist/OctaDist/releases/download/v.2.5.1/OctaDist-2.5.1-Win-x86-64.zip) | - |
-|     Linux      | [OctaDist-2.5.1 (tar.gz)](https://github.com/OctaDist/OctaDist/releases/download/v.2.5.1/OctaDist-2.5.1-Linux-x86-64.tar.gz) | [dev-build (zip)](https://github.com/OctaDist/OctaDist/archive/nightly-build.zip) |
-|     macOS      | [OctaDist-2.5.1 (Mach-O)](https://github.com/OctaDist/OctaDist/releases/download/v.2.5.1/OctaDist-2.5.1-macOS-x86-64) | - |
-|  PyPI package  | `pip install octadist` | - |
+|Operating System| Stable version |
+|----------------|----------------|
+|    Windows     | [OctaDist-2.5.2 (exe)](https://github.com/OctaDist/OctaDist/releases/download/v.2.5.1/OctaDist-2.5.1-Win-x86-64.exe) / [(zip)](https://github.com/OctaDist/OctaDist/releases/download/v.2.5.1/OctaDist-2.5.1-Win-x86-64.zip) |
+|     Linux      | [OctaDist-2.5.2 (tar.gz)](https://github.com/OctaDist/OctaDist/releases/download/v.2.5.1/OctaDist-2.5.1-Linux-x86-64.tar.gz) |
+|     macOS      | [OctaDist-2.5.1 (Mach-O)](https://github.com/OctaDist/OctaDist/releases/download/v.2.5.1/OctaDist-2.5.1-macOS-x86-64) |
+|  PyPI package  | `pip install octadist` |
+
+Nightly development build is available: [dev-build (zip)](https://github.com/OctaDist/OctaDist/archive/nightly-build.zip).
 
 ## Citation
 Please cite this project when you use OctaDist for scientific publication.
