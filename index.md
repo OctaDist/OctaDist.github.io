@@ -16,22 +16,37 @@ The source and executable code of OctaDist is open and freely available for ever
 - [Development](./development.md)
 
 ## Release
-[![Travis-CI Test](https://img.shields.io/travis/OctaDist/OctaDist/master.svg
-)](https://travis-ci.org/OctaDist/OctaDist)
-[![Github release](https://img.shields.io/github/release/OctaDist/octadist.svg
-)](https://github.com/OctaDist/OctaDist/releases)
-[![Github Download All releases](https://img.shields.io/github/downloads/OctaDist/octadist/total.svg)](https://github.com/OctaDist/OctaDist/releases)
+[![Travis-CI Test](https://img.shields.io/travis/OctaDist/OctaDist/master.svg)][link1]
+[![Github release](https://img.shields.io/github/release/OctaDist/octadist.svg)][link2]
+[![Github Download All releases](https://img.shields.io/github/downloads/OctaDist/octadist/total.svg)][link3]
+
+[link1]: https://travis-ci.org/OctaDist/OctaDist
+[link2]: https://github.com/OctaDist/OctaDist/releases
+[link3]: https://github.com/OctaDist/OctaDist/releases
+
 <br/>
-The latest release is [OctaDist 2.5.2 (May 2019)](https://github.com/OctaDist/OctaDist/releases/latest). The program source code is available on [Github repository](https://github.com/OctaDist/OctaDist).
+
+The latest release is [OctaDist 2.5.2 (May 2019)][link4]. 
+The program source code is available on [Github repository][link5].
+
+[link4]: https://github.com/OctaDist/OctaDist/releases/latest
+[link5]: https://github.com/OctaDist/OctaDist
 
 |Operating System| Stable version |
 |----------------|----------------|
-|    Windows     | [OctaDist-2.5.2 (exe)](https://github.com/OctaDist/OctaDist/releases/download/v.2.5.2/OctaDist-2.5.2-Win-x86-64.exe) / [(zip)](https://github.com/OctaDist/OctaDist/releases/download/v.2.5.2/OctaDist-2.5.2-Win-x86-64.zip) |
-|     Linux      | [OctaDist-2.5.2 (tar.gz)](https://github.com/OctaDist/OctaDist/releases/download/v.2.5.2/OctaDist-2.5.2-Linux-x86-64.tar.gz) |
-|     macOS      | [OctaDist-2.5.1 (Mach-O)](https://github.com/OctaDist/OctaDist/releases/download/v.2.5.1/OctaDist-2.5.1-macOS-x86-64) / [(tar.gz)](https://github.com/OctaDist/OctaDist/releases/download/v.2.5.2/OctaDist-2.5.2-Linux-x86-64.tar.gz)|
-|  PyPI package  | `pip install octadist` |
+|    Windows     | [OctaDist-2.5.2 (exe)][WinOS_exe] / [(zip)][WinOS_zip] |
+|     Linux      | [OctaDist-2.5.2 (tar.gz)][LinOS_tar] |
+|     macOS      | OctaDist-2.5.2 (Mach-O) / [(tar.gz)][MacOS_tar]|
+|  PyPI package  | [`pip install octadist`][PyPI] |
 
 Nightly development build is also available to test: [dev-build (zip)](https://github.com/OctaDist/OctaDist/archive/nightly-build.zip).
+
+[WinOS_exe]: https://github.com/OctaDist/OctaDist/releases/download/v.2.5.2/OctaDist-2.5.2-Win-x86-64.exe
+[WinOS_zip]: https://github.com/OctaDist/OctaDist/releases/download/v.2.5.2/OctaDist-2.5.2-Win-x86-64.zip
+[LinOS_tar]: https://github.com/OctaDist/OctaDist/releases/download/v.2.5.2/OctaDist-2.5.2-Linux-x86-64.tar.gz
+[MacOS_mac]: https://github.com/OctaDist/OctaDist/releases/download/v.2.5.1/OctaDist-2.5.1-macOS-x86-64
+[MacOS_tar]: https://github.com/OctaDist/OctaDist/releases/download/v.2.5.2/OctaDist-2.5.2-Linux-x86-64.tar.gz
+[PyPI]: https://pypi.org/project/octadist/
 
 ## Citation
 Please cite this project when you use OctaDist for scientific publication.
