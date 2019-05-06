@@ -24,8 +24,6 @@ The source and executable code of OctaDist is open and freely available for ever
 [link2]: https://github.com/OctaDist/OctaDist/releases
 [link3]: https://github.com/OctaDist/OctaDist/releases
 
-<br/>
-
 The latest release is [OctaDist 2.5.2 (May 2019)][link4]. 
 The program source code is available on [Github repository][link5].
 
