@@ -3,7 +3,10 @@ layout: default
 ---
 
 ## OctaDist
-OctaDist (**Octa**hedral **Dist**ortion calculator) is a program for computing the octahedral distortion parameters: ![](https://latex.codecogs.com/svg.Latex?%5CDelta), ![](https://latex.codecogs.com/svg.Latex?%5CSigma), and ![](https://latex.codecogs.com/svg.Latex?%5CTheta), of the coordination complexes. These parameters have been widely used in inorganic chemistry and crystallography. For example, they are useful for tracking the structural change of the spin-crossover complex when the electronics spin-state changing from low-spin to high-spin, and vice versa. The source and executable code of OctaDist is open and freely available for everybody under the GNU General Public License v3.0.
+OctaDist (**Octa**hedral **Dist**ortion calculator) is a program for computing the octahedral distortion parameters of the coordination complexes. 
+The parameters have been widely used in inorganic chemistry and crystallography. 
+For example, they are useful for tracking the structural change of the spin-crossover complex when the electronics spin-state changing from low-spin to high-spin, and vice versa. 
+The source and executable code of OctaDist is open and freely available for everybody under the GNU General Public License v3.0.
 
 ## Further information
 - [About OctaDist](./about.md) <br/>
@@ -23,12 +26,12 @@ The latest release is [OctaDist 2.5.2 (May 2019)](https://github.com/OctaDist/Oc
 
 |Operating System| Stable version |
 |----------------|----------------|
-|    Windows     | [OctaDist-2.5.2 (exe)](https://github.com/OctaDist/OctaDist/releases/download/v.2.5.1/OctaDist-2.5.1-Win-x86-64.exe) / [(zip)](https://github.com/OctaDist/OctaDist/releases/download/v.2.5.1/OctaDist-2.5.1-Win-x86-64.zip) |
-|     Linux      | [OctaDist-2.5.2 (tar.gz)](https://github.com/OctaDist/OctaDist/releases/download/v.2.5.1/OctaDist-2.5.1-Linux-x86-64.tar.gz) |
-|     macOS      | [OctaDist-2.5.1 (Mach-O)](https://github.com/OctaDist/OctaDist/releases/download/v.2.5.1/OctaDist-2.5.1-macOS-x86-64) |
+|    Windows     | [OctaDist-2.5.2 (exe)](https://github.com/OctaDist/OctaDist/releases/download/v.2.5.2/OctaDist-2.5.2-Win-x86-64.exe) / [(zip)](https://github.com/OctaDist/OctaDist/releases/download/v.2.5.2/OctaDist-2.5.2-Win-x86-64.zip) |
+|     Linux      | [OctaDist-2.5.2 (tar.gz)](https://github.com/OctaDist/OctaDist/releases/download/v.2.5.2/OctaDist-2.5.2-Linux-x86-64.tar.gz) |
+|     macOS      | [OctaDist-2.5.1 (Mach-O)](https://github.com/OctaDist/OctaDist/releases/download/v.2.5.1/OctaDist-2.5.1-macOS-x86-64) / [(tar.gz)](https://github.com/OctaDist/OctaDist/releases/download/v.2.5.2/OctaDist-2.5.2-Linux-x86-64.tar.gz)|
 |  PyPI package  | `pip install octadist` |
 
-Nightly development build is available: [dev-build (zip)](https://github.com/OctaDist/OctaDist/archive/nightly-build.zip).
+Nightly development build is also available to test: [dev-build (zip)](https://github.com/OctaDist/OctaDist/archive/nightly-build.zip).
 
 ## Citation
 Please cite this project when you use OctaDist for scientific publication.
