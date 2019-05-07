@@ -16,17 +16,18 @@ The source and executable code of OctaDist is open and freely available for ever
 - [Development](./development.md)
 
 ## Release
-[![Travis-CI Test][Travis-badge]][Travis-link]
+[![Github release][latest-link]][latest-link]
 [![Github Download All releases][Download-badge]][Download-link]
-[![Github release](https://img.shields.io/github/release/OctaDist/octadist.svg)][latest-link]
+[![Travis-CI Test][Travis-badge]][Travis-link]
 [![Release-date][rel-date]][latest-link]
 
-[Travis-badge]: https://img.shields.io/travis/OctaDist/OctaDist/master.svg
-[Travis-link]: https://travis-ci.org/OctaDist/OctaDist
+[latest-link]: https://img.shields.io/github/release/OctaDist/octadist.svg
+[latest-link]: https://github.com/OctaDist/OctaDist/releases/latest
 [Download-badge]: https://img.shields.io/github/downloads/OctaDist/octadist/total.svg
 [Download-link]: https://github.com/OctaDist/OctaDist/releases
+[Travis-badge]: https://img.shields.io/travis/OctaDist/OctaDist/master.svg
+[Travis-link]: https://travis-ci.org/OctaDist/OctaDist
 [rel-date]: https://img.shields.io/github/release-date/octadist/octadist.svg
-[latest-link]: https://github.com/OctaDist/OctaDist/releases/latest
 
 The latest stable release of OctaDist is available for following OS and platforms: 
 
