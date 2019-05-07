@@ -9,11 +9,15 @@ layout: default
 - [Windows OS](#windows-os)
 - [Linux OS](#linux-os)
 - [macOS](#macos)
-- [PyPI repository](#pypi)
+- [PyPI](#pypi--pypi-serverpypi-badgepypi-link)
+- [Anaconda](#anaconda-conda-serverconda-badgeconda-link)
 
 ***
 
 ### Windows OS
+
+Most Windows end-user do not have Python installed on their OS, 
+so we suggest a GUI version of OctaDist instead of running the source code with CLI.
 
 1. Download program executable (\*.exe) to your PC/Laptop.
 2. Right click on program icon and select **`Run as administrator`**.
@@ -87,7 +91,7 @@ The following commands are useful:
 
 More details on installing Python package is [here](https://packaging.python.org/tutorials/installing-packages/).
 
-### Conda [![Conda-Server][Conda-badge]][Conda-link]
+### Anaconda [![Conda-Server][Conda-badge]][Conda-link]
 
 [Conda-badge]: https://anaconda.org/rangsiman/octadist/badges/version.svg
 [Conda-link]: https://anaconda.org/rangsiman/octadist

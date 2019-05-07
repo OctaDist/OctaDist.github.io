@@ -7,6 +7,11 @@ layout: default
 ## Computing the parameters
 ***
 
+This section shows how OctaDist can be used for computing the distortion parameters step by step.
+OctaDist has two versions based on purpose of use: a graphical user interface (GUI) and command line interface (CLU).
+The former is designed for the end-user who do not familiar with command lines, 
+while the latter is for Linux (and Mac) users, especially the developer who want to implement OctaDist into their software. 
+
 - [OctaDist - GUI](#octadist---gui)
 - [OctaDist - CLI](#octadist---cli)
 
@@ -15,11 +20,34 @@ layout: default
 ### OctaDist - GUI
 
 1. Click **`Browse file`**, choose one or multiple input files, then click **`Open`**.
-2. OctaDist will automatically search octahedral structure and atomic labels and coordinates from the complex that user submitted.
-3. Check whether the program has loaded and read input file successfully.
-4. If yes, then click **`Compute`**.
-5. The computed parameters will be shown in output box.
-6. To save the computational results, click **`File`**, then **`Save results`**.
+
+   <p align="center">
+      <img alt="browse-file" src="images/octadist-browse-file.png" align=middle width="200pt" />
+   <p/>
+
+2. OctaDist will check file format and extract atomic coordinates, and show the data on a result box.
+
+   <p align="center">
+      <img alt="show-coord" src="images/octadist-show-coord.png" align=middle width="200pt" />
+   <p/>
+
+3. If yes, then click **`Compute`**.
+
+   <p align="center">
+      <img alt="compute" src="images/octadist-show-compute.png" align=middle width="200pt" />
+   <p/>
+
+4. The computed parameters will be shown in output box.
+
+   <p align="center">
+      <img alt="show-result" src="images/octadist-show-result.png" align=middle width="200pt" />
+   <p/>
+
+5. To save the results, click **`File`**, then **`Save results`**.
+
+   <p align="center">
+      <img alt="save-result" src="images/octadist-save-result.png" align=middle width="200pt" />
+   <p/>
 
 ### OctaDist - CLI
 
