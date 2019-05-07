@@ -1,6 +1,6 @@
 theme: jekyll-theme-minimal
 title: OctaDist
-description: A program for determining the structural distortion of the octahedral complexes
+description: A tool for calculating distortion parameters in coordination complexes.
 logo: images/molecule.png
 show_downloads: true
 google_analytics: UA-135002233-1
