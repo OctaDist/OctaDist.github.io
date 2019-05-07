@@ -41,8 +41,8 @@ The latest stable release of OctaDist is available for following OS and platform
 [WinOS_exe]: https://github.com/OctaDist/OctaDist/releases/download/v.2.5.2/OctaDist-2.5.2-Win-x86-64.exe
 [WinOS_zip]: https://github.com/OctaDist/OctaDist/releases/download/v.2.5.2/OctaDist-2.5.2-Win-x86-64.zip
 [LinOS_tar]: https://github.com/OctaDist/OctaDist/releases/download/v.2.5.2/OctaDist-2.5.2-Linux-x86-64.tar.gz
-[MacOS_mac]: https://github.com/OctaDist/OctaDist/releases/download/v.2.5.1/OctaDist-2.5.1-macOS-x86-64
-[MacOS_tar]: https://github.com/OctaDist/OctaDist/releases/download/v.2.5.2/OctaDist-2.5.2-Linux-x86-64.tar.gz
+[MacOS_mac]: https://github.com/OctaDist/OctaDist/releases/download/v.2.5.2/OctaDist-2.5.2-macOS-x86-64
+[MacOS_tar]: https://github.com/OctaDist/OctaDist/releases/download/v.2.5.2/OctaDist-2.5.2-macOS-x86-64.tar.gz
 
 Program source code: [Github repository][Github-link]
 

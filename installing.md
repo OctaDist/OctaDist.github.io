@@ -37,7 +37,7 @@ layout: default
    ```
 5. Execute program as a package (you have to stay outside **`octadist`** directory):
    ```
-   python -m octadist.main
+   python -m octadist_gui.main
    ```
 
 ### macOS
@@ -60,7 +60,7 @@ Installing and running the program on Mac is the same as Linux.
    ```
 6. Execute program (you have to stay outside **`octadist`** directory):
    ```
-   python -m octadist.main
+   python -m octadist_gui.main
    ```
 
 ### PyPI  [![PyPI-Server][PyPI-badge]][PyPI-link]
