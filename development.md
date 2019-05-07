@@ -25,18 +25,20 @@ The source code repository for development build is at [OctaDist-PyPI](https://g
 ### Program structure
 ***
 
-| Module | Description |
-| ------ | ----------- |
-| main   | Main program |
-| coord | Read and extract atomic coordinate from input file |
-| elements | Atomic properties |
-| calc | Calculate octahedral distortion parameters |
-| linear | Linear algebra functions |
-| projection | Vector projection |
-| plane | Manipulate projection plane |
-| tools | Utilities |
-| draw | Molecular displays |
-| popup | Error, warning, and info messages |
+| Module     | Description       |
+| ---------- | ----------------- |
+| main       | Main program |
+| coord      | Manipulating atomic coordinates |
+| elements   | Atomic properties |
+| calc       | Calculating distortion parameters |
+| linear     | Built-in mathematical functions |
+| projection | 2D & 3D vector projections |
+| plot       | Plotting graph and chart |
+| plane      | Manipulate projection plane |
+| draw       | Displaying molecule |
+| tools      | 3rd-part program |
+| util       | Other utility |
+| popup      | Error, warning, and info messages |
 
 OctaDist uses the following built-in Python packages for molecular 3D visualization.
 ```
@@ -50,11 +52,20 @@ OctaDist can run only with Python 3. For Linux user, use following command to ch
 ```
 python3 -V
 ```
-The following external packages/modules are required for running OctaDist.
+or
+```
+python -v
+```
+The following external packages/modules are required for running OctaDist:
 ```
 numpy
 scipy
 matplotlib
+```
+
+3rd-party package additionally used in OctaDist-PyPI:
+```
+rmsd
 ```
 
 ### Program compilation
@@ -63,22 +74,27 @@ matplotlib
 OctaDist source code can be compiled to executable easily using [PyInstaller](https://www.pyinstaller.org/).
 
 Compilation instruction
-1. Install PyInstaller:
-    ```
-    pip install pyinstaller
-    ```
-2. Check the version of PyInstaller:
-    ```
-    pyinstaller --version
-    ```
-3. Change directory to `./src`, for example:
-    ```
-    cd OctaDist-XXX/src/
-    ```
-4. Compile the source code, for example, using following command:
-    ```
-    pyinstaller --windowed --onefile -i molecule.ico --version-file=version.txt --distpath=../ main.py
-    ```
-5. A standalone executable will be build in `build` directory
+1. Upgrade pip
+   ```
+   pip install --upgrade pip
+   ```
+2. Install PyInstaller:
+   ```
+   pip install pyinstaller
+   ```
+3. Check the version of PyInstaller:
+   ```
+   pyinstaller --version
+   ```
+4. Change directory to `./octadist` directory, `where main.py` is:
+   ```
+   cd OctaDist-XXX/octadist/
+   ```
+5. Compile a standalone, like this:
+   ```
+   pyinstaller --onefile -i molecule.ico main.py
+   ```
+   Additionally useful option for compilation can be found at PyInstaller manual.
+6. The standalone executable will be build in `dist` directory
 
 [back to homepage](./)
