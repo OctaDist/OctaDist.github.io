@@ -30,12 +30,13 @@ The program source code is available on [Github repository][link5].
 [link4]: https://github.com/OctaDist/OctaDist/releases/latest
 [link5]: https://github.com/OctaDist/OctaDist
 
-|Operating System| Stable version |
-|----------------|----------------|
-|    Windows     | [OctaDist-2.5.2 (exe)][WinOS_exe] / [(zip)][WinOS_zip] |
-|     Linux      | [OctaDist-2.5.2 (tar.gz)][LinOS_tar] |
-|     macOS      | OctaDist-2.5.2 (Mach-O) / [(tar.gz)][MacOS_tar]|
-|  PyPI package  | [`pip install octadist`][PyPI] |
+|   Platform   | Stable version |
+|--------------|----------------|
+|  Windows OS  | [OctaDist-2.5.2 (exe)][WinOS_exe] / [(zip)][WinOS_zip] |
+|  Linux OS    | [OctaDist-2.5.2 (tar.gz)][LinOS_tar] |
+|  Mac OS      | [OctaDist-2.5.2 (tar.gz)][MacOS_tar]|
+| ![PyPI-Server][PyPI-badge]   | [`pip install octadist`][PyPI-link] |
+| ![Conda-Server][Conda-badge] | [`conda install -c rangsiman octadist`][Conda-link]|
 
 Nightly development build is also available to test: [dev-build (zip)](https://github.com/OctaDist/OctaDist/archive/nightly-build.zip).
 
@@ -44,7 +45,10 @@ Nightly development build is also available to test: [dev-build (zip)](https://g
 [LinOS_tar]: https://github.com/OctaDist/OctaDist/releases/download/v.2.5.2/OctaDist-2.5.2-Linux-x86-64.tar.gz
 [MacOS_mac]: https://github.com/OctaDist/OctaDist/releases/download/v.2.5.1/OctaDist-2.5.1-macOS-x86-64
 [MacOS_tar]: https://github.com/OctaDist/OctaDist/releases/download/v.2.5.2/OctaDist-2.5.2-Linux-x86-64.tar.gz
-[PyPI]: https://pypi.org/project/octadist/
+[PyPI-badge]: https://img.shields.io/pypi/v/octadist.svg
+[PyPI-link]: https://pypi.org/project/octadist/
+[Conda-badge]: https://anaconda.org/rangsiman/octadist/badges/version.svg
+[Conda-link]: https://anaconda.org/rangsiman/octadist
 
 ## Citation
 Please cite this project when you use OctaDist for scientific publication.
