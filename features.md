@@ -9,10 +9,10 @@ layout: default
   - Determination of regular, irregular distorted, very distorted, and non-octahedral octahedral complexes
   - Calculation of octahedral distortion parameters
     - Mean distance: *\<D\>*
-    - Distance distortion: ![](https://latex.codecogs.com/svg.Latex?%5Czeta) and ![](https://latex.codecogs.com/svg.Latex?%5CDelta)
+    - Distance distortion: ![](https://latex.codecogs.com/svg.Latex?%5Czeta)
     - Angle distortion: ![](https://latex.codecogs.com/svg.Latex?%5CSigma)
     - Torsional distortion: ![](https://latex.codecogs.com/svg.Latex?%5CTheta)
-  - Tilting distortion parameter of perovskite complex
+  - Tilting distortion parameter: ![](https://latex.codecogs.com/svg.Latex?%5CDelta)
   - Root-mean-square deviation of atomic positions (RMSD)
 - Molecular visualizations
   - 3D modelling of complex
