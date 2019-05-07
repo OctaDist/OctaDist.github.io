@@ -28,7 +28,7 @@ while the latter is for Linux (and Mac) users, especially the developer who want
 2. OctaDist will check file format and extract atomic coordinates, and show the data on a result box.
 
     <p align="center">
-    <img alt="browse-file" src="images/octadist-show-coord.png" class="inline" align="middle" width="300pt" />
+    <img alt="browse-file" src="images/octadist-show-coord.png" class="inline" align="middle" width="400pt" />
     <p/>
 
 3. If yes, then click **`Compute`**.
