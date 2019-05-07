@@ -50,7 +50,10 @@ layout: default
    ./OctaDist-*-macOS-x86-64
    ```
 
-### PyPI
+### PyPI  [![PyPI-Server][PyPI-badge]][PyPI-link]
+
+[PyPI-badge]: https://img.shields.io/pypi/v/octadist.svg
+[PyPI-link]: https://pypi.org/project/octadist/
 
 OctaDist is also an on-going package of Python package index (PyPI), which is available at [https://pypi.org/project/octadist/](https://pypi.org/project/octadist/).
 The end-user can use `pip`, a Python package manager, to find and install OctaDist and other dependencies on OS at the same time.
@@ -67,7 +70,10 @@ The following commands are useful:
 
 More details on installing Python package is [here](https://packaging.python.org/tutorials/installing-packages/).
 
-### Conda
+### Conda [![Conda-Server][Conda-badge]][Conda-link]
+
+[Conda-badge]: https://anaconda.org/rangsiman/octadist/badges/version.svg
+[Conda-link]: https://anaconda.org/rangsiman/octadist
 
 OctaDist on Anaconda cloud server is available at [https://anaconda.org/rangsiman/octadist](https://anaconda.org/rangsiman/octadist). 
 

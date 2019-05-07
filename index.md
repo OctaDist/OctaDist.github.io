@@ -18,35 +18,31 @@ The source and executable code of OctaDist is open and freely available for ever
 ## Release
 [![Travis-CI Test][Travis-badge]][Travis-link]
 [![Github Download All releases][Download-badge]][Download-link]
+[![Github release](https://img.shields.io/github/release/OctaDist/octadist.svg)][latest-link]
+[![Release-date][rel-date]][latest-link]
 
 [Travis-badge]: https://img.shields.io/travis/OctaDist/OctaDist/master.svg
 [Travis-link]: https://travis-ci.org/OctaDist/OctaDist
 [Download-badge]: https://img.shields.io/github/downloads/OctaDist/octadist/total.svg
 [Download-link]: https://github.com/OctaDist/OctaDist/releases
-
-The latest stable version: [![Github release](https://img.shields.io/github/release/OctaDist/octadist.svg)][link4] on [![Release-date][rel-date]][link4]. 
-
-
 [rel-date]: https://img.shields.io/github/release-date/octadist/octadist.svg
-[link4]: https://github.com/OctaDist/OctaDist/releases/latest
+[latest-link]: https://github.com/OctaDist/OctaDist/releases/latest
+
+The latest stable release of OctaDist is available for following OS and platforms: 
 
 |   Platform   | Stable version |
 |--------------|----------------|
 |  Windows OS  | [OctaDist-2.5.2 (exe)][WinOS_exe] / [(zip)][WinOS_zip] |
-|  Linux OS    | [OctaDist-2.5.2 (tar.gz)][LinOS_tar] |
-|  Mac OS      | [OctaDist-2.5.2 (tar.gz)][MacOS_tar]|
-| ![PyPI-Server][PyPI-badge]   | [`pip install octadist`][PyPI-link] |
-| ![Conda-Server][Conda-badge] | [`conda install -c rangsiman octadist`][Conda-link]|
+|  Linux OS    | [OctaDist-2.5.2 (tar.gz)][LinOS_tar]  |
+|  Mac OS      | [OctaDist-2.5.2 (tar.gz)][MacOS_tar]  |
+|  PyPI        | `pip install octadist`                |
+|  Anaconda    | `conda install -c rangsiman octadist` |
 
 [WinOS_exe]: https://github.com/OctaDist/OctaDist/releases/download/v.2.5.2/OctaDist-2.5.2-Win-x86-64.exe
 [WinOS_zip]: https://github.com/OctaDist/OctaDist/releases/download/v.2.5.2/OctaDist-2.5.2-Win-x86-64.zip
 [LinOS_tar]: https://github.com/OctaDist/OctaDist/releases/download/v.2.5.2/OctaDist-2.5.2-Linux-x86-64.tar.gz
 [MacOS_mac]: https://github.com/OctaDist/OctaDist/releases/download/v.2.5.1/OctaDist-2.5.1-macOS-x86-64
 [MacOS_tar]: https://github.com/OctaDist/OctaDist/releases/download/v.2.5.2/OctaDist-2.5.2-Linux-x86-64.tar.gz
-[PyPI-badge]: https://img.shields.io/pypi/v/octadist.svg
-[PyPI-link]: https://pypi.org/project/octadist/
-[Conda-badge]: https://anaconda.org/rangsiman/octadist/badges/version.svg
-[Conda-link]: https://anaconda.org/rangsiman/octadist
 
 Program source code: [Github repository][Github-link]
 
