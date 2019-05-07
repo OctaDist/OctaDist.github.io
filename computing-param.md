@@ -22,31 +22,31 @@ while the latter is for Linux (and Mac) users, especially the developer who want
 1. Click **`Browse file`**, choose one or multiple input files, then click **`Open`**.
 
    <p align="center">
-      <img alt="browse-file" src="images/octadist-browse-file.png" align=middle width="200pt" />
+      <img alt="browse-file" src="https://raw.githubusercontent.com/OctaDist/OctaDist.github.io/master/images/octadist-browse-file.png" align=middle width="200pt" />
    <p/>
 
 2. OctaDist will check file format and extract atomic coordinates, and show the data on a result box.
 
    <p align="center">
-      <img alt="show-coord" src="images/octadist-show-coord.png" align=middle width="200pt" />
+      <img alt="show-coord" src="https://raw.githubusercontent.com/OctaDist/OctaDist.github.io/master/images/octadist-show-coord.png" align=middle width="200pt" />
    <p/>
 
 3. If yes, then click **`Compute`**.
 
    <p align="center">
-      <img alt="compute" src="images/octadist-show-compute.png" align=middle width="200pt" />
+      <img alt="compute" src="https://raw.githubusercontent.com/OctaDist/OctaDist.github.io/master/images/octadist-compute.png" align=middle width="200pt" />
    <p/>
 
 4. The computed parameters will be shown in output box.
 
    <p align="center">
-      <img alt="show-result" src="images/octadist-show-result.png" align=middle width="200pt" />
+      <img alt="show-result" src="https://raw.githubusercontent.com/OctaDist/OctaDist.github.io/master/images/octadist-show-result.png" align=middle width="200pt" />
    <p/>
 
 5. To save the results, click **`File`**, then **`Save results`**.
 
    <p align="center">
-      <img alt="save-result" src="images/octadist-save-result.png" align=middle width="200pt" />
+      <img alt="save-result" src="https://raw.githubusercontent.com/OctaDist/OctaDist.github.io/master/images/octadist-save-result.png" align=middle width="200pt" />
    <p/>
 
 ### OctaDist - CLI
