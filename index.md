@@ -34,7 +34,7 @@ The latest stable release of OctaDist is available for following OS and platform
 |--------------|----------------|
 |  Windows OS  | [OctaDist-2.5.2 (exe)][WinOS_exe] / [(zip)][WinOS_zip] |
 |  Linux OS    | [OctaDist-2.5.2 (tar.gz)][LinOS_tar]  |
-|  Mac OS      | [OctaDist-2.5.2 (tar.gz)][MacOS_tar]  |
+|  macOS       | [OctaDist-2.5.2 (tar.gz)][MacOS_tar]  |
 |  PyPI        | `pip install octadist`                |
 |  Anaconda    | `conda install -c rangsiman octadist` |
 

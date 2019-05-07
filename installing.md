@@ -22,12 +22,12 @@ layout: default
 
 ### Linux OS
 
-1. Download the source code (*.tar.gz) to your machine.
-2. Uncompress the tarball: 
+1. Download the source code (*.tar.gz) to your machine, for example, at **`Download`** directory.
+2. Uncompress the tarball, using **`tar`**: 
    ```
    tar -xzvf OctaDist-*-Linux-x86-64.tar.gz
    ```
-3. Move to OctaDist root directory:
+3. Move to OctaDist root directory, using **`cd`**:
    ```
    cd OctaDist-*-Linux-x86-64
    ```
@@ -35,19 +35,32 @@ layout: default
    ```
    python CheckPyModule.py
    ```
-5. Execute program:
+5. Execute program as a package (you have to stay outside **`octadist`** directory):
    ```
-   python -m src/main
+   python -m octadist.main
    ```
 
 ### macOS
 
-1. Download program executable ([Mach-O](https://en.wikipedia.org/wiki/Mach-O)) to your Mac.
+Installing and running the program on Mac is the same as Linux.
+
+1. Download the source code (*.tar.gz) to your machine, for example, at **`Download`** directory.
 2. Press Command - spacebar to launch Spotlight and type "*Terminal*", then double-click the search result.
-3. Navigate to directory where the OctaDist file is, using **`cd`**.
-4. Execute program:
+3. Uncompress the tarball, using **`tar`**: 
    ```
-   ./OctaDist-*-macOS-x86-64
+   tar -xzvf OctaDist-*-macOS-x86-64.tar.gz
+   ```
+4. Move to OctaDist root directory, using **`cd`**:
+   ```
+   cd OctaDist-*-macOS-x86-64
+   ```
+5. Check is your machine has required packages for running OctaDist:
+   ```
+   python CheckPyModule.py
+   ```
+6. Execute program (you have to stay outside **`octadist`** directory):
+   ```
+   python -m octadist.main
    ```
 
 ### PyPI  [![PyPI-Server][PyPI-badge]][PyPI-link]
