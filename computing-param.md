@@ -21,12 +21,10 @@ while the latter is for Linux (and Mac) users, especially the developer who want
 
 1. Click **`Browse file`**, choose one or multiple input files, then click **`Open`**.
 
-<!--
-   <img alt="browse-file" src="https://raw.githubusercontent.com/OctaDist/OctaDist.github.io/master/images/octadist-browse-file.png" align=middle width="200pt" />
--->
-
-   <img alt="browse-file" src="https://raw.githubusercontent.com/OctaDist/OctaDist.github.io/master/images/octadist-browse-file.png" class="inline" align="middle" width="200pt" />
-
+<p align="center">
+<img alt="browse-file" src="https://raw.githubusercontent.com/OctaDist/OctaDist.github.io/master/images/octadist-browse-file.png" class="inline" align="middle" width="200pt" />
+<p/>
+   
 2. OctaDist will check file format and extract atomic coordinates, and show the data on a result box.
 
    <p align="center">
