@@ -16,19 +16,19 @@ The source and executable code of OctaDist is open and freely available for ever
 - [Development](./development.md)
 
 ## Release
-[![Travis-CI Test](https://img.shields.io/travis/OctaDist/OctaDist/master.svg)][link1]
-[![Github release](https://img.shields.io/github/release/OctaDist/octadist.svg)][link2]
-[![Github Download All releases](https://img.shields.io/github/downloads/OctaDist/octadist/total.svg)][link3]
+[![Travis-CI Test][Travis-badge]][Travis-link]
+[![Github Download All releases][Download-badge]][Download-link]
 
-[link1]: https://travis-ci.org/OctaDist/OctaDist
-[link2]: https://github.com/OctaDist/OctaDist/releases
-[link3]: https://github.com/OctaDist/OctaDist/releases
+[Travis-badge]: https://img.shields.io/travis/OctaDist/OctaDist/master.svg
+[Travis-link]: https://travis-ci.org/OctaDist/OctaDist
+[Download-badge]: https://img.shields.io/github/downloads/OctaDist/octadist/total.svg
+[Download-link]: https://github.com/OctaDist/OctaDist/releases
 
-The latest release is [OctaDist 2.5.2 (May 2019)][link4]. 
-The program source code is available on [Github repository][link5].
+The latest stable version: [![Github release](https://img.shields.io/github/release/OctaDist/octadist.svg)][link4] on [![Release-date][rel-date]][link4]. 
 
+
+[rel-date]: https://img.shields.io/github/release-date/octadist/octadist.svg
 [link4]: https://github.com/OctaDist/OctaDist/releases/latest
-[link5]: https://github.com/OctaDist/OctaDist
 
 |   Platform   | Stable version |
 |--------------|----------------|
@@ -37,8 +37,6 @@ The program source code is available on [Github repository][link5].
 |  Mac OS      | [OctaDist-2.5.2 (tar.gz)][MacOS_tar]|
 | ![PyPI-Server][PyPI-badge]   | [`pip install octadist`][PyPI-link] |
 | ![Conda-Server][Conda-badge] | [`conda install -c rangsiman octadist`][Conda-link]|
-
-Nightly development build is also available to test: [dev-build (zip)](https://github.com/OctaDist/OctaDist/archive/nightly-build.zip).
 
 [WinOS_exe]: https://github.com/OctaDist/OctaDist/releases/download/v.2.5.2/OctaDist-2.5.2-Win-x86-64.exe
 [WinOS_zip]: https://github.com/OctaDist/OctaDist/releases/download/v.2.5.2/OctaDist-2.5.2-Win-x86-64.zip
@@ -49,6 +47,18 @@ Nightly development build is also available to test: [dev-build (zip)](https://g
 [PyPI-link]: https://pypi.org/project/octadist/
 [Conda-badge]: https://anaconda.org/rangsiman/octadist/badges/version.svg
 [Conda-link]: https://anaconda.org/rangsiman/octadist
+
+Program source code: [Github repository][Github-link]
+
+Nightly development build: [Dev-build (zip)][Dev-link]
+
+Older version archive: [OctaDist-archive][archive-link] 
+
+[Github-link]: https://github.com/OctaDist/OctaDist
+[Dev-link]: https://github.com/OctaDist/OctaDist/archive/nightly-build.zip
+[archive-link]: https://github.com/OctaDist/OctaDist/releases
+
+
 
 ## Citation
 Please cite this project when you use OctaDist for scientific publication.
