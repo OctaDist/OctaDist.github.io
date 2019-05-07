@@ -67,4 +67,16 @@ The following commands are useful:
 
 More details on installing Python package is [here](https://packaging.python.org/tutorials/installing-packages/).
 
+### Conda
+
+OctaDist on Anaconda cloud server is available at [https://anaconda.org/rangsiman/octadist](https://anaconda.org/rangsiman/octadist). 
+
+It can be installed on system using command.
+
+```
+conda install -c rangsiman octadist 
+```
+
+The platforms that OctaDist-Conda supported: [![Anaconda-Server Badge](https://anaconda.org/rangsiman/octadist/badges/platforms.svg)](https://anaconda.org/rangsiman/octadist)
+
 [back to homepage](./) | [manual](./manual.md)
