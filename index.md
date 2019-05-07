@@ -16,12 +16,12 @@ The source and executable code of OctaDist is open and freely available for ever
 - [Development](./development.md)
 
 ## Release
-[![Github release][latest-link]][latest-link]
+[![Github release][latest-badge]][latest-link]
 [![Github Download All releases][Download-badge]][Download-link]
 [![Travis-CI Test][Travis-badge]][Travis-link]
 [![Release-date][rel-date]][latest-link]
 
-[latest-link]: https://img.shields.io/github/release/OctaDist/octadist.svg
+[latest-badge]: https://img.shields.io/github/release/OctaDist/octadist.svg
 [latest-link]: https://github.com/OctaDist/OctaDist/releases/latest
 [Download-badge]: https://img.shields.io/github/downloads/OctaDist/octadist/total.svg
 [Download-link]: https://github.com/OctaDist/OctaDist/releases
