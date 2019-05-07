@@ -35,7 +35,7 @@ layout: default
    ```
    python CheckPyModule.py
    ```
-5. Execute program as a package (you have to stay outside **`octadist`** directory):
+5. Execute program as a package (you have to stay outside **`octadist_gui`** directory):
    ```
    python -m octadist_gui.main
    ```
@@ -58,7 +58,7 @@ Installing and running the program on Mac is the same as Linux.
    ```
    python CheckPyModule.py
    ```
-6. Execute program (you have to stay outside **`octadist`** directory):
+6. Execute program (you have to stay outside **`octadist_gui`** directory):
    ```
    python -m octadist_gui.main
    ```
@@ -72,13 +72,17 @@ OctaDist is also an on-going package of Python package index (PyPI), which is av
 The end-user can use `pip`, a Python package manager, to find and install OctaDist and other dependencies on OS at the same time.
 
 The following commands are useful:
-- Install (and upgrade to) the latest version: 
+- Install program: 
+  ```
+  pip install octadist
+  ```
+- Upgrade to the latest version: 
   ```
   pip install --upgrade octadist
   ```
-- Downgrade to a certain version:
+- Downgrade to a certain version, for example, version 2.5.1:
   ```
-  pip install --upgrade octadist==2.5.0
+  pip install --upgrade octadist==2.5.1
   ```
 
 More details on installing Python package is [here](https://packaging.python.org/tutorials/installing-packages/).
