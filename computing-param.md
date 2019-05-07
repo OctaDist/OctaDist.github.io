@@ -25,7 +25,7 @@ while the latter is for Linux (and Mac) users, especially the developer who want
    <img alt="browse-file" src="https://raw.githubusercontent.com/OctaDist/OctaDist.github.io/master/images/octadist-browse-file.png" align=middle width="200pt" />
 -->
 
-   <img alt="browse-file" src="https://raw.githubusercontent.com/OctaDist/OctaDist.github.io/master/images/octadist-browse-file.png" class="inline" width="200pt" />
+   <img alt="browse-file" src="https://raw.githubusercontent.com/OctaDist/OctaDist.github.io/master/images/octadist-browse-file.png" class="inline" align=middle width="200pt" />
 
 2. OctaDist will check file format and extract atomic coordinates, and show the data on a result box.
 
