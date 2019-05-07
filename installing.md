@@ -9,8 +9,8 @@ layout: default
 - [Windows OS](#windows-os)
 - [Linux OS](#linux-os)
 - [macOS](#macos)
-- [PyPI](#pypi--pypi-serverpypi-badgepypi-link)
-- [Anaconda](#anaconda-conda-serverconda-badgeconda-link)
+- [PyPI](#pypi)
+- [Anaconda](#anaconda)
 
 ***
 
@@ -67,7 +67,9 @@ Installing and running the program on Mac is the same as Linux.
    python -m octadist_gui.main
    ```
 
-### PyPI  [![PyPI-Server][PyPI-badge]][PyPI-link]
+### PyPI  
+
+[![PyPI-Server][PyPI-badge]][PyPI-link]
 
 [PyPI-badge]: https://img.shields.io/pypi/v/octadist.svg
 [PyPI-link]: https://pypi.org/project/octadist/
@@ -91,7 +93,9 @@ The following commands are useful:
 
 More details on installing Python package is [here](https://packaging.python.org/tutorials/installing-packages/).
 
-### Anaconda [![Conda-Server][Conda-badge]][Conda-link]
+### Anaconda 
+
+[![Conda-Server][Conda-badge]][Conda-link]
 
 [Conda-badge]: https://anaconda.org/rangsiman/octadist/badges/version.svg
 [Conda-link]: https://anaconda.org/rangsiman/octadist
