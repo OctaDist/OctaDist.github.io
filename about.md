@@ -6,15 +6,37 @@ layout: default
 ## About OctaDist
 ***
 
+[Delta]: https://latex.codecogs.com/svg.Latex?%5CDelta
+[phi]: https://latex.codecogs.com/svg.Latex?%5Cphi
+[Sigma]: https://latex.codecogs.com/svg.Latex?%5CSigma
+[theta]: https://latex.codecogs.com/svg.Latex?%5Ctheta
+[Theta]: https://latex.codecogs.com/svg.Latex?%5CTheta
+
 ### Background
-Octahedral complex can be simply classified into two types: regular and distorted octahedrons. The complexes with regular octahedral geometry or perfect octahedron are expected to form, when all of the ligands are of the same kind. In contrast, if the ligands are of different kinds, the complex would turns the distorted octahedron instead. Octahedral distortion parameters has been widely used for determining the change of the distortion of the complexes. Even though the people in community generally compute the octahedral distortion parameters for their complexes, but they not used a certain way to do this. Moreover, there is no software for determining this kind of parameter yet. Therefore, we present the OctaDist program as a choice for those who are interested in this.
+
+Octahedral complex can be simply classified into two types: regular and distorted octahedron. 
+The complexes with regular octahedral geometry (perfect octahedron) are expected to form, when all of the ligands are of the same kind. 
+In contrast, if the ligands are of different kinds, the complex would turns the distorted octahedron instead. 
+Octahedral distortion parameters has been widely used for determining the change of the distortion of the complexes. 
+Even though the people in community generally calculate the octahedral distortion parameters for their complexes, 
+but they not used a certain way to do this. Moreover, there is no software for determining this kind of parameter yet. 
+Therefore, we present the OctaDist program as a choice for those who are interested in this.
 
 ### Octahedral distortion parameters
-Octahedral distortion parameters contain three parameters: ![](https://latex.codecogs.com/svg.Latex?%5CDelta), ![](https://latex.codecogs.com/svg.Latex?%5CSigma), and ![](https://latex.codecogs.com/svg.Latex?%5CTheta). The following just explains how to compute these three parameters, especially we use our new method to compute the ![](https://latex.codecogs.com/svg.Latex?%5CTheta) parameter. Please refer to [References](#references) for more details. <br/>
 
-Calculation of the ![](https://latex.codecogs.com/svg.Latex?%5CDelta) and ![](https://latex.codecogs.com/svg.Latex?%5CSigma) parameters are straightforward. The ![](https://latex.codecogs.com/svg.Latex?%5CDelta) is the avearge of the sum of the deviation of LG-M distance, where LG and M are ligand atom and metal center atom, from mean distance. The ![](https://latex.codecogs.com/svg.Latex?%5CSigma) is the sum of LG-M-LS angle ( ![](https://latex.codecogs.com/svg.Latex?%5Cphi) ) from the 90 degree. <br/>
+Octahedral distortion parameters contain three parameters: 
+![][Delta], ![][Sigma], and ![][Theta]. 
+The following explains the way that OctaDist uses to calculate these distortion parameters. , especially we use our new method to compute the ![](https://latex.codecogs.com/svg.Latex?%5CTheta) parameter. 
+Please refer to [References](#references) for more details. <br/>
 
-The ![](https://latex.codecogs.com/svg.Latex?%5CTheta) parameter is the sum of the deviation of 24 unique LG-M-LG angles (![](https://latex.codecogs.com/svg.Latex?%5Ctheta)) from 60 degree, where ![](https://latex.codecogs.com/svg.Latex?%5Ctheta) is computed on the orthogonal projection of two twisting triangular faces of the octahedron projected along its pseudo-threefold axes onto the medium plane that containing metal center. However, in reality, becuase of the complex is distorted, the symmetry is changed, so the medium plane between two opposite faces cannot be determined directly. To solve this, we propose a new method to find the optimal 4 faces and use orthogonal vector projection for computing the unique (![](https://latex.codecogs.com/svg.Latex?%5Ctheta)) angles on twisting triangular faces, and for finding the most reasonable ![](https://latex.codecogs.com/svg.Latex?%5CTheta) parameter.
+Calculation of the ![][Delta] and 
+![][Sigma] parameters are straightforward. 
+The ![][Delta] is the average of the sum of the deviation of LG-M distance, where LG and M are ligand atom and metal center atom, from mean distance. 
+The ![][Sigma] is the sum of LG-M-LS angle ( ![][phi] ) from the 90 degree. <br/>
+
+The ![][Theta] parameter is the sum of the deviation of 24 unique LG-M-LG angles ( ![][theta] ) from 60 degree, 
+where ![][theta] is computed on the orthogonal projection of two twisting triangular faces of the octahedron projected along its pseudo-threefold axes onto the medium plane that containing metal center. 
+However, in reality, due to the complex is distorted, the symmetry is changed, so the medium plane between two opposite faces cannot be determined directly. To solve this, we propose a new method to find the optimal 4 faces and use orthogonal vector projection for computing the unique (![](https://latex.codecogs.com/svg.Latex?%5Ctheta)) angles on twisting triangular faces, and for finding the most reasonable ![](https://latex.codecogs.com/svg.Latex?%5CTheta) parameter.
 
 Mathematical expression of three parameters are given by following equations
 
@@ -28,19 +50,26 @@ To determine the distortion parameters, OctaDist firstly find the optimal 4 face
 
 **Graphical representation of orthogonal projection and twisting triangular faces**
 
-|Distorted octahedron | Orthogonal projection of atoms onto the given (opposite) plane | The ![](https://latex.codecogs.com/svg.Latex?%5Ctheta) angle between the atom vectors defined by two twisting triangular faces|
+|Distorted octahedral complex | Orthogonal projection of atoms onto the opposite face | The ![][theta] (dihedral) angle between the atom vectors defined by two twisting triangular faces|
 |:-------------------------:|:-------------------------:|:-------------------------:|
 |![](images/Co-complex-8faces.png) | ![](images/Co-complex-projection.png) | ![](images/Co-complex-2D-projection.png)|
 
 ### External links
+
 1. [OctaDist wikipedia](https://en.wikipedia.org/wiki/Draft:OctaDist)
 2. [International Union of Crystallography software list](https://www.iucr.org/resources/other-directories/software/octadist)
 
 ### References
-1. [M. Buron-Le Cointe, J. H´ebert, C. Bald´e, N. Moisan, L. Toupet, P. Guionneau, J. F. L´etard, E. Freysz, H. Cailleau, E. Collet. Physical Review B 2012, 85, 064114](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.85.064114)
-2. [J. A. Alonso, M. J. Martı´nez-Lope, M. T. Casais, M. T. Ferna´ndez-Dı´az. Inorg. Chem. 2000, 39, 917-923](https://pubs.acs.org/doi/abs/10.1021/ic990921e)
-3. [J. K. McCusker, A. L. Rheingold, D. N. Hendrickson. Inorg. Chem. 1996, 35, 2100-2112](https://pubs.acs.org/doi/abs/10.1021/ic9507880)
-4. [M. Marchivie, P. Guionneau, J. F. Letard, D. Chasseau. Acta Crystal-logr. Sect. B Struct. Sci. 2005, 61, 25-28](https://onlinelibrary.wiley.com/doi/full/10.1107/S0108768104029751)
+
+1. [M. Buron-Le Cointe, J. H´ebert, C. Bald´e, N. Moisan, L. Toupet, P. Guionneau, J. F. L´etard, E. Freysz, H. Cailleau, E. Collet. Physical Review B 2012, 85, 064114][ref1]
+2. [J. A. Alonso, M. J. Martı´nez-Lope, M. T. Casais, M. T. Ferna´ndez-Dı´az. Inorg. Chem. 2000, 39, 917-923][ref2]
+3. [J. K. McCusker, A. L. Rheingold, D. N. Hendrickson. Inorg. Chem. 1996, 35, 2100-2112][ref3]
+4. [M. Marchivie, P. Guionneau, J. F. Letard, D. Chasseau. Acta Crystal-logr. Sect. B Struct. Sci. 2005, 61, 25-28][ref4]
+
+[ref1]: https://journals.aps.org/prb/abstract/10.1103/PhysRevB.85.064114
+[ref2]: https://pubs.acs.org/doi/abs/10.1021/ic990921e
+[ref3]: https://pubs.acs.org/doi/abs/10.1021/ic9507880
+[ref4]: https://onlinelibrary.wiley.com/doi/full/10.1107/S0108768104029751
 
 <br/>
 
