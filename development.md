@@ -6,21 +6,32 @@ layout: default
 ## Development
 ***
 
+### Introduction
+
+OctaDist is written entirely in Python 3 binding to Tkinter GUI platform. 
+It has two sub-projects which they are developed for different purpose: 
+a graphical user interface (GUI) and a command line interface (CLI) versions. 
+The former is mainly developed for the end-users, who are not familiar with Linux command, 
+while the latter is appropriate the users and programmer who are working with CLI. 
+
+It is available for on Windows OS, macOS, and Linux OS for 32/64-bit system. 
+
 ### Code maintenance
 
-OctaDist is written in Python 3 binding to Tkinter GUI platform.
-It has been tested and deployed on [Travis CI](https://travis-ci.org/), a continuous integration service. It is available for on Windows OS, macOS, and Linux OS for 32/64-bit system. 
+The source code of OctaDist is maintained on Github version control system. 
+Both  master revision and nightly development build have being tested and deployed on [Travis CI](https://travis-ci.org/), a continuous integration service. 
+
 Matplotlib library is used for plotting the graph and displaying the molecule and octahedral structure. <br/>
 
-The program is maintained on Github version control system. If you found a bug in program, please submit it on [issues page](https://github.com/OctaDist/OctaDist/issues). 
-To give a contribution on program development, please pull request on [the OctaDist Github](https://github.com/OctaDist/OctaDist). <br/>
+### Contribution
 
+To give a contribution on program development, please pull request on [the OctaDist Github](https://github.com/OctaDist/OctaDist). <br/>
+If you found a bug in program, please submit it on [issues page](https://github.com/OctaDist/OctaDist/issues). 
 We appreciate all help and contribution in getting program development.
 
 ### OctaDist on PyPI
-OctaDist is also available as a Python package, which can be used with command line interface (CLI).
-The program is archived on [Python Package Index (PyPI)](https://pypi.org/project/octadist/). 
-The source code repository for development build is at [OctaDist-PyPI](https://github.com/OctaDist/OctaDist-PyPI). 
+OctaDist is also available on [Python Package Index (PyPI)](https://pypi.org/project/octadist/).
+The source code repository of this project is at [OctaDist-PyPI](https://github.com/OctaDist/OctaDist-PyPI). 
 
 ### Program structure
 ***
@@ -36,34 +47,25 @@ The source code repository for development build is at [OctaDist-PyPI](https://g
 | plot       | Plotting graph and chart |
 | plane      | Manipulate projection plane |
 | draw       | Displaying molecule |
-| tools      | 3rd-part program |
-| util       | Other utility |
+| tools      | 3rd-party library |
+| util       | Utilities |
 | popup      | Error, warning, and info messages |
-
-OctaDist uses the following built-in Python packages for molecular 3D visualization.
-```
-tkinter
-```
 
 ### Prerequisites
 ***
 
-OctaDist can run only with Python 3. For Linux user, use following command to check the version of your python:
-```
-python3 -V
-```
-or
+OctaDist supports Python 3.5+. For using the program as CLI, you can use following command to check the version of your current Python:
 ```
 python -v
 ```
-The following external packages/modules are required for running OctaDist:
+The following external libraries are required for OctaDist for GUI and CLI (PyPI):
 ```
 numpy
 scipy
 matplotlib
 ```
 
-3rd-party package additionally used in OctaDist-PyPI:
+Additional 3rd-party library that used in OctaDist GUI version:
 ```
 rmsd
 ```
