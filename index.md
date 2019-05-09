@@ -3,19 +3,23 @@ layout: default
 ---
 
 ## OctaDist
+
 OctaDist (**Octa**hedral **Dist**ortion calculator) is a program for computing the octahedral distortion parameters of the coordination complexes. 
 The parameters have been widely used in inorganic chemistry and crystallography. 
 For example, they are useful for tracking the structural change of the spin-crossover complex when the electronics spin-state changing from low-spin to high-spin, and vice versa. 
 The source and executable code of OctaDist is open and freely available for everybody under the GNU General Public License v3.0.
 
 ## Further information
-- [About OctaDist](./about.md) <br/>
-- [Features](./features.md) <br/>
-- [User manual](./manual.md) <br/>
+
+- [About OctaDist](./about.md)
+- [Features](./features.md)
+- [Download](./download.md)
+- [Manual](./manual.md)
 - [Screenshots](./screenshots.md)
 - [Development](./development.md)
 
-## Release
+## Status
+
 [![Github release][latest-badge]][latest-link]
 [![Github Download All releases][Download-badge]][Download-link]
 [![Travis-CI Test][Travis-badge]][Travis-link]
@@ -29,35 +33,8 @@ The source and executable code of OctaDist is open and freely available for ever
 [Travis-link]: https://travis-ci.org/OctaDist/OctaDist
 [rel-date]: https://img.shields.io/github/release-date/octadist/octadist.svg
 
-The latest stable release of OctaDist is available for following OS and platforms: 
-
-|   Platform   | Stable version |
-|--------------|----------------|
-|  Windows OS  | [OctaDist-2.5.2 (exe)][WinOS_exe] / [(zip)][WinOS_zip] |
-|  Linux OS    | [OctaDist-2.5.2 (tar.gz)][LinOS_tar]  |
-|  macOS       | [OctaDist-2.5.2 (tar.gz)][MacOS_tar]  |
-|  PyPI        | `pip install octadist`                |
-|  Anaconda    | `conda install -c rangsiman octadist` |
-
-[WinOS_exe]: https://github.com/OctaDist/OctaDist/releases/download/v.2.5.2/OctaDist-2.5.2-Win-x86-64.exe
-[WinOS_zip]: https://github.com/OctaDist/OctaDist/releases/download/v.2.5.2/OctaDist-2.5.2-Win-x86-64.zip
-[LinOS_tar]: https://github.com/OctaDist/OctaDist/releases/download/v.2.5.2/OctaDist-2.5.2-Linux-x86-64.tar.gz
-[MacOS_mac]: https://github.com/OctaDist/OctaDist/releases/download/v.2.5.2/OctaDist-2.5.2-macOS-x86-64
-[MacOS_tar]: https://github.com/OctaDist/OctaDist/releases/download/v.2.5.2/OctaDist-2.5.2-macOS-x86-64.tar.gz
-
-Program source code: [Github repository][Github-link]
-
-Nightly development build: [Dev-build (zip)][Dev-link]
-
-Older version archive: [OctaDist-archive][archive-link] 
-
-[Github-link]: https://github.com/OctaDist/OctaDist
-[Dev-link]: https://github.com/OctaDist/OctaDist/archive/nightly-build.zip
-[archive-link]: https://github.com/OctaDist/OctaDist/releases
-
-
-
 ## Citation
+
 Please cite this project when you use OctaDist for scientific publication.
 
 ```
@@ -66,9 +43,11 @@ https://octadist.github.io
 ```
 
 ## Bug report
+
 For reporting bugs in OctaDist, please [submit issues](https://github.com/OctaDist/OctaDist/issues) on OctaDist Github.
 
 ## Project team
+
 - [Rangsiman Ketkaew](https://sites.google.com/site/rangsiman1993) (Thammasat University, Thailand) 
   - E-mail: rangsiman1993@gmail.com
 - [Yuthana Tantirungrotechai](https://sites.google.com/site/compchem403/people/faculty/yuthana) (Thammasat University, Thailand)

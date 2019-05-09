@@ -3,7 +3,7 @@ layout: default
 ---
 [back to homepage](./) | [manual](./manual.md)
 
-## Installing and Running OctaDist
+## Installing
 ***
 
 - [Windows OS](#windows-os)

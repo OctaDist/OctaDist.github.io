@@ -6,11 +6,11 @@ layout: default
 ## User manual
 ***
 
-- [Supported file format](./supported-file.md)
+- [Getting started](getting-started.md)
+
+- [Distortion parameters](./distortion-parameters.md)
 
 - [Installing](./installing.md)
-
-- [Computing the parameters](./computing-param.md)
 
 - [Running the tests](./running-tests.md)
 
