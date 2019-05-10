@@ -46,7 +46,7 @@ so we suggest a GUI version of OctaDist instead of running the source code with 
 
 ### macOS
 
-Installing and running the program on Mac is the same as Linux.
+Installing and running the program on Mac are the same as Linux.
 
 1. Download the source code (*.tar.gz) to your machine, for example, at **`Download`** directory.
 2. Press Command - spacebar to launch Spotlight and type "*Terminal*", then double-click the search result.
@@ -64,9 +64,9 @@ Installing and running the program on Mac is the same as Linux.
    ```
 6. Set `TkAgg` backend environment variable to prevent the dependencies error:
    ```
-   MPLBACKEND=TkAgg
+   export MPLBACKEND=TkAgg
    ``` 
-6. Execute program (you have to stay outside **`octadist_gui`** directory):
+7. Execute program (you have to stay outside **`octadist_gui`** directory):
    ```
    python -m octadist_gui.main
    ```
