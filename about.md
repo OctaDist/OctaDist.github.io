@@ -6,7 +6,7 @@ layout: default
 ## About OctaDist
 ***
 
-### Why OctaDist
+### Why OctaDist?
 
 Octahedral complex can be simply classified into two types: regular and distorted octahedron. 
 The complexes with regular octahedral geometry (perfect octahedron) are expected to form, when all of the ligands are of the same kind. 

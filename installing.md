@@ -62,6 +62,10 @@ Installing and running the program on Mac is the same as Linux.
    ```
    python CheckPyModule.py
    ```
+6. Set `TkAgg` backend environment variable to prevent the dependencies error:
+   ```
+   MPLBACKEND=TkAgg
+   ``` 
 6. Execute program (you have to stay outside **`octadist_gui`** directory):
    ```
    python -m octadist_gui.main

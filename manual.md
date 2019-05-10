@@ -12,6 +12,8 @@ layout: default
 
 - [Installing](./installing.md)
 
+- [Supported file formats](./supported-file-formats.md)
+
 - [Running the tests](./running-tests.md)
 
 - [Benchmark](./benchmark.md)
