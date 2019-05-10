@@ -19,7 +19,7 @@ layout: default
 Most Windows end-user do not have Python installed on their OS, 
 so we suggest a GUI version of OctaDist instead of running the source code with CLI.
 
-1. Download program executable (\*.exe) to your PC/Laptop.
+1. Download program executable (\*.exe) to your machine.
 2. Right click on program icon and select **`Run as administrator`**.
 3. Click **`Yes`**.
 4. Wait program for process until open.
@@ -35,7 +35,7 @@ so we suggest a GUI version of OctaDist instead of running the source code with 
    ```
    cd OctaDist-*-Linux-x86-64
    ```
-4. Check is your machine has required packages for running OctaDist:
+4. Check if your system has all dependencies for OctaDist:
    ```
    python CheckPyModule.py
    ```
@@ -58,7 +58,7 @@ Installing and running the program on Mac are the same as Linux.
    ```
    cd OctaDist-*-macOS-x86-64
    ```
-5. Check is your machine has required packages for running OctaDist:
+5. Check if your system has all dependencies for OctaDist:
    ```
    python CheckPyModule.py
    ```
