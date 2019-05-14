@@ -20,6 +20,12 @@ Input examples can be found at [example-input](https://github.com/OctaDist/OctaD
 
 - [OctaDist - GUI](#octadist---gui)
 - [OctaDist - CLI](#octadist---cli)
+- [Sample usage](#sample-usage)
+    - [Example 1: Simple calculation 1](#example-1)
+    - [Example 2: Simple calculation 2](#example-2)
+    - [Example 3: Reading data from input file](#example-3)
+    - [Example 4: Selecting the metal](#example-4)
+    - [Example 5: Display molecule and save image](#example-5)
 
 ***
 
@@ -109,15 +115,7 @@ Example scripts are available at [here](https://github.com/OctaDist/OctaDist-PyP
     Theta = 122.688972774546
     ```
 
-### Running the tests
-***
-
-- [Example 1: Simple calculation 1](#example-1)
-- [Example 2: Simple calculation 2](#example-2)
-- [Example 3: Reading data from input file](#example-3)
-- [Example 4: Selecting the metal](#example-4)
-- [Example 5: Display molecule and save image](#example-5)
-
+### Sample usage
 ***
 
 #### Example 1
