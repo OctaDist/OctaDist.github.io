@@ -14,6 +14,10 @@ while the latter is for Linux (and Mac) users, especially the developer who want
 
 Input examples can be found at [example-input](https://github.com/OctaDist/OctaDist.github.io/tree/master/example-input).
 
+***
+
+**Content**
+
 - [OctaDist - GUI](#octadist---gui)
 - [OctaDist - CLI](#octadist---cli)
 
@@ -55,7 +59,7 @@ Input examples can be found at [example-input](https://github.com/OctaDist/OctaD
 
 Example scripts are available at [here](https://github.com/OctaDist/OctaDist-PyPI/tree/master/example-py).
 
-1. Install OctaDist using  **`pip`** (see above).
+1. Install OctaDist using  **`pip`** or **`conda`** (see [installing](installing.md) for details).
 
 2. Prepare lists of atomic labels and coordinates of octahedral structure
 
