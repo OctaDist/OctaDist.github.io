@@ -3,7 +3,7 @@ layout: default
 ---
 [back to homepage](./) | [manual](./manual.md)
 
-## Benchmark
+## Benchmarks
 ***
 
 - [Perfect octahedral complex](#1-perfect-octahedral-complex)

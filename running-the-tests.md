@@ -10,7 +10,9 @@ layout: default
 This section shows how OctaDist can be used for computing the distortion parameters step by step.
 OctaDist has two versions based on purpose of use: a graphical user interface (GUI) and command line interface (CLU).
 The former is designed for the end-user who do not familiar with command lines, 
-while the latter is for Linux (and Mac) users, especially the developer who want to implement OctaDist into their software. 
+while the latter is for Linux (and Mac) users, especially the developer who want to implement OctaDist into their software.
+
+Input examples can be found at [example-input](https://github.com/OctaDist/OctaDist.github.io/tree/master/example-input).
 
 - [OctaDist - GUI](#octadist---gui)
 - [OctaDist - CLI](#octadist---cli)
@@ -57,7 +59,7 @@ Example scripts are available at [here](https://github.com/OctaDist/OctaDist-PyP
 
 2. Prepare lists of atomic labels and coordinates of octahedral structure
 
-    ```
+    ```python
     atom = ['Fe', 'O', 'O', 'N', 'N', 'N', 'N']
     
     coor = [[2.298354000, 5.161785000, 7.971898000],
@@ -73,7 +75,7 @@ Example scripts are available at [here](https://github.com/OctaDist/OctaDist-PyP
     For example, input file **`full/path/of/input/file/Multiple-metals.xyz`**
     (other example input files are available at [here](https://github.com/OctaDist/OctaDist-PyPI/tree/master/example-input)):
     
-    ```
+    ```python
     from octadist import coord
     
     file = r"full/path/of/input/file/Multiple-metals.xyz"
@@ -82,19 +84,19 @@ Example scripts are available at [here](https://github.com/OctaDist/OctaDist-PyP
     
 3.  Import **`calc`** module for computing the octahedral distortion parameters:
     
-    ```
+    ```python
     from octadist import calc
     ```
     
 4.  Use **`calc_all`** method Calculate all octahedral parameters
 
-    ```
+    ```python
     d_mean, zeta, delta, sigma, theta = calc.calc_all(atom, coor)
     ```
 
 5.  Print all computed parameters:
     
-    ```
+    ```python
     All computed parameters
     -----------------------
     Zeta  = 0.22807256171728651
@@ -118,7 +120,7 @@ Example scripts are available at [here](https://github.com/OctaDist/OctaDist-PyP
 
 [download code script](./example-py/example_1.py)
 
-```
+```python
 ###################################################
 # Example 1 for running the test on OctaDist PyPI #
 ###################################################
@@ -159,7 +161,7 @@ print("Theta =", theta)
 
 [download code script](./example-py/example_2.py)
 
-```
+```python
 ###################################################
 # Example 2 for running the test on OctaDist PyPI #
 ###################################################
@@ -202,7 +204,7 @@ print("Theta =", theta)
 
 [download code script](./example-py/example_3.py)
 
-```
+```python
 ###################################################
 # Example 3 for running the test on OctaDist PyPI #
 ###################################################
@@ -240,7 +242,7 @@ print("Theta =", theta)
 
 [download code script](./example-py/example_4.py)
 
-```
+```python
 ###################################################
 # Example 4 for running the test on OctaDist PyPI #
 ###################################################
@@ -279,7 +281,7 @@ print("Theta =", theta)
 
 [download code script](./example-py/example_5.py)
 
-```
+```python
 ###################################################
 # Example 5 for running the test on OctaDist PyPI #
 ###################################################

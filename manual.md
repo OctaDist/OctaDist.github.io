@@ -3,10 +3,8 @@ layout: default
 ---
 [back to homepage](./)
 
-## User manual
+## Manual
 ***
-
-- [Getting started](getting-started.md)
 
 - [Distortion parameters](./distortion-parameters.md)
 
@@ -14,8 +12,10 @@ layout: default
 
 - [Supported file formats](./supported-file-formats.md)
 
-- [Running the tests](./running-tests.md)
+- [Running the tests](running-the-tests.md)
 
-- [Benchmark](./benchmark.md)
+- [Benchmarks](benchmarks.md)
+
+- [Authors](authors.md)
 
 [back to homepage](./)

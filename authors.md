@@ -3,30 +3,19 @@ layout: default
 ---
 [back to homepage](./) | [manual](./manual.md)
 
-## Getting Started
+## Authors
 ***
 
-### Introduction
-
-OctaDist is an user-friendly computer software for crystallography and inorganic chemistry. 
-It is mainly used for computing octahedral distortion parameters of octahedral molecular geometry, for instance, spin crossover coordination complex and magnetic metal complex.
-
-The program is actively developed and maintained in international collaboration between 
-the the members of the [Computational Chemistry Research Unit][CCRU] at Thammasat University, Thailand, 
+The program is developed and maintained actively in international collaboration between 
+the members of the [Computational Chemistry Research Unit][CCRU] at Thammasat University, 
 the [Functional Materials & Nanotechnology CoE][FunLab] at Walailak University, Thailand, and 
 the [Switchable Molecules and Materials][SWM] group at University of Bordeaux, France.
-
-OctaDist is written entirely in Python 3 binding to Tkinter graphical user interface toolkit. 
-It is a cross-platform program, which is available for Windows, macOS, and Linux. 
-The source and executable code of OctaDist are open-source and freely distributed under a GNU General Public License (GPL) 3.0.
-So everybody can use or/and redistribute it under the terms of agreement of the license.
 
 [CCRU]: https://sites.google.com/site/compchem403/
 [FunLab]: https://www.funtechwu.com/
 [SWM]: http://www.icmcb-bordeaux.cnrs.fr/spip.php?rubrique85
 
-
-### List of authors
+**List of authors**
 
 1. [Rangsiman Ketkaew](https://sites.google.com/site/rangsiman1993) (Thammasat University, Thailand) 
     - E-mail: rangsiman1993@gmail.com
