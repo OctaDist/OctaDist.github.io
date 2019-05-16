@@ -4,7 +4,7 @@ layout: default
 [back to homepage](./) | [manual](./manual.md)
 
 
-## Running the test
+## Running the Test
 ***
 
 This section shows how OctaDist can be used for computing the distortion parameters step by step.

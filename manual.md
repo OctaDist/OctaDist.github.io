@@ -16,6 +16,8 @@ layout: default
 
 - [Benchmarks](benchmarks.md)
 
+- [Release archives](release-archives.md)
+
 - [Authors](authors.md)
 
 [back to homepage](./)

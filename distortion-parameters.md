@@ -3,7 +3,7 @@ layout: default
 ---
 [back to homepage](./) | [manual](./manual.md)
 
-## Distortion parameters
+## Distortion Parameters
 ***
 
 [Delta]: https://latex.codecogs.com/svg.Latex?%5CDelta

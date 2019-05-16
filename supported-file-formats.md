@@ -3,7 +3,7 @@ layout: default
 ---
 [back to homepage](./) | [manual](./manual.md)
 
-## Supported file format
+## Supported File Format
 ***
 
 ### XYZ file format

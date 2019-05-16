@@ -39,10 +39,10 @@ The latest stable release of OctaDist is available for following OS and platform
 
 Program source code: [Github repository][Github-link]
 
-Older version archive: [OctaDist-archive][archive-link] 
-
 [Github-link]: https://github.com/OctaDist/OctaDist
-[archive-link]: https://github.com/OctaDist/OctaDist/releases
+
+Older version release: [Release archives](release-archives.md)
+
 
 ### Nightly development build
 
