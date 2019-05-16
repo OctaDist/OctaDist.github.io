@@ -41,9 +41,6 @@ Program source code: [Github repository][Github-link]
 
 [Github-link]: https://github.com/OctaDist/OctaDist
 
-Older version release: [Release archives](release-archives.md)
-
-
 ### Nightly development build
 
 An active development build can be downloaded at [Dev-build (zip)][Dev-link].
@@ -55,6 +52,12 @@ pip install https://github.com/OctaDist/OctaDist/archive/nightly-build.zip
 [Dev-link]: https://github.com/OctaDist/OctaDist/archive/nightly-build.zip
 
 See [Development](./development.md) for more details.
+
+### Older version releases
+
+The source code and executable of older versions and release notes can be found at 
+[Release archives](release-archives.md).
+
 
 ### System requirements
 
