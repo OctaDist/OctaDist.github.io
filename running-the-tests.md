@@ -106,7 +106,7 @@ Example scripts are available at [here](https://github.com/OctaDist/OctaDist-PyP
 
 5.  Print all computed parameters:
     
-    ```python
+    ```sh
     All computed parameters
     -----------------------
     Zeta  = 0.22807256171728651
