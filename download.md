@@ -8,19 +8,6 @@ layout: default
 
 ### Stable release
 
-[![Github release][latest-badge]][latest-link]
-[![Github Download All releases][Download-badge]][Download-link]
-[![Travis-CI Test][Travis-badge]][Travis-link]
-[![Release-date][rel-date]][latest-link]
-
-[latest-badge]: https://img.shields.io/github/release/OctaDist/octadist.svg
-[latest-link]: https://github.com/OctaDist/OctaDist/releases/latest
-[Download-badge]: https://img.shields.io/github/downloads/OctaDist/octadist/total.svg
-[Download-link]: https://github.com/OctaDist/OctaDist/releases
-[Travis-badge]: https://img.shields.io/travis/OctaDist/OctaDist/master.svg
-[Travis-link]: https://travis-ci.org/OctaDist/OctaDist
-[rel-date]: https://img.shields.io/github/release-date/octadist/octadist.svg
-
 The latest stable release of OctaDist is available for following OS and platforms: 
 
 |   Platform   | Stable version |
