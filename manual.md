@@ -18,6 +18,8 @@ layout: default
 
 - [Release archives](release-archives.md)
 
+- [License](license.md)
+
 - [Authors](authors.md)
 
 [back to homepage](./)
