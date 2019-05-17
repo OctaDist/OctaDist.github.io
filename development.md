@@ -9,13 +9,12 @@ layout: default
 ### Introduction
 
 OctaDist is written entirely in Python 3 binding to Tkinter GUI platform. 
-In fact, it can be divided into two versions as different types of uses: 
+It is available for on Windows, Linux, and macOS for 32/64-bit systems. 
+It is divided into two versions as different types of uses: 
 a graphical user interface (GUI) version and a command line interface (CLI) version. 
 The former is mainly developed for the end-users, who are not familiar with Linux command, 
 while the latter is appropriate for the end-users and programmer who are working with CLI, 
 for example, on Linux or macOS. 
-
-It is available for on Windows, Linux, and macOS for 32/64-bit systems. 
 
 ### Code maintenance
 
@@ -23,16 +22,18 @@ The source code of OctaDist is maintained on Github version control system.
 Both master revision and nightly development build have being tested and deployed on 
 [Travis CI](https://travis-ci.org/), a continuous integration service. 
 
+Program source code on Github: 
+- [OctaDist GUI : github.com/OctaDist/OctaDist][Github-GUI-link]
+- [OctaDist CLI : github.com/OctaDist/OctaDist-PyPI][Github-CLI-link]
+
+[Github-GUI-link]: https://github.com/OctaDist/OctaDist
+[Github-CLI-link]: https://github.com/OctaDist/OctaDist-PyPI
+
 ### Contribution
 
-To give a contribution on program development, please pull request on [the OctaDist Github](https://github.com/OctaDist/OctaDist). <br/>
+To give a contribution on program development, please pull request on [the OctaDist Github](https://github.com/OctaDist/OctaDist).
 If you found a bug in program, please submit it on [issues page](https://github.com/OctaDist/OctaDist/issues). 
 We appreciate all help and contribution in getting program development.
-
-### OctaDist on PyPI
-
-OctaDist is also available on [Python Package Index (PyPI)](https://pypi.org/project/octadist/).
-The source code repository of this project is at [OctaDist-PyPI](https://github.com/OctaDist/OctaDist-PyPI). 
 
 ### Program structure
 ***

@@ -24,10 +24,6 @@ The latest stable release of OctaDist is available for following OS and platform
 [macOS_mac]: https://github.com/OctaDist/OctaDist/releases/download/v.2.5.2/OctaDist-2.5.2-macOS-x86-64
 [macOS_tar]: https://github.com/OctaDist/OctaDist/releases/download/v.2.5.2/OctaDist-2.5.2-macOS-x86-64.tar.gz
 
-Program source code: [Github repository][Github-link]
-
-[Github-link]: https://github.com/OctaDist/OctaDist
-
 ### Nightly development build
 
 An on-going development build can be downloaded at [Dev-build (zip)][Dev-link].
