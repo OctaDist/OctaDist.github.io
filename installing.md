@@ -16,8 +16,11 @@ layout: default
 
 ### Windows OS
 
-Most Windows end-user do not have Python installed on their OS, 
-so we suggest a GUI version of OctaDist instead of running the source code with CLI.
+Most of the Windows end-user do not have Python installed on their OS, 
+so we strongly suggest you download a ready-to-use OctaDist (GUI version) on your system.
+
+For first time using OctaDist, you should run it as an administrator with full rights.
+Changing property of program can be completed in a few steps as follows:
 
 1. Download program executable (\*.exe) to your machine.
 2. Right click on program icon and select **`Run as administrator`**.
@@ -78,10 +81,15 @@ Installing and running the program on Mac are the same as Linux.
 [PyPI-badge]: https://img.shields.io/pypi/v/octadist.svg
 [PyPI-link]: https://pypi.org/project/octadist/
 
-OctaDist is also an on-going package of Python package index (PyPI), which is available at [https://pypi.org/project/octadist/](https://pypi.org/project/octadist/).
-The end-user can use `pip`, a Python package manager, to find and install OctaDist and other dependencies on OS at the same time.
+OctaDist CLI version is also available on Python package index library, 
+which can be found at [https://pypi.org/project/octadist/][OctaDist-PyPI-link].
 
-The following commands are useful:
+The end-user can use `pip`, a Python package-management system, 
+to find and install OctaDist and other dependencies on OS at the same time.
+
+[OctaDist-PyPI-link]: https://pypi.org/project/octadist/
+
+The following commands might be useful:
 - Install program: 
   ```
   pip install octadist
@@ -95,7 +103,10 @@ The following commands are useful:
   pip install --upgrade octadist==2.5.1
   ```
 
-More details on installing Python package is [here](https://packaging.python.org/tutorials/installing-packages/).
+More details on installing Python package can be found its official website: 
+[https://packaging.python.org/tutorials/installing-packages/][Packaging-Python-link].
+
+[Packaging-Python-link]: https://packaging.python.org/tutorials/installing-packages/
 
 ### Anaconda 
 
@@ -104,7 +115,10 @@ More details on installing Python package is [here](https://packaging.python.org
 [Conda-badge]: https://anaconda.org/rangsiman/octadist/badges/version.svg
 [Conda-link]: https://anaconda.org/rangsiman/octadist
 
-OctaDist on Anaconda cloud server is available at [https://anaconda.org/rangsiman/octadist](https://anaconda.org/rangsiman/octadist). 
+OctaDist is also available on Anaconda cloud server.
+The channel of OctaDist is at [https://anaconda.org/rangsiman/octadist][OctaDist-Conda].
+
+[OctaDist-Conda]: https://anaconda.org/rangsiman/octadist 
 
 It can be installed on system using command.
 
@@ -112,6 +126,9 @@ It can be installed on system using command.
 conda install -c rangsiman octadist 
 ```
 
-The platforms that OctaDist-Conda supported: [![Anaconda-Server Badge](https://anaconda.org/rangsiman/octadist/badges/platforms.svg)](https://anaconda.org/rangsiman/octadist)
+The platforms that OctaDist-Conda supported: [![Anaconda-Server Badge][Conda-platform-badge]][Conda-platform-link]
+
+[Conda-platform-badge]: https://anaconda.org/rangsiman/octadist/badges/platforms.svg
+[Conda-platform-link]: https://anaconda.org/rangsiman/octadist
 
 [back to homepage](./) | [manual](./manual.md)

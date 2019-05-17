@@ -9,8 +9,9 @@ layout: default
 ### Why OctaDist?
 
 Octahedral complex can be simply classified into two types: regular and distorted octahedron. 
-The complexes with regular octahedral geometry (perfect octahedron) are expected to form, when all of the ligands are of the same kind. 
-In contrast, if the ligands are of different kinds, the complex would turns the distorted octahedron instead. 
+The complexes with regular octahedral geometry (perfect octahedron) are expected to form, 
+when all of the ligands are of the same kind. In contrast, if the ligands are of different kinds, 
+the complex would turns the distorted octahedron instead. 
 Octahedral distortion parameters has been widely used for determining the change of the distortion of the complexes. 
 
 Even though the people in community generally calculate the octahedral distortion parameters for their complexes, 
@@ -20,11 +21,12 @@ Therefore, we present the OctaDist program as a choice for those who are interes
 ### Availability
 
 OctaDist is an user-friendly computer software for crystallography and inorganic chemistry. 
-It is mainly used for computing octahedral distortion parameters of octahedral molecular geometry, for instance, spin crossover coordination complex and magnetic metal complex.
+It is mainly used for computing octahedral distortion parameters of octahedral molecular geometry, 
+for instance, spin crossover coordination complex and magnetic metal complex.
 
-OctaDist is written entirely in Python 3 binding to Tkinter graphical user interface toolkit. 
-It is a cross-platform program, which is available for Windows, macOS, and Linux. 
-The source and executable code of OctaDist are open-source and freely distributed under a GNU General Public License (GPL) 3.0.
+OctaDist is a cross-platform program, which is available for Windows, Linux, and macOS. 
+Both of the source and executable code of OctaDist are open-source and freely distributed 
+under a GNU General Public License (GPL) version 3.0.
 So everybody can use or/and redistribute it under the terms of agreement of the license.
 
 ### External links

@@ -9,17 +9,19 @@ layout: default
 ### Introduction
 
 OctaDist is written entirely in Python 3 binding to Tkinter GUI platform. 
-It has two sub-projects which they are developed for different purpose: 
-a graphical user interface (GUI) and a command line interface (CLI) versions. 
+In fact, it can be divided into two versions as different types of uses: 
+a graphical user interface (GUI) version and a command line interface (CLI) version. 
 The former is mainly developed for the end-users, who are not familiar with Linux command, 
-while the latter is appropriate the users and programmer who are working with CLI. 
+while the latter is appropriate for the end-users and programmer who are working with CLI, 
+for example, on Linux or macOS. 
 
-It is available for on Windows OS, macOS, and Linux OS for 32/64-bit system. 
+It is available for on Windows, Linux, and macOS for 32/64-bit systems. 
 
 ### Code maintenance
 
 The source code of OctaDist is maintained on Github version control system. 
-Both  master revision and nightly development build have being tested and deployed on [Travis CI](https://travis-ci.org/), a continuous integration service. 
+Both master revision and nightly development build have being tested and deployed on 
+[Travis CI](https://travis-ci.org/), a continuous integration service. 
 
 ### Contribution
 

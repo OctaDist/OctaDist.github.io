@@ -17,17 +17,22 @@ the [Switchable Molecules and Materials][SWM] group at University of Bordeaux, F
 
 **List of authors**
 
-1. [Rangsiman Ketkaew](https://sites.google.com/site/rangsiman1993) (Thammasat University, Thailand) 
-    - E-mail: rangsiman1993@gmail.com
-2. [Yuthana Tantirungrotechai](https://sites.google.com/site/compchem403/people/faculty/yuthana) (Thammasat University, Thailand)
-    - E-mail: yt203y@gmail.com
-3. [David J. Harding](https://www.funtechwu.com/david-j-harding) (Walailak University, Thailand)
-    - E-mail: hdavid@mail.wu.ac.th
-4. [Phimphaka Harding](https://www.funtechwu.com/phimphaka-harding) (Walailak University, Thailand)
-    - E-mail: kphimpha@mail.wu.ac.th
-5. [Mathieu Marchivie](http://www.icmcb-bordeaux.cnrs.fr/spip.php?article562&lang=fr) (Universite of Bordeaux, France)
-    - E-mail: mathieu.marchivie@icmcb.cnrs.fr
-
+- [Rangsiman Ketkaew][RK-website] (Thammasat University, Thailand) 
+  - E-mail: rangsiman1993@gmail.com
+- [Yuthana Tantirungrotechai][YT-website] (Thammasat University, Thailand)
+  - E-mail: yt203y@gmail.com
+- [David J. Harding][DH-website] (Walailak University, Thailand)
+  - E-mail: hdavid@mail.wu.ac.th
+- [Phimphaka Harding][PH-website] (Walailak University, Thailand)
+  - E-mail: kphimpha@mail.wu.ac.th
+- [Mathieu Marchivie][MM-website] (Université de Bordeaux, France)
+  - E-mail: mathieu.marchivie@icmcb.cnrs.fr
+  
+[RK-website]: https://sites.google.com/site/rangsiman1993
+[YT-website]: https://sites.google.com/site/compchem403/people/faculty/yuthana
+[DH-website]: https://www.funtechwu.com/david-j-harding
+[PH-website]: https://www.funtechwu.com/phimphaka-harding
+[MM-website]: http://www.icmcb-bordeaux.cnrs.fr/spip.php?article562
 
 
 [back to homepage](./) | [manual](./manual.md)

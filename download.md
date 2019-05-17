@@ -30,13 +30,14 @@ Program source code: [Github repository][Github-link]
 
 ### Nightly development build
 
-An active development build can be downloaded at [Dev-build (zip)][Dev-link].
+An on-going development build can be downloaded at [Dev-build (zip)][Dev-link].
+To install it on your system via pip, use following command:
+
+[Dev-link]: https://github.com/OctaDist/OctaDist/archive/nightly-build.zip
 
 ```
 pip install https://github.com/OctaDist/OctaDist/archive/nightly-build.zip
 ```
-
-[Dev-link]: https://github.com/OctaDist/OctaDist/archive/nightly-build.zip
 
 See [Development](./development.md) for more details.
 
