@@ -24,7 +24,7 @@ layout: default
 
 [2.5.2]: https://github.com/OctaDist/OctaDist/releases/tag/v.2.5.2
 [2.5.1]: https://github.com/OctaDist/OctaDist/releases/tag/v.2.5.1
-[2.5]: https://github.com/OctaDist/OctaDist/releases/tag/v.2.5.0
+[2.5.0]: https://github.com/OctaDist/OctaDist/releases/tag/v.2.5.0
 [2.4]: https://github.com/OctaDist/OctaDist/releases/tag/v.2.4
 [2.3-beta]: https://github.com/OctaDist/OctaDist/releases/tag/v.2.3-beta
 [2.3-alpha]: https://github.com/OctaDist/OctaDist/releases/tag/v.2.3-alpha
