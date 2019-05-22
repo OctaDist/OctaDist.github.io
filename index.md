@@ -19,6 +19,7 @@ such as perovskite and metal-organic framework (MOF).
 - [Download](./download.md)
 - [Manual](./manual.md)
 - [Screenshots](./screenshots.md)
+- [Release archives](release-archives.md)
 - [Development](./development.md)
 
 ## Status

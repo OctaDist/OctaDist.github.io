@@ -37,9 +37,9 @@ pip install https://github.com/OctaDist/OctaDist/archive/nightly-build.zip
 
 See [Development](./development.md) for more details.
 
-### Older version releases
+### All version release
 
-The source code and executable of older versions and release notes can be found at 
+The source code and executable of all version and release note can be found at 
 [Release archives](release-archives.md).
 
 
