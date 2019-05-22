@@ -6,10 +6,11 @@ layout: default
 ## Manual
 ***
 
-Reference document: [HTML][HTML-Link] | [PDF][PDF-Link]
+Reference document: [HTML][HTML-Link] | [PDF][PDF-Link] | [Epub][Epub-Link]
 
-[HTML-Link]: 
-[PDF-Link]: 
+[HTML-Link]: https://octadist.readthedocs.io/en/v.2.5.3/
+[PDF-Link]: https://buildmedia.readthedocs.org/media/pdf/octadist/v.2.5.3/octadist.pdf
+[Epub-Link]: https://readthedocs.org/projects/octadist/downloads/epub/v.2.5.3/
 
 - [Distortion parameters](./distortion-parameters.md)
 
