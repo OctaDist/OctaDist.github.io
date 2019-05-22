@@ -6,6 +6,11 @@ layout: default
 ## Manual
 ***
 
+Reference document: [HTML][HTML-Link] | [PDF][PDF-Link]
+
+[HTML-Link]: 
+[PDF-Link]: 
+
 - [Distortion parameters](./distortion-parameters.md)
 
 - [Installing](./installing.md)
