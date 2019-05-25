@@ -25,7 +25,7 @@ the [Switchable Molecules and Materials][SWM] group at University of Bordeaux, F
   - E-mail: hdavid@mail.wu.ac.th
 - [Phimphaka Harding][PH-website] (Walailak University, Thailand)
   - E-mail: kphimpha@mail.wu.ac.th
-- [Mathieu Marchivie][MM-website] (Université de Bordeaux, France)
+- [Mathieu Marchivie][MM-website] (University of Bordeaux, France)
   - E-mail: mathieu.marchivie@icmcb.cnrs.fr
   
 [RK-website]: https://sites.google.com/site/rangsiman1993
