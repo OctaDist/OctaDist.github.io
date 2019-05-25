@@ -6,11 +6,17 @@ layout: default
 ## Manual
 ***
 
-Reference document: [HTML][HTML-Link] / [PDF][PDF-Link] / [Epub][Epub-Link]
+OctaDist GUI Reference docs: [HTML][GUI-HTML-Link] / [PDF][GUI-PDF-Link] / [Epub][GUI-Epub-Link]
 
-[HTML-Link]: https://octadist.readthedocs.io/en/latest/
-[PDF-Link]: https://buildmedia.readthedocs.org/media/pdf/octadist/latest/octadist.pdf
-[Epub-Link]: https://readthedocs.org/projects/octadist/downloads/epub/latest/
+OctaDist CLI Reference docs: [HTML][CLI-HTML-Link] / [PDF][CLI-PDF-Link] / [Epub][CLI-Epub-Link]
+
+[GUI-HTML-Link]: https://octadist.readthedocs.io/en/latest/
+[GUI-PDF-Link]: https://readthedocs.org/projects/octadist/downloads/pdf/latest/
+[GUI-Epub-Link]: https://readthedocs.org/projects/octadist/downloads/epub/latest/
+
+[CLI-HTML-Link]: https://octadist-pypi.readthedocs.io/en/latest/
+[CLI-PDF-Link]: https://readthedocs.org/projects/octadist-pypi/downloads/pdf/latest/
+[CLI-Epub-Link]: https://readthedocs.org/projects/octadist-pypi/downloads/epub/latest/
 
 - [Distortion parameters](./distortion-parameters.md)
 
