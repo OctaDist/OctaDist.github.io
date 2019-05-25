@@ -8,9 +8,9 @@ layout: default
 
 Reference document: [HTML][HTML-Link] / [PDF][PDF-Link] / [Epub][Epub-Link]
 
-[HTML-Link]: https://octadist.readthedocs.io/en/v.2.5.3/
-[PDF-Link]: https://buildmedia.readthedocs.org/media/pdf/octadist/v.2.5.3/octadist.pdf
-[Epub-Link]: https://readthedocs.org/projects/octadist/downloads/epub/v.2.5.3/
+[HTML-Link]: https://octadist.readthedocs.io/en/latest/
+[PDF-Link]: https://buildmedia.readthedocs.org/media/pdf/octadist/latest/octadist.pdf
+[Epub-Link]: https://readthedocs.org/projects/octadist/downloads/epub/latest/
 
 - [Distortion parameters](./distortion-parameters.md)
 
