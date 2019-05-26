@@ -9,7 +9,7 @@ layout: default
 ### Introduction
 
 OctaDist is written entirely in Python 3 binding to Tkinter GUI platform. 
-It is available for on Windows, Linux, and macOS for 32/64-bit systems. 
+It is available for Windows, Linux, and macOS for both 32-bit and 64-bit systems. 
 It is divided into two versions as different types of uses: 
 a graphical user interface (GUI) version and a command line interface (CLI) version. 
 The former is mainly developed for the end-users, who are not familiar with Linux command, 
@@ -52,6 +52,20 @@ We appreciate all help and contribution in getting program development.
 | tools      | 3rd-party library |
 | util       | Utilities |
 | popup      | Error, warning, and info messages |
+
+### Documents
+
+OctaDist GUI Reference docs: [HTML][GUI-HTML-Link] / [PDF][GUI-PDF-Link] / [Epub][GUI-Epub-Link]
+
+OctaDist CLI Reference docs: [HTML][CLI-HTML-Link] / [PDF][CLI-PDF-Link] / [Epub][CLI-Epub-Link]
+
+[GUI-HTML-Link]: https://octadist.readthedocs.io/en/latest/
+[GUI-PDF-Link]: https://readthedocs.org/projects/octadist/downloads/pdf/latest/
+[GUI-Epub-Link]: https://readthedocs.org/projects/octadist/downloads/epub/latest/
+
+[CLI-HTML-Link]: https://octadist-pypi.readthedocs.io/en/latest/
+[CLI-PDF-Link]: https://readthedocs.org/projects/octadist-pypi/downloads/pdf/latest/
+[CLI-Epub-Link]: https://readthedocs.org/projects/octadist-pypi/downloads/epub/latest/
 
 ### Prerequisites
 ***
