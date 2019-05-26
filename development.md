@@ -76,17 +76,12 @@ OctaDist supports Python 3.5+. For using the program as CLI, you can use followi
 python -v
 ```
 
-The following external libraries are required for OctaDist for GUI and CLI (PyPI):
+The 3rd party libraries are required for OctaDist for GUI and CLI (PyPI) are following:
 
 ```
 numpy
 scipy
 matplotlib
-```
-
-Additional 3rd-party library that used in OctaDist GUI version:
-
-```
 rmsd
 ```
 
