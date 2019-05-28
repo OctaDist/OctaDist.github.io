@@ -22,6 +22,8 @@ OctaDist CLI Reference docs: [HTML][CLI-HTML-Link] / [PDF][CLI-PDF-Link] / [Epub
 
 - [Installing](./installing.md)
 
+- [Error and Fixing](./error-and-fixing.md)
+
 - [Supported file formats](./supported-file-formats.md)
 
 - [Running the tests](running-the-tests.md)
