@@ -30,9 +30,10 @@ layout: default
   - Least-squares plane of selected ligand atoms
   - Jahn-Teller distortion parameters
   
-### Flexibilities
+### Capability
   - User-friendly graphical user interface (GUI)
-  - User-adjusted program setting
+  - User-adjustable program setting
+  - Simple and flexible process of use
   - Support for multiple input files and multiple metal center atoms in complex
   - Support for several output of computational chemistry software, including Gaussian, Q-Chem, ORCA, and NWChem
 
