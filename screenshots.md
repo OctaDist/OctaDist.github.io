@@ -5,11 +5,11 @@ layout: default
 
 ## Screenshots
 ***
-### Program GUI
+### Program Interface
 
-|            Program UI            |         Console window        |
-|:--------------------------------:|:-----------------------------:|
-|![](images/Capture_Program.png)   | ![](images/Capture_Window.png)| 
+|         User Interface           | Using IPython for interactive work |
+|:--------------------------------:|:----------------------------------:|
+|![](images/screenshot_main.png)   |![](images/screenshot_cli.png)      |
 
 ### Display of metal complexes and selected octahedral structures
 
