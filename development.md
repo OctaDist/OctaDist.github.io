@@ -23,10 +23,12 @@ Both master revision and nightly development build have being tested and deploye
 [Travis CI](https://travis-ci.org/), a continuous integration service. 
 
 Program source code on Github: 
-- [OctaDist GUI : github.com/OctaDist/OctaDist][Github-GUI-link]
+- [OctaDist GUI (master): github.com/OctaDist/OctaDist][Github-GUI-master-link]
+- [OctaDist GUI (dev): github.com/OctaDist/OctaDist/tree/nightly-build][Github-GUI-dev-link]
 - [OctaDist CLI : github.com/OctaDist/OctaDist-PyPI][Github-CLI-link]
 
-[Github-GUI-link]: https://github.com/OctaDist/OctaDist
+[Github-GUI-master-link]: https://github.com/OctaDist/OctaDist
+[Github-GUI-dev-link]: https://github.com/OctaDist/OctaDist/tree/nightly-build
 [Github-CLI-link]: https://github.com/OctaDist/OctaDist-PyPI
 
 ### Contribution
