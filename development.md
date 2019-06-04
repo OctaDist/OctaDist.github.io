@@ -20,13 +20,14 @@ for example, on Linux or macOS.
 
 The source code of OctaDist is maintained on Github version control system. 
 Both master revision and nightly development build have being tested and deployed on 
-[Travis CI](https://travis-ci.org/), a continuous integration service. 
+[Travis CI][Travis-link], a continuous integration service. 
 
 Program source code on Github: 
 - [OctaDist GUI (master): github.com/OctaDist/OctaDist][Github-GUI-master-link]
 - [OctaDist GUI (dev): github.com/OctaDist/OctaDist/tree/nightly-build][Github-GUI-dev-link]
 - [OctaDist CLI : github.com/OctaDist/OctaDist-PyPI][Github-CLI-link]
 
+[Travis-link]: https://travis-ci.org/OctaDist/OctaDist
 [Github-GUI-master-link]: https://github.com/OctaDist/OctaDist
 [Github-GUI-dev-link]: https://github.com/OctaDist/OctaDist/tree/nightly-build
 [Github-CLI-link]: https://github.com/OctaDist/OctaDist-PyPI
