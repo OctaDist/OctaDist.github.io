@@ -9,7 +9,7 @@ layout: default
 
 |         User Interface           | Using IPython for interactive work |
 |:--------------------------------:|:----------------------------------:|
-|![](images/screenshot_main.png)   |![](images/screenshot_cli.png)      |
+|![](images/Screenshots_GUI.png)   |![](images/Screenshots_CLI.png)      |
 
 ### Display of metal complexes and selected octahedral structures
 
