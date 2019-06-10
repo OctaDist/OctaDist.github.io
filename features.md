@@ -14,7 +14,6 @@ layout: default
     - Angle distortion: ![](https://latex.codecogs.com/svg.Latex?%5CSigma)
     - Torsional distortion: ![](https://latex.codecogs.com/svg.Latex?%5CTheta)
   - Tilting distortion parameter: ![](https://latex.codecogs.com/svg.Latex?%5CDelta)
-  - Root-mean-square deviation of atomic positions (RMSD)
 
 ### Molecular visualizations
   - 3D modelling of complex
@@ -23,12 +22,14 @@ layout: default
   - Twisting triangular faces
   - Molecular superposition (Overlay)
   
-### Other utilities
+### Tools and Utilities
   - Structural parameters
   - Surface area
+  - Scripting Run supported
   - Relationship plot between parameters
   - Least-squares plane of selected ligand atoms
   - Jahn-Teller distortion parameters
+  - Root-mean-square deviation of atomic positions (RMSD)
   
 ### Capability
   - User-friendly graphical user interface (GUI)
