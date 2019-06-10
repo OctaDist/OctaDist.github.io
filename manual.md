@@ -6,7 +6,7 @@ layout: default
 ## Manual
 ***
 
-OctaDist GUI Reference docs: [HTML][HTML-Link] / [PDF][PDF-Link] / [Epub][Epub-Link]
+OctaDist Reference docs: [HTML][HTML-Link] / [PDF][PDF-Link] / [Epub][Epub-Link]
 
 [HTML-Link]: https://octadist.readthedocs.io/en/latest/
 [PDF-Link]: https://readthedocs.org/projects/octadist/downloads/pdf/latest/
