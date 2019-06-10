@@ -14,10 +14,6 @@ OctaDist CLI Reference docs: [HTML][CLI-HTML-Link] / [PDF][CLI-PDF-Link] / [Epub
 [GUI-PDF-Link]: https://readthedocs.org/projects/octadist/downloads/pdf/latest/
 [GUI-Epub-Link]: https://readthedocs.org/projects/octadist/downloads/epub/latest/
 
-[CLI-HTML-Link]: https://octadist-pypi.readthedocs.io/en/latest/
-[CLI-PDF-Link]: https://readthedocs.org/projects/octadist-pypi/downloads/pdf/latest/
-[CLI-Epub-Link]: https://readthedocs.org/projects/octadist-pypi/downloads/epub/latest/
-
 - [Distortion parameters](./distortion-parameters.md)
 
 - [Installing](./installing.md)

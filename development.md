@@ -10,27 +10,24 @@ layout: default
 
 OctaDist is written entirely in Python 3 binding to Tkinter GUI platform. 
 It is available for Windows, Linux, and macOS for both 32-bit and 64-bit systems. 
-It is divided into two versions as different types of uses: 
-a graphical user interface (GUI) version and a command line interface (CLI) version. 
-The former is mainly developed for the end-users, who are not familiar with Linux command, 
-while the latter is appropriate for the end-users and programmer who are working with CLI, 
-for example, on Linux or macOS. 
+It supports both of the graphical user interface (GUI) and the command line interface (CLI). 
+The first one is usually suitable for the end-users who are not familiar with Linux command, 
+while the latter is for those who are working with CLI such as Linux users. 
 
 ### Code maintenance
 
-The source code of OctaDist is maintained on Github version control system. 
+The source code of OctaDist has been being maintained on Github version control system. 
 Both master revision and nightly development build have being tested and deployed on 
 [Travis CI][Travis-link], a continuous integration service. 
 
-Program source code on Github: 
-- [OctaDist GUI (master): github.com/OctaDist/OctaDist][Github-GUI-master-link]
-- [OctaDist GUI (dev): github.com/OctaDist/OctaDist/tree/nightly-build][Github-GUI-dev-link]
-- [OctaDist CLI : github.com/OctaDist/OctaDist-PyPI][Github-CLI-link]
-
 [Travis-link]: https://travis-ci.org/OctaDist/OctaDist
-[Github-GUI-master-link]: https://github.com/OctaDist/OctaDist
-[Github-GUI-dev-link]: https://github.com/OctaDist/OctaDist/tree/nightly-build
-[Github-CLI-link]: https://github.com/OctaDist/OctaDist-PyPI
+
+Program source code on Github: 
+- [OctaDist Master: github.com/OctaDist/OctaDist][OctaDist-master-link]
+- [OctaDist Dev): github.com/OctaDist/OctaDist/tree/nightly-build][OctaDist-dev-link]
+
+[OctaDist-master-link]: https://github.com/OctaDist/OctaDist
+[OctaDist-dev-link]: https://github.com/OctaDist/OctaDist/tree/nightly-build
 
 ### Contribution
 
@@ -43,39 +40,34 @@ We appreciate all help and contribution in getting program development.
 
 | Module     | Description       |
 | ---------- | ----------------- |
-| main       | Main program |
-| coord      | Manipulating atomic coordinates |
-| elements   | Atomic properties |
-| calc       | Calculating distortion parameters |
-| linear     | Built-in mathematical functions |
-| projection | 2D & 3D vector projections |
-| plot       | Plotting graph and chart |
-| plane      | Manipulate projection plane |
-| draw       | Displaying molecule |
-| tools      | 3rd-party library |
-| util       | Utilities |
-| popup      | Error, warning, and info messages |
+| main       |  Main program |
+| calc       |  Calculating distortion parameters |
+| molecule   |  Manipulating atomic coordinates |
+| draw       |  Displaying molecule |
+| elements   |  Atomic properties |
+| linear     |  Built-in mathematical functions |
+| plane      |  Manipulate projection plane |
+| plot       |  Plotting graph and chart |
+| popup      |  Error, warning, and info messages |
+| projection |  2D & 3D vector projections |
+| structure  |  All data about structure |
+| tools      |  Analysis tools by 3rd-party libraries |
+| util       |  Frequently-used functions e.g. find atomic bonds |
 
 ### Documents
 
-OctaDist GUI Reference docs: [HTML][GUI-HTML-Link] / [PDF][GUI-PDF-Link] / [Epub][GUI-Epub-Link]
+OctaDist Nightly Dev Reference docs: [HTML][Dev-HTML-Link] / [PDF][Dev-PDF-Link] / [Epub][Dev-Epub-Link]
 
-OctaDist CLI Reference docs: [HTML][CLI-HTML-Link] / [PDF][CLI-PDF-Link] / [Epub][CLI-Epub-Link]
-
-[GUI-HTML-Link]: https://octadist.readthedocs.io/en/latest/
-[GUI-PDF-Link]: https://readthedocs.org/projects/octadist/downloads/pdf/latest/
-[GUI-Epub-Link]: https://readthedocs.org/projects/octadist/downloads/epub/latest/
-
-[CLI-HTML-Link]: https://octadist-pypi.readthedocs.io/en/latest/
-[CLI-PDF-Link]: https://readthedocs.org/projects/octadist-pypi/downloads/pdf/latest/
-[CLI-Epub-Link]: https://readthedocs.org/projects/octadist-pypi/downloads/epub/latest/
+[Dev-HTML-Link]: https://octadist.readthedocs.io/en/nightly-build/
+[Dev-PDF-Link]: https://readthedocs.org/projects/octadist/downloads/pdf/nightly-build/
+[Dev-Epub-Link]: https://readthedocs.org/projects/octadist/downloads/epub/nightly-build/
 
 ### Prerequisites
 ***
 
 OctaDist supports Python 3.5+. For using the program as CLI, you can use following command to check the version of your current Python:
 
-```
+```sh
 python -v
 ```
 
@@ -95,24 +87,24 @@ OctaDist source code can be compiled to executable easily using [PyInstaller](ht
 
 Compilation instruction
 1. Upgrade pip
-   ```
-   pip install --upgrade pip
+   ```sh
+   pip install --upgrade --user pip
    ```
 2. Install PyInstaller:
-   ```
-   pip install pyinstaller
+   ```sh
+   pip install --user pyinstaller
    ```
 3. Check the version of PyInstaller:
-   ```
+   ```sh
    pyinstaller --version
    ```
 4. Change directory to `./octadist` directory, `where main.py` is:
-   ```
+   ```sh
    cd OctaDist-XXX/octadist/
    ```
-5. Compile a standalone, like this:
-   ```
-   pyinstaller --onefile -i molecule.ico main.py
+5. Compile a standalone executable, like this:
+   ```sh
+   pyinstaller --onefile -windowed -i molecule.ico -n OctaDist main.py
    ```
    Additionally useful option for compilation can be found at PyInstaller manual.
 6. The standalone executable will be build in `dist` directory
