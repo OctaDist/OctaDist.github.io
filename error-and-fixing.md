@@ -14,7 +14,7 @@ layout: default
    2. Under Virus & threat protection settings select Manage settings
    3. Under Exclusions, select Add or remove exclusions
    4. Select Add exclusion and specify the name of OctaDist executable, for example, 
-      **"OctaDist-2.5.3-Win-x86-64.exe"** process for OctaDist. 
+      **"OctaDist-2.5.4-Win-x86-64.exe"** process for OctaDist. 
    5. Close OctaDist and run it again.
 
 2. If program crashes with confusing errors messages, you may need to set `MPLBACKEND` environment variable 
