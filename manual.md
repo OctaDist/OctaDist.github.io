@@ -6,13 +6,11 @@ layout: default
 ## Manual
 ***
 
-OctaDist GUI Reference docs: [HTML][GUI-HTML-Link] / [PDF][GUI-PDF-Link] / [Epub][GUI-Epub-Link]
+OctaDist GUI Reference docs: [HTML][HTML-Link] / [PDF][PDF-Link] / [Epub][Epub-Link]
 
-OctaDist CLI Reference docs: [HTML][CLI-HTML-Link] / [PDF][CLI-PDF-Link] / [Epub][CLI-Epub-Link]
-
-[GUI-HTML-Link]: https://octadist.readthedocs.io/en/latest/
-[GUI-PDF-Link]: https://readthedocs.org/projects/octadist/downloads/pdf/latest/
-[GUI-Epub-Link]: https://readthedocs.org/projects/octadist/downloads/epub/latest/
+[HTML-Link]: https://octadist.readthedocs.io/en/latest/
+[PDF-Link]: https://readthedocs.org/projects/octadist/downloads/pdf/latest/
+[Epub-Link]: https://readthedocs.org/projects/octadist/downloads/epub/latest/
 
 - [Distortion parameters](./distortion-parameters.md)
 

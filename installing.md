@@ -23,7 +23,7 @@ For first time using OctaDist, you should run the program as an administrator wi
 Changing property of program can be completed in a few steps as follows:
 
 1. Download program executable (\*.exe) to your machine.
-   ```
+   ```sh
    OctaDist-2.5.4-Win-x86-64.exe
    ```
 2. Right click on program icon and select **`Run as administrator`**.
@@ -34,19 +34,19 @@ Changing property of program can be completed in a few steps as follows:
 
 1. Download the source code (*.tar.gz) to your machine, for example, at **`Download`** directory.
 2. Uncompress the tarball, using **`tar`**: 
-   ```
+   ```sh
    tar -xzvf OctaDist-2.5.4-Linux-x86-64.tar.gz
    ```
 3. Move to OctaDist root directory, using **`cd`**:
-   ```
+   ```sh
    cd OctaDist-2.5.4-Linux-x86-64
    ```
 4. Check if your system has all dependencies for OctaDist:
-   ```
+   ```sh
    python CheckPyModule.py
    ```
 5. Execute program as a package (note that you have to stay outside **`octadist`** directory):
-   ```
+   ```sh
    python -m octadist.Run
    ```
 
@@ -57,23 +57,23 @@ Installing and running the program on Mac are the same as Linux.
 1. Download the source code (*.tar.gz) to your machine, for example, at **`Download`** directory.
 2. Press Command - spacebar to launch Spotlight and type "*Terminal*", then double-click the search result.
 3. Uncompress the tarball, using **`tar`**: 
-   ```
+   ```sh
    tar -xzvf OctaDist-2.5.4-macOS-x86-64.tar.gz
    ```
 4. Move to OctaDist root directory, using **`cd`**:
-   ```
+   ```sh
    cd OctaDist-2.5.4-macOS-x86-64
    ```
 5. Check if your system has all dependencies for OctaDist:
-   ```
+   ```sh
    python CheckPyModule.py
    ```
 6. Set `TkAgg` backend environment variable to prevent the dependencies error:
-   ```
+   ```sh
    export MPLBACKEND=TkAgg
    ``` 
 7. Execute program (you have to stay outside **`octadist`** directory):
-   ```
+   ```sh
    python -m octadist.Run
    ```
 
@@ -94,15 +94,15 @@ to find and install OctaDist and other dependencies at the same time.
 
 The following commands might be useful:
 - Install program: 
-  ```
+  ```sh
   pip install octadist
   ```
 - Upgrade to the latest version: 
-  ```
+  ```sh
   pip install --upgrade octadist
   ```
 - Downgrade to a certain version, for example, version 2.5.4:
-  ```
+  ```sh
   pip install --upgrade octadist==2.5.4
   ```
 
