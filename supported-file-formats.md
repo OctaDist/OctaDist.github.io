@@ -13,9 +13,9 @@ File extension: [*.xyz](https://en.wikipedia.org/wiki/XYZ_file_format)
    ```
    <number of atoms>
    comment line
-   <element 1> <X> <Y> <Z>        # metal atom
-   <element 2> <X> <Y> <Z>
-   <element 3> <X> <Y> <Z>
+   <element 1>  <X> <Y> <Z>        # metal atom
+   <element 2>  <X> <Y> <Z>
+   <element 3>  <X> <Y> <Z>
    ...
    ```
 
