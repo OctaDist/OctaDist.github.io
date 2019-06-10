@@ -8,11 +8,9 @@ layout: default
 ***
 
 This section shows how OctaDist can be used for computing the distortion parameters step by step.
-OctaDist has two versions based on purpose of use: a graphical user interface (GUI) and command line interface (CLU).
-The former is designed for the end-user who do not familiar with command lines, 
-while the latter is for Linux (and Mac) users, especially the developer who want to implement OctaDist into their software.
+OctaDist can be used as a graphical user interface (GUI) and a command line interface (CLU).
 
-Input examples can be found at [example-input](https://github.com/OctaDist/OctaDist.github.io/tree/master/example-input).
+Examples of coordinates files can be found at [example-input](https://github.com/OctaDist/OctaDist.github.io/tree/master/example-input).
 
 ***
 
@@ -35,78 +33,94 @@ Input examples can be found at [example-input](https://github.com/OctaDist/OctaD
 1. Click **`Browse file`**, choose one or multiple input files, then click **`Open`**.
 
     <p align="center">
-    <img alt="browse-file" src="images/octadist-browse-file.png" class="inline" align="middle" width="200pt" />
+    <img alt="browse-file" src="images/octadist-browse-file.png" 
+    class="inline" 
+    align="middle" 
+    width="200pt" />
     <p/>
    
 2. OctaDist will check file format and extract atomic coordinates, and show the data on a result box.
 
     <p align="center">
-    <img alt="browse-file" src="images/octadist-show-coord.png" class="inline" align="middle" width="400pt" />
+    <img alt="browse-file" src="images/octadist-show-coord.png" 
+    class="inline" 
+    align="middle" 
+    width="400pt" />
     <p/>
 
 3. If yes, then click **`Compute`**.
 
     <p align="center">
-    <img alt="browse-file" src="images/octadist-compute.png" class="inline" align="middle" width="200pt" />
+    <img alt="browse-file" src="images/octadist-compute.png" 
+    class="inline" 
+    align="middle" 
+    width="200pt" />
     <p/>
 
 4. The computed parameters will be shown in output box.
 
     <p align="center">
-    <img alt="browse-file" src="images/octadist-show-result.png" class="inline" align="middle" width="200pt" />
+    <img alt="browse-file" src="images/octadist-show-result.png" 
+    class="inline" 
+    align="middle" 
+    width="200pt" />
     <p/>
 
 5. To save the results, click **`File`**, then **`Save results`**.
 
     <p align="center">
-    <img alt="browse-file" src="images/octadist-save-result.png" class="inline" align="middle" width="200pt" />
+    <img alt="browse-file" src="images/octadist-save-result.png" 
+    class="inline" 
+    align="middle" 
+    width="200pt" />
     <p/>
 
 ### OctaDist - CLI
 
-Example scripts are available at [here](https://github.com/OctaDist/OctaDist-PyPI/tree/master/example-py).
+Example scripts are available at [here](https://github.com/OctaDist/OctaDist/tree/master/example-py).
 
 1. Install OctaDist using  **`pip`** or **`conda`** (see [installing](installing.md) for details).
 
-2. Prepare lists of atomic labels and coordinates of octahedral structure
+2. Prepare lists of atomic labels and coordinates of octahedral structure, for example:
 
     ```python
     atom = ['Fe', 'O', 'O', 'N', 'N', 'N', 'N']
     
-    coor = [[2.298354000, 5.161785000, 7.971898000],
-            [1.885657000, 4.804777000, 6.183726000],
-            [1.747515000, 6.960963000, 7.932784000],
-            [4.094380000, 5.807257000, 7.588689000],
-            [0.539005000, 4.482809000, 8.460004000],
-            [2.812425000, 3.266553000, 8.131637000],
-            [2.886404000, 5.392925000, 9.848966000]]
+    coord = [[2.298354000, 5.161785000, 7.971898000],
+             [1.885657000, 4.804777000, 6.183726000],
+             [1.747515000, 6.960963000, 7.932784000],
+             [4.094380000, 5.807257000, 7.588689000],
+             [0.539005000, 4.482809000, 8.460004000],
+             [2.812425000, 3.266553000, 8.131637000],
+             [2.886404000, 5.392925000, 9.848966000]]
     ```
 
-    or you can use **`extract_octa`** method in **`coord`** module to open and read input file at the same time, it will also extract the octahedral structure from full complex.
-    For example, input file **`full/path/of/input/file/Multiple-metals.xyz`**
-    (other example input files are available at [here](https://github.com/OctaDist/OctaDist-PyPI/tree/master/example-input)):
+    otherwise, you can use **`extract_octa`** method in **`molecule`** module 
+    to extract the coordinates of octahedral structure of interest from input file.
+    For example, suppose that the input file is at **`full/path/of/input/file/Multiple-metals.xyz`**
     
     ```python
-    from octadist import coord
+    from octadist import molecule
     
     file = r"full/path/of/input/file/Multiple-metals.xyz"
-    atom, coor = coord.extract_octa(file)
+    atom, coord = molecule.extract_octa(file)
     ```
     
-3.  Import **`calc`** module for computing the octahedral distortion parameters:
+3.  Import **`calc`** module for computing the octahedral distortion parameters
+    and get the computed parameters:
     
     ```python
     from octadist import calc
-    ```
-    
-4.  Use **`calc_all`** method Calculate all octahedral parameters
 
-    ```python
-    d_mean, zeta, delta, sigma, theta = calc.calc_all(atom, coor)
+    comp_result = calc.CalcDistortion(coord)
+
+    zeta = comp_result.zeta
+    delta = comp_result.delta
+    sigma = comp_result.sigma
+    theta = comp_result.theta
     ```
 
-5.  Print all computed parameters:
-    
+4. Show value of computed distortion parameters:
     ```sh
     All computed parameters
     -----------------------
@@ -124,10 +138,6 @@ Example scripts are available at [here](https://github.com/OctaDist/OctaDist-PyP
 [download code script](./example-py/example_1.py)
 
 ```python
-###################################################
-# Example 1 for running the test on OctaDist PyPI #
-###################################################
-
 import octadist as oc
 
 # The first atom must be metal center atom of octahedral structure.
@@ -143,10 +153,11 @@ coord = [[2.298354000, 5.161785000, 7.971898000],  # <- Metal atom
          [2.812425000, 3.266553000, 8.131637000],
          [2.886404000, 5.392925000, 9.848966000]]
 
-zeta = oc.calc_zeta(coord)             # Zeta
-delta = oc.calc_delta(coord)           # Delta
-sigma = oc.calc_sigma(coord)           # Sigma
-theta = oc.calc_theta(coord)           # Theta
+dist = oc.CalcDistortion(coord)
+zeta = dist.zeta             # Zeta
+delta = dist.delta           # Delta
+sigma = dist.sigma           # Sigma
+theta = dist.theta           # Theta
 
 print("\nAll computed parameters")
 print("-----------------------")
@@ -168,15 +179,11 @@ print("Theta =", theta)
 [download code script](./example-py/example_2.py)
 
 ```python
-###################################################
-# Example 2 for running the test on OctaDist PyPI #
-###################################################
-
 import octadist as oc
 
 atom = ['O', 'O', 'Fe', 'N', 'N', 'N', 'N']
 
-coord = [[1.885657000, 4.804777000, 6.183726000],
+coor = [[1.885657000, 4.804777000, 6.183726000],
          [1.747515000, 6.960963000, 7.932784000],
          [2.298354000, 5.161785000, 7.971898000],  # <- Metal atom
          [4.094380000, 5.807257000, 7.588689000],
@@ -187,12 +194,13 @@ coord = [[1.885657000, 4.804777000, 6.183726000],
 # If the first atom is not metal atom, you can rearrange the sequence
 # of atom in list using coord.extract_octa method.
 
-atom, coord = oc.coord.extract_octa(atom, coord)
+atom_octa, coord_octa = oc.molecule.extract_octa(atom, coor)
 
-zeta = oc.calc.calc_zeta(coord)             # Zeta
-delta = oc.calc.calc_delta(coord)           # Delta
-sigma = oc.calc.calc_sigma(coord)           # Sigma
-theta = oc.calc.calc_theta(coord)           # Theta
+dist = oc.CalcDistortion(coord_octa)
+zeta = dist.zeta             # Zeta
+delta = dist.delta           # Delta
+sigma = dist.sigma           # Sigma
+theta = dist.theta           # Theta
 
 print("\nAll computed parameters")
 print("-----------------------")
@@ -214,10 +222,6 @@ print("Theta =", theta)
 [download code script](./example-py/example_3.py)
 
 ```python
-###################################################
-# Example 3 for running the test on OctaDist PyPI #
-###################################################
-
 import octadist as oc
 
 # You can also import your input file, like this:
@@ -227,13 +231,14 @@ file = r"../example-input/Multiple-metals.xyz"
 # Then use coord.extract_file to extract all atomic symbols and coordinates,
 # and then use coord.extract_octa for taking the octahedral structure.
 
-atom_full, coord_full = oc.coord.extract_file(file)
-atom, coord = oc.coord.extract_octa(atom_full, coord_full)
+atom_full, coord_full = oc.molecule.extract_coord(file)
+atom, coord = oc.molecule.extract_octa(atom_full, coord_full)
 
-zeta = oc.calc.calc_zeta(coord)             # Zeta
-delta = oc.calc.calc_delta(coord)           # Delta
-sigma = oc.calc.calc_sigma(coord)           # Sigma
-theta = oc.calc.calc_theta(coord)           # Theta
+dist = oc.CalcDistortion(coord)
+zeta = dist.zeta             # Zeta
+delta = dist.delta           # Delta
+sigma = dist.sigma           # Sigma
+theta = dist.theta           # Theta
 
 print("\nAll computed parameters")
 print("-----------------------")
@@ -255,27 +260,24 @@ print("Theta =", theta)
 [download code script](./example-py/example_4.py)
 
 ```python
-###################################################
-# Example 4 for running the test on OctaDist PyPI #
-###################################################
-
 import octadist as oc
 
 file = r"../example-input/Multiple-metals.xyz"
 
-atom_full, coor_full = oc.coord.extract_file(file)
+atom_full, coor_full = oc.molecule.extract_coord(file)
 
 # If complex contains metal center more than one, you can specify the index metal
 # whose octahedral structure will be computed.
 # For example, this complex contains three metal atoms: Fe, Ru, and Rd.
 # I add "2" as a second argument for choosing Ru as metal of interest.
 
-atom, coord = oc.coord.extract_octa(atom_full, coor_full, 2)
+atom, coord = oc.molecule.extract_octa(atom_full, coor_full, 2)
 
-zeta = oc.calc.calc_zeta(coord)             # Zeta
-delta = oc.calc.calc_delta(coord)           # Delta
-sigma = oc.calc.calc_sigma(coord)           # Sigma
-theta = oc.calc.calc_theta(coord)           # Theta
+dist = oc.CalcDistortion(coord)
+zeta = dist.zeta             # Zeta
+delta = dist.delta           # Delta
+sigma = dist.sigma           # Sigma
+theta = dist.theta           # Theta
 
 print("\nAll computed parameters")
 print("-----------------------")
@@ -297,18 +299,18 @@ print("Theta =", theta)
 [download code script](./example-py/example_5.py)
 
 ```python
-###################################################
-# Example 5 for running the test on OctaDist PyPI #
-###################################################
-
 import octadist as oc
 
 file = r"../example-input/Multiple-metals.xyz"
 
-atom_full, coord_full = oc.coord.extract_file(file)
+atom_full, coord_full = oc.molecule.extract_coord(file)
 
 # Graphical display for octahedral complex
-oc.draw.all_atom(atom_full, coord_full)
+my_plot = oc.draw.DrawComplex(atom=atom_full, coord=coord_full)
+my_plot.add_atom()
+my_plot.add_bond()
+my_plot.add_legend()
+my_plot.show_plot()
 ```
 
 #### Example 6
@@ -316,21 +318,21 @@ oc.draw.all_atom(atom_full, coord_full)
 [download code script](./example-py/example_6.py)
 
 ```python
-###################################################
-# Example 6 for running the test on OctaDist PyPI #
-###################################################
-
 import octadist as oc
 
 file = r"../example-input/Multiple-metals.xyz"
 
-atom_full, coord_full = oc.coord.extract_file(file)
+atom_full, coord_full = oc.molecule.extract_coord(file)
 
 # Display and automatically save image as .png file with user-specified name
-oc.draw.all_atom(atom_full, coord_full, "complex_octadist")
+my_plot = oc.draw.DrawComplex(atom=atom_full, coord=coord_full)
+my_plot.add_atom()
+my_plot.add_bond()
+my_plot.add_legend()
+my_plot.save_img()
+my_plot.show_plot()
 
-# Output image, complex_octadist.png, is stored at ../images directory
+# Output image, Complex_saved_by_OctaDist.png, is stored at ../images directory
 ```
-
 
 [back to homepage](./) | [manual](./manual.md)
