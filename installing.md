@@ -87,8 +87,11 @@ Installing and running the program on Mac are the same as Linux.
 OctaDist is also available on Python package index (PyPI) library, 
 which can be found at [https://pypi.org/project/octadist/][OctaDist-PyPI-link].
 
+The stable version of OctaDist on PyPI is `2.5.4.5`, 
+which includes bug fixes that are not covered in version `2.5.4`.
+
 The end-user can use `pip`, a Python package-management system, 
-to find and install OctaDist and other dependencies at the same time.
+to find and install OctaDist, and package dependencies at the same time.
 
 [OctaDist-PyPI-link]: https://pypi.org/project/octadist/
 
@@ -96,6 +99,10 @@ The following commands might be useful:
 - Install program: 
   ```sh
   pip install octadist
+  ```
+- Install a certain version:
+  ```sh
+  pip install octadist==2.5.4.5
   ```
 - Upgrade to the latest version: 
   ```sh
@@ -105,11 +112,25 @@ The following commands might be useful:
   ```sh
   pip install --upgrade octadist==2.5.4
   ```
-
 More details on installing Python package can be found its official website: 
 [https://packaging.python.org/tutorials/installing-packages/][Packaging-Python-link].
-
 [Packaging-Python-link]: https://packaging.python.org/tutorials/installing-packages/
+  
+Running: OctaDist that installed through pip can be called anywhere as a package: 
+
+For example:
+
+```sh
+python -m octadist.Run
+```
+
+or you can import OctaDist as a package in Python source file, like this:
+
+```python
+import octadist
+
+print(octadist.__version__)     # '2.5.4.5'
+```
 
 ### Anaconda 
 
@@ -134,5 +155,6 @@ The platforms that OctaDist-Conda supported: [![Anaconda-Server Badge][Conda-pla
 [Conda-platform-badge]: https://anaconda.org/rangsiman/octadist/badges/platforms.svg
 [Conda-platform-link]: https://anaconda.org/rangsiman/octadist
 
+Running: OctaDist that installed through conda can be used in the same that OctaDist/PyPI does.
 
 [back to homepage](./) | [manual](./manual.md)
