@@ -24,7 +24,7 @@ Both master revision and nightly development build have being tested and deploye
 
 Program source code on Github: 
 - [OctaDist Master: github.com/OctaDist/OctaDist][OctaDist-master-link]
-- [OctaDist Dev): github.com/OctaDist/OctaDist/tree/nightly-build][OctaDist-dev-link]
+- [OctaDist Dev: github.com/OctaDist/OctaDist/tree/nightly-build][OctaDist-dev-link]
 
 [OctaDist-master-link]: https://github.com/OctaDist/OctaDist
 [OctaDist-dev-link]: https://github.com/OctaDist/OctaDist/tree/nightly-build
