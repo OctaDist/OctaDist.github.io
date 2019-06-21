@@ -8,6 +8,7 @@ layout: default
 
 | Version     | Release date | Download link         | Stats |
 |-------------|--------------|-----------------------|-------|
+| 2.6.0       | Jun 22, 2019 | [Download][2.6.0]     | [![DL 2.6.0][Badge-2.6.0]][Link-2.6.0] |
 | 2.5.4       | Jun 10, 2019 | [Download][2.5.4]     | [![DL 2.5.4][Badge-2.5.4]][Link-2.5.4] |
 | 2.5.3       | May 22, 2019 | [Download][2.5.3]     | [![DL 2.5.3][Badge-2.5.3]][Link-2.5.3] |
 | 2.5.2       | May 6, 2019  | [Download][2.5.2]     | [![DL 2.5.2][Badge-2.5.2]][Link-2.5.2] |
@@ -26,6 +27,7 @@ layout: default
 
 Total download: [![Total Download][Badge-TotalDL]][Link-TotalDL]
 
+[2.6.0]: https://github.com/OctaDist/OctaDist/releases/tag/v.2.6.0
 [2.5.4]: https://github.com/OctaDist/OctaDist/releases/tag/v.2.5.4
 [2.5.3]: https://github.com/OctaDist/OctaDist/releases/tag/v.2.5.3
 [2.5.2]: https://github.com/OctaDist/OctaDist/releases/tag/v.2.5.2
@@ -44,6 +46,8 @@ Total download: [![Total Download][Badge-TotalDL]][Link-TotalDL]
 
 [Total Download]: https://github.com/OctaDist/OctaDist/releases
 
+[Badge-2.6.0]: https://img.shields.io/github/downloads/OctaDist/OctaDist/v.2.6.0/total.svg
+[Link-2.6.0]: https://github.com/OctaDist/OctaDist/releases/tag/v.2.6.0
 [Badge-2.5.4]: https://img.shields.io/github/downloads/OctaDist/OctaDist/v.2.5.4/total.svg
 [Link-2.5.4]: https://github.com/OctaDist/OctaDist/releases/tag/v.2.5.4
 [Badge-2.5.3]: https://img.shields.io/github/downloads/OctaDist/OctaDist/v.2.5.3/total.svg
