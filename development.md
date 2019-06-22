@@ -26,38 +26,54 @@ Program source code on Github:
 - [OctaDist Master: github.com/OctaDist/OctaDist][OctaDist-master-link]
 - [OctaDist Dev: github.com/OctaDist/OctaDist/tree/nightly-build][OctaDist-dev-link]
 
-[OctaDist-master-link]: https://github.com/OctaDist/OctaDist
-[OctaDist-dev-link]: https://github.com/OctaDist/OctaDist/tree/nightly-build
-
 ### Contribution
 
-To give a contribution on program development, please pull request on [the OctaDist Github](https://github.com/OctaDist/OctaDist).
-If you found a bug in program, please submit it on [issues page](https://github.com/OctaDist/OctaDist/issues). 
+To give a contribution on program development, please pull request on [the OctaDist Github][OctaDist-master-link].
+If you found a bug in program, please submit it on [issues page][OctaDist-issue-github]. 
 We appreciate all help and contribution in getting program development.
+
+[OctaDist-master-link]: https://github.com/OctaDist/OctaDist
+[OctaDist-dev-link]: https://github.com/OctaDist/OctaDist/tree/nightly-build
+[OctaDist-issue-github]: https://github.com/OctaDist/OctaDist/issues
 
 ### Program structure
 ***
 
 | Module     | Description       |
 | ---------- | ----------------- |
-| main       |  Main program |
-| calc       |  Calculating distortion parameters |
-| molecule   |  Manipulating atomic coordinates |
-| draw       |  Displaying molecule |
-| elements   |  Atomic properties |
-| linear     |  Built-in mathematical functions |
-| plane      |  Manipulate projection plane |
-| plot       |  Plotting graph and chart |
-| popup      |  Error, warning, and info messages |
-| projection |  2D & 3D vector projections |
-| structure  |  All data about structure |
-| tools      |  Analysis tools by 3rd-party libraries |
-| util       |  Frequently-used functions e.g. find atomic bonds |
+| main       | Main program |
+| calc       | Calculating distortion parameters |
+| draw       | Displaying molecule |
+| elements   | Atomic properties |
+| linear     | Built-in mathematical functions |
+| molecule   | Manipulating atomic coordinates |
+| plane      | Manipulate projection plane |
+| plot       | Plotting graph and chart |
+| popup      | Error, warning, and info messages |
+| projection | 2D & 3D vector projections |
+| scripting  | Interactive code Console |
+| structure  | All data about structure |
+| tools      | Analysis tools by 3rd-party libraries |
+| util       | Frequently-used functions e.g. find atomic bonds |
 
-### Documents
+### Application Program Interface (API)
+***
 
-OctaDist Nightly Dev Reference docs: [HTML][Dev-HTML-Link] / [PDF][Dev-PDF-Link] / [Epub][Dev-Epub-Link]
+| API version  | Description       | 
+| ------------ | ----------------- |
+| octadist_gui | Graphical user interface (__main__.py) | 
+| octadist_cli | Command line interface (octadist_cli.py) | 
 
+
+### Reference Documents
+
+OctaDist Master Stable docs: [HTML][Stable-HTML-Link] / [PDF][Stable-PDF-Link] / [Epub][Stable-Epub-Link]
+
+OctaDist Nightly Dev docs: [HTML][Dev-HTML-Link] / [PDF][Dev-PDF-Link] / [Epub][Dev-Epub-Link]
+
+[Stable-HTML-Link]: https://octadist.readthedocs.io/en/latest/
+[Stable-PDF-Link]: https://readthedocs.org/projects/octadist/downloads/pdf/latest/
+[Stable-Epub-Link]: https://readthedocs.org/projects/octadist/downloads/epub/latest/
 [Dev-HTML-Link]: https://octadist.readthedocs.io/en/nightly-build/
 [Dev-PDF-Link]: https://readthedocs.org/projects/octadist/downloads/pdf/nightly-build/
 [Dev-Epub-Link]: https://readthedocs.org/projects/octadist/downloads/epub/nightly-build/
@@ -79,6 +95,62 @@ scipy
 matplotlib
 rmsd
 ```
+
+You need to install these libraries before running the program, 
+otherwise it will fail to start. The latest version is suggested.
+
+To install requirements:
+```sh
+pip install -r requirements.txt
+```
+
+### Build the tarball, wheel, and egg files
+
+- `.tar.gz` : the tarball (supported by PIP)
+- `.whl` : wheel file (supported by PIP)
+- `.egg` : cross-platform zip file (supported by easy_install)
+
+1. Build source code:
+   ```sh
+   python setup.py sdist bdist_wheel bdist_egg
+   ```
+   
+2. Install OctaDist:
+   ```sh
+   python setup.py install
+   ```
+   or:
+   ```sh
+   pip install dist/*.tar.gz
+   ```
+   
+3. Run test zip files:
+   ```sh
+    python setup.py test
+   ```
+   
+4. Installed library of OctaDist will be install at ``build/lib/octadist`` directory.
+
+5. OctaDist executable files will be automatically added to environment variables,
+you can call the program anywhere and anytime:
+
+- To start GUI:
+   ```sh
+   octadist
+   ```
+   
+  or:
+   ```sh
+   octadist_gui
+   ```
+   
+- To start command-line:
+  ```sh
+  octadist_cli
+  ```
+   
+More details on Python package can be found its official website:
+https://packaging.python.org/tutorials/installing-packages.
 
 ### Program compilation
 ***
