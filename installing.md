@@ -6,75 +6,88 @@ layout: default
 ## Installing
 ***
 
-- [Windows OS](#windows-os)
-- [Linux OS](#linux-os)
+- [Windows](#windows)
+- [Linux](#linux)
 - [macOS](#macos)
 - [PyPI](#pypi)
 - [Anaconda](#anaconda)
+- [Source Code](#source-code)
 
 ***
 
-### Windows OS
+### Windows
 
-Most of the Windows end-users do not have Python installed on their OS, 
-so it is suggested to download a ready-to-use OctaDist GUI for your system.
-
-For first time using OctaDist, you should run the program as an administrator with full rights.
-Changing property of program can be completed in a few steps as follows:
+Most of the Windows end-users do not have Python installed on their OS,
+so we strongly suggest you download and use a ready-to-use OctaDist executable.
 
 1. Download program executable (\*.exe) to your machine.
    ```sh
-   OctaDist-2.5.4-Win-x86-64.exe
+   OctaDist-2.6.0-Win-x86-64.exe
    ```
+   
 2. Right click on program icon and select **`Run as administrator`**.
+
 3. Click **`Yes`**.
-4. Wait program for process until open.
 
-### Linux OS
+FYI: For first time using OctaDist, you should run it as an administrator with full rights.
 
-1. Download the source code (*.tar.gz) to your machine, for example, at **`Download`** directory.
-2. Uncompress the tarball, using **`tar`**: 
+### Linux
+
+OctaDist is available on Python package index library, 
+which can be found at [https://pypi.org/project/octadist]().
+
+The end-user can use `pip`, a Python package-management system,
+to find and install OctaDist and other dependencies simultaneously.
+
+Installing OctaDist can be completed in a few steps as follows:
+
+1. Use ``pip`` command to install OctaDist:
    ```sh
-   tar -xzvf OctaDist-2.5.4-Linux-x86-64.tar.gz
+   pip install octadist
    ```
-3. Move to OctaDist root directory, using **`cd`**:
+  
+2. Start OctaDist GUI, just type:
    ```sh
-   cd OctaDist-2.5.4-Linux-x86-64
+   octadist
    ```
-4. Check if your system has all dependencies for OctaDist:
+   
+   or
+   
    ```sh
-   python CheckPyModule.py
+   octadist_gui
    ```
-5. Execute program as a package (note that you have to stay outside **`octadist`** directory):
+   
+3. If you want to run OctaDist with command-line, just type:
    ```sh
-   python -m octadist.Run
+   octadist_cli
    ```
 
 ### macOS
 
-Installing and running the program on Mac are the same as Linux.
+Like Linux, installing OctaDist on macOS can be completed in a few steps as follows:
 
-1. Download the source code (*.tar.gz) to your machine, for example, at **`Download`** directory.
-2. Press Command - spacebar to launch Spotlight and type "*Terminal*", then double-click the search result.
-3. Uncompress the tarball, using **`tar`**: 
+1. Press **Command** - **spacebar** to launch Spotlight and type `Terminal`,
+then double-click the search result.
+
+2. Use ``pip`` command to install OctaDist:
    ```sh
-   tar -xzvf OctaDist-2.5.4-macOS-x86-64.tar.gz
+   pip install octadist
    ```
-4. Move to OctaDist root directory, using **`cd`**:
+  
+3. Start OctaDist GUI, just type:
    ```sh
-   cd OctaDist-2.5.4-macOS-x86-64
+   octadist
    ```
-5. Check if your system has all dependencies for OctaDist:
+   
+   or
+   
    ```sh
-   python CheckPyModule.py
+   octadist_gui
    ```
-6. Set `TkAgg` backend environment variable to prevent the dependencies error:
+   
+4. If you want to run OctaDist with command-line, just type:
    ```sh
-   export MPLBACKEND=TkAgg
-   ``` 
-7. Execute program (you have to stay outside **`octadist`** directory):
-   ```sh
-   python -m octadist.Run
+   octadist_cli
    ```
 
 ### PyPI  
@@ -84,77 +97,124 @@ Installing and running the program on Mac are the same as Linux.
 [PyPI-badge]: https://img.shields.io/pypi/v/octadist.svg
 [PyPI-link]: https://pypi.org/project/octadist/
 
-OctaDist is also available on Python package index (PyPI) library, 
-which can be found at [https://pypi.org/project/octadist/][OctaDist-PyPI-link].
+The following commands are also useful for those who want to play with ``pip``:
 
-The stable version of OctaDist on PyPI is `2.5.4.5`, 
-which includes bug fixes that are not covered in version `2.5.4`.
-
-The end-user can use `pip`, a Python package-management system, 
-to find and install OctaDist, and package dependencies at the same time.
-
-[OctaDist-PyPI-link]: https://pypi.org/project/octadist/
-
-The following commands might be useful:
-- Install program: 
+- Show info of package:
   ```sh
-  pip install octadist
+  pip show octadist
   ```
-- Install a certain version:
+  
+- Install requirements packages:
   ```sh
-  pip install octadist==2.5.4.5
+  pip install -r requirements.txt
   ```
-- Upgrade to the latest version: 
+
+- Upgrade to the latest version:
   ```sh
   pip install --upgrade octadist
   ```
-- Downgrade to a certain version, for example, version 2.5.4:
+
+- Upgrade/downgrade to a certain version, for example, version 2.6.0:
   ```sh
-  pip install --upgrade octadist==2.5.4
+  pip install --upgrade octadist==2.6.0
   ```
+
+- Uninstall program:
+  ```sh
+  pip uninstall octadist
+  ```
+
 More details on installing Python package can be found its official website: 
 [https://packaging.python.org/tutorials/installing-packages/][Packaging-Python-link].
+
 [Packaging-Python-link]: https://packaging.python.org/tutorials/installing-packages/
   
-Running: OctaDist that installed through pip can be called anywhere as a package: 
+OctaDist installed by `pip` can be called anywhere with command-line: 
 
 For example:
 
 ```sh
-python -m octadist.Run
+octadist_cli
 ```
 
-or you can import OctaDist as a package in Python source file, like this:
+Moreover, OctaDist can be imported as a library in Python source file, like this:
 
 ```python
 import octadist
 
-print(octadist.__version__)     # '2.5.4.5'
+print(octadist.__version__)     # '2.6.0'
 ```
 
 ### Anaconda 
 
 [![Conda-Server][Conda-badge]][Conda-link]
+[![Anaconda-Server Badge][Conda-platform-badge]][Conda-platform-link]
 
 [Conda-badge]: https://anaconda.org/rangsiman/octadist/badges/version.svg
 [Conda-link]: https://anaconda.org/rangsiman/octadist
+[Conda-platform-badge]: https://anaconda.org/rangsiman/octadist/badges/platforms.svg
+[Conda-platform-link]: https://anaconda.org/rangsiman/octadist
+
 
 OctaDist is also available on Anaconda cloud server.
 The channel of OctaDist is at [https://anaconda.org/rangsiman/octadist][OctaDist-Conda].
 
 [OctaDist-Conda]: https://anaconda.org/rangsiman/octadist 
 
-It can be installed on system using command.
-
-```
+It can be installed on system using command:
+```sh
 conda install -c rangsiman octadist 
 ```
 
-The platforms that OctaDist-Conda supported: [![Anaconda-Server Badge][Conda-platform-badge]][Conda-platform-link]
+To update OctaDist to the latest version:
+```sh
+conda update -c rangsiman octadist
+```
 
-[Conda-platform-badge]: https://anaconda.org/rangsiman/octadist/badges/platforms.svg
-[Conda-platform-link]: https://anaconda.org/rangsiman/octadist
+It is also a good idea to create a personal environment, for example called `newenv`
+for OctaDist project and install OctaDist using conda:
+```sh
+conda create -n newenv python=3.7
+activate newenv
+conda update --all
+conda install -c rangsiman octadist
+```
 
-Running: OctaDist that installed through conda can be used in the same that OctaDist/PyPI does.
+FYI: OctaDist package on Conda server has been imported from PyPI server.
+
+
+### Source Code
+
+To build OctaDist from source:
+
+1. Check if your system has all dependencies for OctaDist:
+   ```sh
+   python CheckPyModule.py
+   ```
+   
+2. Download the source code (\*.tar.gz) to your machine, for example, at **Download** directory:
+   ```sh
+   OctaDist-*-src-x86-64.tar.gz
+   ```
+   
+3. Uncompress the tarball, using **tar**:
+   ```sh
+   tar -xzvf OctaDist-*-src-x86-64.tar.gz
+   ```
+   
+4. Move to OctaDist root directory, using **cd**:
+   ```sh
+   cd OctaDist-*-src-x86-64
+   ```
+   
+5. Execute program like a package (you have to stay outside **octadist** directory):
+   ```sh
+   python -m octadist
+   ```
+   or command-line:
+   ```sh
+   python -m octadist_cli
+   ```
+   
 
 [back to homepage](./) | [manual](./manual.md)
