@@ -12,16 +12,15 @@ The latest stable release of OctaDist is available for following OS and platform
 
 |   Platform   | Stable version |
 |--------------|----------------|
-|  Windows OS  | [OctaDist-2.5.4 (exe)][WinOS_exe] / [(zip)][WinOS_zip] |
-|  Linux OS    | [OctaDist-2.5.4 (tar.gz)][LinOS_tar]  |
-|  macOS       | [OctaDist-2.5.4 (tar.gz)][macOS_tar]  |
+|  Windows OS  | [OctaDist-2.6.0 (exe)][WinOS_exe] / [(zip)][WinOS_zip] |
+|  Linux OS    | [OctaDist-2.6.0 (tar.gz)][src_tar_gz]  |
+|  macOS       | [OctaDist-2.6.0 (tar.gz)][src_tar_gz]  |
 |  PyPI        | `pip install octadist`                |
 |  Anaconda    | `conda install -c rangsiman octadist` |
 
-[WinOS_exe]: https://github.com/OctaDist/OctaDist/releases/download/v.2.5.4/OctaDist-2.5.4-Win-x86-64.exe
-[WinOS_zip]: https://github.com/OctaDist/OctaDist/releases/download/v.2.5.4/OctaDist-2.5.4-Win-x86-64.zip
-[LinOS_tar]: https://github.com/OctaDist/OctaDist/releases/download/v.2.5.4/OctaDist-2.5.4-Linux-x86-64.tar.gz
-[macOS_tar]: https://github.com/OctaDist/OctaDist/releases/download/v.2.5.4/OctaDist-2.5.4-macOS-x86-64.tar.gz
+[WinOS_exe]: https://github.com/OctaDist/OctaDist/releases/download/v.2.6.0/OctaDist-2.6.0-Win-x86-64.exe
+[WinOS_zip]: https://github.com/OctaDist/OctaDist/releases/download/v.2.6.0/OctaDist-2.6.0-Win-x86-64.zip
+[src_tar_gz]: https://github.com/OctaDist/OctaDist/releases/download/v.2.6.0/OctaDist-2.6.0-src-x86-64.tar.gz
 
 ### Nightly development build
 
