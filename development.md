@@ -162,23 +162,27 @@ Compilation instruction
    ```sh
    pip install --upgrade --user pip
    ```
+   
 2. Install PyInstaller:
    ```sh
    pip install --user pyinstaller
    ```
+   
 3. Check the version of PyInstaller:
    ```sh
    pyinstaller --version
    ```
+   
 4. Change directory to `./octadist` directory, `where main.py` is:
    ```sh
-   cd OctaDist-XXX/octadist/
+   cd OctaDist-*-src-x86-64/octadist/
    ```
+   
 5. Compile a standalone executable, like this:
    ```sh
-   pyinstaller --onefile -windowed -i molecule.ico -n OctaDist main.py
+   pyinstaller --onefile --windowed -n OctaDist-*-src-x86-64 main.py
    ```
-   Additionally useful option for compilation can be found at PyInstaller manual.
+   
 6. The standalone executable will be build in `dist` directory
 
 [back to homepage](./)
