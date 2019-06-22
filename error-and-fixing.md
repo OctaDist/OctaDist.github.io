@@ -17,16 +17,55 @@ layout: default
       **"OctaDist-2.5.4-Win-x86-64.exe"** process for OctaDist. 
    5. Close OctaDist and run it again.
 
-2. If program crashes with confusing errors messages, you may need to set `MPLBACKEND` environment variable 
-   before running the program, like this:
-   ```
-   export MPLBACKEND=TkAgg
-   ```
-
-3. If error message says `ImportError:` or `ModuleNotFoundError:`, some important packages have not been installed. 
+2. If error message says `ImportError:` or `ModuleNotFoundError:`, some important packages have not been installed. 
    To install all required packages, stay at top directory of OctaDist and type this command:
-   ```
+   ```sh
    pip install -r requirements.txt
    ```
 
+3. If program crashes with confusing errors messages, you may need to set `MPLBACKEND` environment variable 
+   before running the program, like this:
+   ```sh
+   export MPLBACKEND=TkAgg
+   ```
+   
+4. If you run GUI using `octadist` or `octadist_gui` and then it fails with the following error:
+
+   ```sh
+   (py37) nutt@Ubuntu:~$ octadist
+   
+   Program Starts >>>
+   ... OctaDist 2.6.0 June 2019 ...
+   Traceback (most recent call last):
+     File "/home/nutt/.local/bin/octadist", line 10, in <module>
+       sys.exit(run_gui())
+     File "/home/nutt/.local/lib/python3.6/site-packages/octadist/__main__.py", line 35, in run_gui
+       app = octadist.main.OctaDist()
+     File "/home/nutt/.local/lib/python3.6/site-packages/octadist/main.py", line 68, in __init__
+       self.master = tk.Tk()
+     File "/usr/lib/python3.6/tkinter/__init__.py", line 2023, in __init__
+       self.tk = _tkinter.create(screenName, baseName, className, interactive, wantobjects, useTk, sync, use)
+   _tkinter.TclError: couldn't connect to display ":0"
+   ```
+
+    The message above implies that your system cannot connect to X11 server, 
+    which is used for displaying the GUI of program.
+    This error usually happens on Debian or Ubuntu (and Ubuntu-based on Windows). 
+    So, you need to install X11 server as follows: 
+    
+    **X11 Client Installation**
+
+    To install the `xauth` package, use `apt-get`:
+    ```
+    sudo apt-get install xauth
+    ```
+
+    **X11 Server Installation**
+    
+    To install a minimal X11 on Ubuntu Server Edition:
+    ```
+    sudo apt-get install xorg
+    sudo apt-get install openbox
+    ```
+    
 [back to homepage](./) | [manual](./manual.md)
