@@ -31,15 +31,18 @@ layout: default
   - Jahn-Teller distortion parameters
   - Root-mean-square deviation of atomic positions (RMSD)
   
-### Capability
-  - User-friendly graphical user interface (GUI)
+### Capabilities
+  - Cross-platform for both 32-bit and 64-bit systems
+  - Graphical user interface (GUI)
+  - Command line interface (CLI)
+  - User-friendly interactive scripting code
   - User-adjustable program setting
-  - Simple and flexible process of use
-  - Support for multiple input files and multiple metal center atoms in complex
+  - Simple and flexible processes of use
+  - On top of huge and complicated complexes
   - Support for several output of computational chemistry software, including Gaussian, Q-Chem, ORCA, and NWChem
 
 ### Architectures
   - Python-based program binding to Tkinter GUI toolkit and tested on PyCharm (Community Edition)
-  - The program supports Windows, macOS, and Linux OS for both 32-bit and 64-bit systems
+  - Encapsulation of data, variable, and function as Class/Object.
 
 [back to homepage](./)

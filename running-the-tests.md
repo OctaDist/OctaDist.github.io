@@ -16,8 +16,9 @@ Examples of coordinates files can be found at [example-input](https://github.com
 
 **Content**
 
-- [OctaDist - GUI](#octadist---gui)
-- [OctaDist - CLI](#octadist---cli)
+- [GUI](#gui)
+- [CLI](#cli)
+- [OctaDist as a packageCLI](#octadist-as-a-package)
 - [Sample usage](#sample-usage)
     - [Example 1: Simple calculation 1](#example-1)
     - [Example 2: Simple calculation 2](#example-2)
@@ -28,7 +29,7 @@ Examples of coordinates files can be found at [example-input](https://github.com
 
 ***
 
-### OctaDist - GUI
+### GUI
 
 1. Click **`Browse file`**, choose one or multiple input files, then click **`Open`**.
 
@@ -75,7 +76,50 @@ Examples of coordinates files can be found at [example-input](https://github.com
     width="200pt" />
     <p/>
 
-### OctaDist - CLI
+### CLI
+
+To run OctaDist command line (with help):
+
+```sh
+octadist_cli
+```
+
+Suppose that the following is an example of input structure:
+```sh
+/home/nutt/test-structure.xyz
+```
+
+Compute distortion parameters:
+```sh
+octadist_cli -i /home/nutt/test-structure.xyz
+```
+
+```sh
+# output
+0.18506902312963258
+0.0003179610975578898
+89.06158122867365
+286.13107524834516
+```
+
+You can ask OctaDist to show formatted output:
+
+```sh
+octadist_cli -i /home/nutt/test-structure.xyz -o
+```
+
+```sh
+# output
+Octahedral distortion parameters
+--------------------------------
+File: test-structure.xyz.xyz
+Zeta   =   0.18506902
+Delta  =   0.00031796
+Sigma  =  89.06158123
+Theta  = 286.13107525
+```
+
+### OctaDist as a package
 
 Example scripts are available at [here](https://github.com/OctaDist/OctaDist/tree/master/example-py).
 
