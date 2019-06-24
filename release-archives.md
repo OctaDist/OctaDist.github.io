@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-[back to homepage](./) | [manual](./manual.md)
+[back to homepage](./)
 
 ## Release Archives
 ***
@@ -83,4 +83,4 @@ Total download: [![Total Download][Badge-TotalDL]][Link-TotalDL]
 [Link-TotalDL]: https://github.com/OctaDist/OctaDist/releases
 
 
-[back to homepage](./) | [manual](./manual.md)
+[back to homepage](./)

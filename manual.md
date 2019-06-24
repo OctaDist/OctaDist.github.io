@@ -6,28 +6,17 @@ layout: default
 ## Manual
 ***
 
-OctaDist Reference docs: [HTML][HTML-Link] / [PDF][PDF-Link] / [Epub][Epub-Link]
+|Release       |  User Documentation |
+|--------------|---------------------|
+|Stable        | [HTML][HTML-Link] / [PDF][PDF-Link] / [Epub][Epub-Link] |
+|Nightly-build | [HTML][dev-HTML-Link] / [PDF][dev-PDF-Link] / [Epub][dev-Epub-Link] |
 
 [HTML-Link]: https://octadist.readthedocs.io/en/latest/
 [PDF-Link]: https://readthedocs.org/projects/octadist/downloads/pdf/latest/
 [Epub-Link]: https://readthedocs.org/projects/octadist/downloads/epub/latest/
 
-- [Distortion parameters](./distortion-parameters.md)
-
-- [Installing](./installing.md)
-
-- [Error and Fixing](./error-and-fixing.md)
-
-- [Supported file formats](./supported-file-formats.md)
-
-- [Running the tests](running-the-tests.md)
-
-- [Benchmarks](benchmarks.md)
-
-- [Release archives](release-archives.md)
-
-- [License](license.md)
-
-- [Authors](authors.md)
+[dev-HTML-Link]: https://octadist.readthedocs.io/en/nightly-build/
+[dev-PDF-Link]: https://readthedocs.org/projects/octadist/downloads/pdf/nightly-build/
+[dev-Epub-Link]: https://readthedocs.org/projects/octadist/downloads/epub/nightly-build/
 
 [back to homepage](./)

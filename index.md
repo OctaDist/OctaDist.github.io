@@ -16,12 +16,12 @@ such as perovskite and metal-organic framework (MOF).
 
 - [About OctaDist](./about.md)
 - [Features](./features.md)
-- [Download](./download.md)
+- [Download][dl-link]
 - [Manual](./manual.md)
 - [Screenshots](./screenshots.md)
-- [Release archives](release-archives.md)
-- [Development](./development.md)
 - [Stats](./stats.md)
+
+[dl-link]: https://octadist.readthedocs.io/en/nightly-build/docs_download.html
 
 ## Status
 
