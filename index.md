@@ -21,7 +21,7 @@ such as perovskite and metal-organic framework (MOF).
 - [Screenshots](./screenshots.md)
 - [Stats](./stats.md)
 
-[dl-link]: https://octadist.readthedocs.io/en/nightly-build/download.html
+[dl-link]: https://octadist.readthedocs.io/en/latest/download.html
 
 ## Status
 
