@@ -16,7 +16,7 @@ layout: default
    2. Under Virus & threat protection settings select `Manage settings`
    3. Under Exclusions, select `Add or remove exclusions`
    4. Select `Add exclusion` and specify the name of OctaDist executable, for example, 
-      **"OctaDist-2.6.0-Win-x86-64.exe"** process for OctaDist. 
+      **"OctaDist-2.6.1-Win-x86-64.exe"** process for OctaDist. 
    5. Close OctaDist and run it again.
 
 2. Missing some packages
@@ -43,7 +43,7 @@ layout: default
    (py37) nutt@Ubuntu:~$ octadist
    
    Program Starts >>>
-   ... OctaDist 2.6.0 June 2019 ...
+   ... OctaDist 2.6.1 June 2019 ...
    Traceback (most recent call last):
      File "/home/nutt/.local/bin/octadist", line 10, in <module>
        sys.exit(run_gui())

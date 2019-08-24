@@ -22,7 +22,7 @@ so we strongly suggest you download and use a ready-to-use OctaDist executable.
 
 1. Download program executable (\*.exe) to your machine.
    ```sh
-   OctaDist-2.6.0-Win-x86-64.exe
+   OctaDist-2.6.1-Win-x86-64.exe
    ```
    
 2. Right click on program icon and select **`Run as administrator`**.
@@ -114,9 +114,9 @@ The following commands are also useful for those who want to play with ``pip``:
   pip install --upgrade octadist
   ```
 
-- Upgrade/downgrade to a certain version, for example, version 2.6.0:
+- Upgrade/downgrade to a certain version, for example, version 2.6.1:
   ```sh
-  pip install --upgrade octadist==2.6.0
+  pip install --upgrade octadist==2.6.1
   ```
 
 - Uninstall program:
@@ -142,7 +142,7 @@ Moreover, OctaDist can be imported as a library in Python source file, like this
 ```python
 import octadist
 
-print(octadist.__version__)     # '2.6.0'
+print(octadist.__version__)     # '2.6.1'
 ```
 
 ### Anaconda 
