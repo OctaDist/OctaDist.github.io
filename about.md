@@ -90,11 +90,13 @@ the [Switchable Molecules and Materials][SWM] group at University of Bordeaux, F
 
 ### External links
 
-1. [OctaDist wikipedia][octadist-wiki]
+1. [OctaDist Wikipedia][octadist-wiki]
 2. [International Union of Crystallography software list][octadist-iucr]
+3. [OctaDist Github repository][octadist-github]
 
-[octadist-wiki]: https://en.wikipedia.org/wiki/Draft:OctaDist
+[octadist-wiki]: https://en.wikipedia.org/wiki/OctaDist
 [octadist-iucr]: https://www.iucr.org/resources/other-directories/software/octadist
+[octadist-github]: https://github.com/OctaDist/OctaDist
 
 <br/>
 
