@@ -6,8 +6,16 @@ layout: default
 ## Tutorial
 ***
 
+### General tutorials
+
+- [Download and Install OctaDist]()
 - [OctaDist on Google Colab][octadist-colab]
 
-[octadist-colab]: https://colab.research.google.com/drive/1On9SjeKj0e-OWiGps4_AQff-7lrHLqz1
+[octadist-colab]: https://colab.research.google.com/github/rangsimanketkaew/tutorials/blob/master/tutorial_octadist_v2_6_1.ipynb
+
+### Special tutorials
+
+- [Build OctaDist on Linux]()
+- [Compile OctaDist as PyPI packages]()
 
 [back to homepage](./)
