@@ -7,8 +7,8 @@ layout: default
 ***
 ### Program Interface
 
-|         User Interface           | Using IPython for interactive work |
-|:--------------------------------:|:----------------------------------:|
+|                GUI               |                CLI                  |
+|:--------------------------------:|:-----------------------------------:|
 |![](images/Screenshots_GUI.png)   |![](images/Screenshots_CLI.png)      |
 
 ### Display of metal complexes and selected octahedral structures
