@@ -6,19 +6,21 @@ layout: default
 ## Installing
 ***
 
-- [Windows](#windows)
-- [Linux](#linux)
-- [macOS](#macos)
-- [PyPI](#pypi)
-- [Anaconda](#anaconda)
-- [Source Code](#source-code)
+- [Installing](#installing)
+  - [Windows](#windows)
+  - [Linux](#linux)
+  - [macOS](#macos)
+  - [PyPI](#pypi)
+  - [Anaconda](#anaconda)
+  - [Source Code](#source-code)
 
 ***
 
 ### Windows
 
-Most of the Windows end-users do not have Python installed on their OS,
-so we strongly suggest you download and use a ready-to-use OctaDist executable.
+Most of the Windows end-users do not have Python installed on the system. 
+Thus, we strongly suggest you download and use a pre-built OctaDist executable 
+instead of compile a binary file your self.
 
 1. Download program executable (\*.exe) to your machine.
    ```sh
@@ -33,13 +35,13 @@ FYI: For first time using OctaDist, you should run it as an administrator with f
 
 ### Linux
 
-OctaDist is available on Python package index library, 
+OctaDist is available on Python package index (PyPI) library, 
 which can be found at [https://pypi.org/project/octadist]().
 
-The end-user can use `pip`, a Python package-management system,
-to find and install OctaDist and other dependencies simultaneously.
+The easiest way to install OctaDist for the end-user is the use of `pip`, 
+a Python package-management system.
 
-Installing OctaDist can be completed in a few steps as follows:
+Installing OctaDist can be done in a few steps, as follows:
 
 1. Use ``pip`` command to install OctaDist:
    ```sh
@@ -85,7 +87,7 @@ then double-click the search result.
    octadist_gui
    ```
    
-4. If you want to run OctaDist with command-line, just type:
+4. If you want to start OctaDist by command-line, just type:
    ```sh
    octadist_cli
    ```
@@ -124,7 +126,7 @@ The following commands are also useful for those who want to play with ``pip``:
   pip uninstall octadist
   ```
 
-More details on installing Python package can be found its official website: 
+More details on installing Python package can be found on Python tutorial website: 
 [https://packaging.python.org/tutorials/installing-packages/][Packaging-Python-link].
 
 [Packaging-Python-link]: https://packaging.python.org/tutorials/installing-packages/
@@ -137,7 +139,7 @@ For example:
 octadist_cli
 ```
 
-Moreover, OctaDist can be imported as a library in Python source file, like this:
+Moreover, OctaDist can be imported as an external library in Python source file, like this:
 
 ```python
 import octadist
@@ -171,16 +173,22 @@ To update OctaDist to the latest version:
 conda update -c rangsiman octadist
 ```
 
-It is also a good idea to create a personal environment, for example called `newenv`
-for OctaDist project and install OctaDist using conda:
+It is also a good idea to create a personal environment. 
+For example, I create the environment called `newenv` for OctaDist project.
+
 ```sh
 conda create -n newenv python=3.7
 activate newenv
 conda update --all
+```
+
+Then install OctaDist using `conda`:
+
+```sh
 conda install -c rangsiman octadist
 ```
 
-FYI: OctaDist package on Conda server has been imported from PyPI server.
+FYI: OctaDist package on the conda server is imported from PyPI server.
 
 
 ### Source Code
