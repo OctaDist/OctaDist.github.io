@@ -7,9 +7,9 @@ layout: default
 OctaDist (**Octa**hedral **Dist**ortion calculator) 
 is an inorganic chemistry and crystallography program for computing the distortion parameters, 
 such as distance and angle distortions, in coordination complexes. 
-For example, they are used for tracking structural change of the spin-crossover complex 
+For example, they are used for tracking the structural change of the spin-crossover complex 
 when the electronics spin-state changes from low-spin to high-spin, and vice versa. 
-OctaDist can also be used to study other kind of the metal complex 
+OctaDist can also be used to study other kinds of metal complex 
 such as perovskite and metal-organic framework (MOF).
 
 ## Further information
@@ -48,6 +48,12 @@ Please cite this project when you use OctaDist for scientific publication.
 OctaDist: A tool for calculating distortion parameters in coordination complexes.
 https://octadist.github.io
 ```
+
+## Source code
+
+The source code is available at [OctaDist Github repository][octadist-github].
+
+[octadist-github]: https://github.com/OctaDist/OctaDist
 
 ## Bug report
 

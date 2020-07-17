@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>OctaDist | A tool for calculating distortion parameters in coordination complexes.</title>
+<meta name="generator" content="Jekyll v3.8.7" />
+<meta property="og:title" content="OctaDist" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="A tool for calculating distortion parameters in coordination complexes." />
+<meta property="og:description" content="A tool for calculating distortion parameters in coordination complexes." />
+<link rel="canonical" href="http://localhost:4000/benchmarks.html" />
+<meta property="og:url" content="http://localhost:4000/benchmarks.html" />
+<meta property="og:site_name" content="OctaDist" />
+<script type="application/ld+json">
+{"@type":"WebPage","headline":"OctaDist","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/images/molecule.png"}},"description":"A tool for calculating distortion parameters in coordination complexes.","url":"http://localhost:4000/benchmarks.html","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="stylesheet" href="/assets/css/style.css?v=d20fdac3c0784cc68d7382e0d6deb83bd1a5e9c7">
+    <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1><a href="http://localhost:4000/">OctaDist</a></h1>
+        
+        
+          <img src="/images/molecule.png" alt="Logo" />
+        
+
+        <p>A tool for calculating distortion parameters in coordination complexes.</p>
+
+        
+        <p class="view"><a href="https://github.com/OctaDist/OctaDist.github.io">View the Project on GitHub <small>OctaDist/OctaDist.github.io</small></a></p>
+        
+
+        
+
+        
+      </header>
+      <section>
+
+      <table>
+  <tbody>
+    <tr>
+      <td><a href="./">back to homepage</a></td>
+      <td><a href="/manual.html">manual</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="benchmarks">Benchmarks</h2>
+<hr />
+
+<ul>
+  <li><a href="#1-perfect-octahedral-complex">Perfect octahedral complex</a></li>
+  <li><a href="#2-fe1-bpp2bf42-complex-in-low-spin-state">[Fe(1-bpp)2][BF4]2 complex in low-spin state</a></li>
+  <li><a href="#3-fe1-bpp2bf42-complex-in-high-spin-state">[Fe(1-bpp)2][BF4]2 complex in high-spin state</a></li>
+  <li><a href="#4-very-distorted-structure">Very distorted structure</a></li>
+</ul>
+
+<hr />
+
+<h3 id="1-perfect-octahedral-complex">1. Perfect octahedral complex</h3>
+
+<p>Perfect iron metal complex: <a href="/example-input/Perfect-octahedron.xyz">Perfect-octahedron.xyz</a></p>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Perfect-octahedron.xyz
+Atom                       Cartesian coordinate
+ Fe         0.200698080     0.706806270     0.000000000
+  O         1.660698080     0.706806270     0.000000000
+  O         0.200698080     2.166806270     0.000000000
+  O         0.200698080     0.706806270     1.460000000
+  O        <span class="nt">-1</span>.259301920     0.706806270     0.000000000
+  O         0.200698080    <span class="nt">-0</span>.753193730     0.000000000
+  O         0.200698080     0.706806270    <span class="nt">-1</span>.460000000
+</code></pre></div></div>
+
+<ul>
+  <li>&lt;D&gt; = 1.460000 Angstrom</li>
+  <li><img src="https://latex.codecogs.com/svg.Latex?%5Czeta" alt="" /> = 0.000000 Angstrom</li>
+  <li><img src="https://latex.codecogs.com/svg.Latex?%5CDelta" alt="" /> = 0.00000000</li>
+  <li><img src="https://latex.codecogs.com/svg.Latex?%5CSigma" alt="" /> = 0.00000000 degree</li>
+  <li><img src="https://latex.codecogs.com/svg.Latex?%5CTheta" alt="" /> = 0.00000000 degree</li>
+</ul>
+
+<h3 id="2-fe1-bpp2bf42-complex-in-low-spin-state">2. [Fe(1-bpp)2][BF4]2 complex in low-spin state</h3>
+
+<p>The XRD structure taken from Malcolm Halcrow’s CCDC library: 
+<a href="./example-input/%5BFe(1-bpp)2%5D%5BBF4%5D2-LS-Full.xyz">[Fe(1-bpp)2][BF4]2-LS-Full.xyz</a></p>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">[</span>Fe<span class="o">(</span>1-bpp<span class="o">)</span>2][BF4]2-LS-Full.xyz
+Atom                       Cartesian coordinate
+ Fe         4.067400000     7.204000000    13.611700000
+  N         4.303300000     7.375000000    11.729200000
+  N         3.832600000     6.971500000    15.492600000
+  N         5.882200000     6.446100000    13.431200000
+  N         3.300200000     5.382800000    13.631600000
+  N         4.805500000     8.931800000    14.271600000
+  N         2.318400000     8.016500000    13.115200000
+</code></pre></div></div>
+
+<ul>
+  <li>&lt;D&gt; = 1.958109 Angstrom</li>
+  <li><img src="https://latex.codecogs.com/svg.Latex?%5Czeta" alt="" /> = 0.203199 Angstrom</li>
+  <li><img src="https://latex.codecogs.com/svg.Latex?%5CDelta" alt="" /> = 0.000348</li>
+  <li><img src="https://latex.codecogs.com/svg.Latex?%5CSigma" alt="" /> = 86.081494 degree</li>
+  <li><img src="https://latex.codecogs.com/svg.Latex?%5CTheta" alt="" /> = 281.231091 degree</li>
+</ul>
+
+<h3 id="3-fe1-bpp2bf42-complex-in-high-spin-state">3. [Fe(1-bpp)2][BF4]2 complex in high-spin state</h3>
+
+<p>The XRD structure taken from Malcolm Halcrow’s CCDC library: 
+<a href="./example-input/%5BFe(1-bpp)2%5D%5BBF4%5D2-HS-Full.xyz">[Fe(1-bpp)2][BF4]2-HS-Full.xyz</a></p>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">[</span>Fe<span class="o">(</span>1-bpp<span class="o">)</span>2][BF4]2-HS-Full.xyz
+Atom                       Cartesian coordinate
+ Fe         4.904900000     6.913500000    14.248000000
+  N         4.982200000     6.876500000    12.110900000
+  N         4.671400000     6.741200000    16.368500000
+  N         6.853500000     6.086400000    13.701700000
+  N         5.683000000     8.779200000    15.108200000
+  N         4.107600000     4.898400000    14.643100000
+  N         2.957100000     7.673300000    13.543900000
+</code></pre></div></div>
+
+<ul>
+  <li>&lt;D&gt; = 2.178519 Angstrom</li>
+  <li><img src="https://latex.codecogs.com/svg.Latex?%5Czeta" alt="" /> = 0.155914 Angstrom</li>
+  <li><img src="https://latex.codecogs.com/svg.Latex?%5CDelta" alt="" /> = 0.000168</li>
+  <li><img src="https://latex.codecogs.com/svg.Latex?%5CSigma" alt="" /> = 150.814795 degree</li>
+  <li><img src="https://latex.codecogs.com/svg.Latex?%5CTheta" alt="" /> = 496.648479 degree</li>
+</ul>
+
+<h3 id="4-very-distorted-structure">4. Very distorted structure</h3>
+
+<p>Highly distorted structure: <a href="/example-input/Fe-very-distorted-octa.xyz">Fe-very-distorted-octa.xyz</a></p>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Fe-very-distorted-octa.xyz
+Atom                       Cartesian coordinate
+ Fe        18.268051000    11.289120000     2.565804000
+  O        19.074466000     9.706294000     3.743576000
+  O        19.823874000    10.436314000     1.381569000
+  N        18.364987000    13.407634000     2.249608000
+  N        16.149538000    11.306661000     2.913619000
+  N        18.599941000    12.116308000     4.528988000
+  N        17.364238000    10.733354000     0.657318000
+</code></pre></div></div>
+
+<ul>
+  <li>&lt;D&gt; = 2.149211 Angstrom</li>
+  <li><img src="https://latex.codecogs.com/svg.Latex?%5Czeta" alt="" /> = 0.082408 Angstrom</li>
+  <li><img src="https://latex.codecogs.com/svg.Latex?%5CDelta" alt="" /> = 0.000066</li>
+  <li><img src="https://latex.codecogs.com/svg.Latex?%5CSigma" alt="" /> = 182.673342 degree</li>
+  <li><img src="https://latex.codecogs.com/svg.Latex?%5CTheta" alt="" /> = 673.278321 degree</li>
+</ul>
+
+<table>
+  <tbody>
+    <tr>
+      <td><a href="./">back to homepage</a></td>
+      <td><a href="/manual.html">manual</a></td>
+    </tr>
+  </tbody>
+</table>
+
+
+      </section>
+      <footer>
+        
+        <p>This project is maintained by <a href="https://github.com/OctaDist">OctaDist</a></p>
+        
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="/assets/js/scale.fix.js"></script>
+    
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-135002233-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+    
+  </body>
+</html>

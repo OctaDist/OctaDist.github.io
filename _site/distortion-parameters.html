@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>OctaDist | A tool for calculating distortion parameters in coordination complexes.</title>
+<meta name="generator" content="Jekyll v3.8.7" />
+<meta property="og:title" content="OctaDist" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="A tool for calculating distortion parameters in coordination complexes." />
+<meta property="og:description" content="A tool for calculating distortion parameters in coordination complexes." />
+<link rel="canonical" href="http://localhost:4000/distortion-parameters.html" />
+<meta property="og:url" content="http://localhost:4000/distortion-parameters.html" />
+<meta property="og:site_name" content="OctaDist" />
+<script type="application/ld+json">
+{"@type":"WebPage","headline":"OctaDist","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/images/molecule.png"}},"description":"A tool for calculating distortion parameters in coordination complexes.","url":"http://localhost:4000/distortion-parameters.html","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="stylesheet" href="/assets/css/style.css?v=d20fdac3c0784cc68d7382e0d6deb83bd1a5e9c7">
+    <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1><a href="http://localhost:4000/">OctaDist</a></h1>
+        
+        
+          <img src="/images/molecule.png" alt="Logo" />
+        
+
+        <p>A tool for calculating distortion parameters in coordination complexes.</p>
+
+        
+        <p class="view"><a href="https://github.com/OctaDist/OctaDist.github.io">View the Project on GitHub <small>OctaDist/OctaDist.github.io</small></a></p>
+        
+
+        
+
+        
+      </header>
+      <section>
+
+      <table>
+  <tbody>
+    <tr>
+      <td><a href="./">back to homepage</a></td>
+      <td><a href="/manual.html">manual</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="distortion-parameters">Distortion Parameters</h2>
+<hr />
+
+<p>Octahedral distortion parameters contain three parameters: 
+<img src="https://latex.codecogs.com/svg.Latex?%5CDelta" alt="" />, <img src="https://latex.codecogs.com/svg.Latex?%5CSigma" alt="" />, and <img src="https://latex.codecogs.com/svg.Latex?%5CTheta" alt="" />. 
+The following explains the way that OctaDist uses to calculate these distortion parameters. , especially we use our new method to compute the <img src="https://latex.codecogs.com/svg.Latex?%5CTheta" alt="" /> parameter. 
+Please refer to <a href="#references">References</a> for more details. <br /></p>
+
+<p>Calculation of the <img src="https://latex.codecogs.com/svg.Latex?%5CDelta" alt="" /> and 
+<img src="https://latex.codecogs.com/svg.Latex?%5CSigma" alt="" /> parameters are straightforward. 
+The <img src="https://latex.codecogs.com/svg.Latex?%5CDelta" alt="" /> is the average of the sum of the deviation of LG-M distance, where LG and M are ligand atom and metal center atom, from mean distance. 
+The <img src="https://latex.codecogs.com/svg.Latex?%5CSigma" alt="" /> is the sum of LG-M-LS angle ( <img src="https://latex.codecogs.com/svg.Latex?%5Cphi" alt="" /> ) from the 90 degree. <br /></p>
+
+<p>The <img src="https://latex.codecogs.com/svg.Latex?%5CTheta" alt="" /> parameter is the sum of the deviation of 24 unique LG-M-LG angles ( <img src="https://latex.codecogs.com/svg.Latex?%5CTheta" alt="" /> ) from 60 degree, 
+where <img src="https://latex.codecogs.com/svg.Latex?%5CTheta" alt="" /> is computed on the orthogonal projection of two twisting triangular faces of the octahedron projected along its pseudo-threefold axes onto the medium plane that containing metal center. 
+However, in reality, due to the complex is distorted, the symmetry is changed, so the medium plane between two opposite faces cannot be determined directly. To solve this, we propose a new method to find the optimal 4 faces and use orthogonal vector projection for computing the unique (<img src="https://latex.codecogs.com/svg.Latex?%5Ctheta" alt="" />) angles on twisting triangular faces, and for finding the most reasonable <img src="https://latex.codecogs.com/svg.Latex?%5CTheta" alt="" /> parameter.</p>
+
+<p>Mathematical expression of three parameters are given by following equations</p>
+
+<p><img src="https://latex.codecogs.com/svg.Latex?%5CDelta%20%3D%20%5Cfrac%7B1%7D%7B6%7D%20%5Csum_%7Bi%20%3D%201%7D%5E%7B6%7D%20%28%5Cfrac%7Bd_%7Bi%7D%20-%20d%7D%7Bd%7D%29%5E2" alt="" /> <br /></p>
+
+<p><img src="https://latex.codecogs.com/svg.Latex?%5CSigma%20%3D%20%5Csum_%7Bi%20%3D%201%7D%5E%7B12%7D%20%5Cabs%20%5Cleft%20%7C%2090%20-%20%5Cphi_%7Bi%7D%20%7C" alt="" /> <br /></p>
+
+<p><img src="https://latex.codecogs.com/svg.Latex?%5CTheta%20%3D%20%5Csum_%7Bi%20%3D%201%7D%5E%7B24%7D%20%5Cabs%20%5Cleft%20%7C%2060%20-%20%5Ctheta_%7Bi%7D%20%7C" alt="" /> <br /></p>
+
+<p>To determine the distortion parameters, OctaDist firstly find the optimal 4 faces out of 8 faces of octahedral complexes. The total number of combination of faces is 70. OctaDist then computes the 24 unique (<img src="https://latex.codecogs.com/svg.Latex?%5Ctheta" alt="" />) angles for all 70 sets. Therefore, a distorted octahedral structure has 70 different values of <img src="https://latex.codecogs.com/svg.Latex?%5CTheta" alt="" /> parameter. The lowest <img src="https://latex.codecogs.com/svg.Latex?%5CTheta" alt="" /> is chosen for representing the deviation of a distorted complex from perfect octahedral structure.</p>
+
+<p><strong>Graphical representation of orthogonal projection and twisting triangular faces</strong></p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">Distorted octahedral complex</th>
+      <th style="text-align: center">Orthogonal projection of atoms onto the opposite face</th>
+      <th style="text-align: center">The <img src="https://latex.codecogs.com/svg.Latex?%5CTheta" alt="" /> (dihedral) angle between the atom vectors defined by two twisting triangular faces</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center"><img src="/images/Co-complex-8faces.png" alt="" /></td>
+      <td style="text-align: center"><img src="/images/Co-complex-projection.png" alt="" /></td>
+      <td style="text-align: center"><img src="/images/Co-complex-2D-projection.png" alt="" /></td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="references">References</h3>
+
+<ol>
+  <li><a href="https://journals.aps.org/prb/abstract/10.1103/PhysRevB.85.064114">M. Buron-Le Cointe, J. H´ebert, C. Bald´e, N. Moisan, L. Toupet, P. Guionneau, J. F. L´etard, E. Freysz, H. Cailleau, E. Collet. Physical Review B 2012, 85, 064114</a></li>
+  <li><a href="https://pubs.acs.org/doi/abs/10.1021/ic990921e">J. A. Alonso, M. J. Martı´nez-Lope, M. T. Casais, M. T. Ferna´ndez-Dı´az. Inorg. Chem. 2000, 39, 917-923</a></li>
+  <li><a href="https://pubs.acs.org/doi/abs/10.1021/ic9507880">J. K. McCusker, A. L. Rheingold, D. N. Hendrickson. Inorg. Chem. 1996, 35, 2100-2112</a></li>
+  <li><a href="https://onlinelibrary.wiley.com/doi/full/10.1107/S0108768104029751">M. Marchivie, P. Guionneau, J. F. Letard, D. Chasseau. Acta Crystal-logr. Sect. B Struct. Sci. 2005, 61, 25-28</a></li>
+</ol>
+
+<table>
+  <tbody>
+    <tr>
+      <td><a href="./">back to homepage</a></td>
+      <td><a href="/manual.html">manual</a></td>
+    </tr>
+  </tbody>
+</table>
+
+
+      </section>
+      <footer>
+        
+        <p>This project is maintained by <a href="https://github.com/OctaDist">OctaDist</a></p>
+        
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="/assets/js/scale.fix.js"></script>
+    
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-135002233-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+    
+  </body>
+</html>

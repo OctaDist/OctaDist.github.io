@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>OctaDist | A tool for calculating distortion parameters in coordination complexes.</title>
+<meta name="generator" content="Jekyll v3.8.7" />
+<meta property="og:title" content="OctaDist" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="A tool for calculating distortion parameters in coordination complexes." />
+<meta property="og:description" content="A tool for calculating distortion parameters in coordination complexes." />
+<link rel="canonical" href="http://localhost:4000/development.html" />
+<meta property="og:url" content="http://localhost:4000/development.html" />
+<meta property="og:site_name" content="OctaDist" />
+<script type="application/ld+json">
+{"@type":"WebPage","headline":"OctaDist","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/images/molecule.png"}},"description":"A tool for calculating distortion parameters in coordination complexes.","url":"http://localhost:4000/development.html","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="stylesheet" href="/assets/css/style.css?v=d20fdac3c0784cc68d7382e0d6deb83bd1a5e9c7">
+    <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1><a href="http://localhost:4000/">OctaDist</a></h1>
+        
+        
+          <img src="/images/molecule.png" alt="Logo" />
+        
+
+        <p>A tool for calculating distortion parameters in coordination complexes.</p>
+
+        
+        <p class="view"><a href="https://github.com/OctaDist/OctaDist.github.io">View the Project on GitHub <small>OctaDist/OctaDist.github.io</small></a></p>
+        
+
+        
+
+        
+      </header>
+      <section>
+
+      <p><a href="./">back to homepage</a></p>
+
+<h2 id="development">Development</h2>
+<hr />
+
+<h3 id="introduction">Introduction</h3>
+
+<p>OctaDist is written entirely in Python 3 binding to Tkinter GUI platform. 
+It is available for Windows, Linux, and macOS for both 32-bit and 64-bit systems. 
+It supports both of the graphical user interface (GUI) and the command line interface (CLI). 
+The first one is usually suitable for the end-users who are not familiar with Linux command, 
+while the latter is for those who are working with CLI such as Linux users.</p>
+
+<h3 id="code-maintenance">Code maintenance</h3>
+
+<p>The source code of OctaDist has been being maintained on Github version control system. 
+Both master revision and nightly development build have being tested and deployed on 
+<a href="https://travis-ci.org/OctaDist/OctaDist">Travis CI</a>, a continuous integration service.</p>
+
+<p>Program source code on Github:</p>
+<ul>
+  <li><a href="https://github.com/OctaDist/OctaDist">OctaDist Master: github.com/OctaDist/OctaDist</a></li>
+  <li><a href="https://github.com/OctaDist/OctaDist/tree/nightly-build">OctaDist Dev: github.com/OctaDist/OctaDist/tree/nightly-build</a></li>
+</ul>
+
+<h3 id="contribution">Contribution</h3>
+
+<p>To give a contribution on program development, please pull request on <a href="https://github.com/OctaDist/OctaDist">the OctaDist Github</a>.
+If you found a bug in program, please submit it on <a href="https://github.com/OctaDist/OctaDist/issues">issues page</a>. 
+We appreciate all help and contribution in getting program development.</p>
+
+<h3 id="program-structure">Program structure</h3>
+<hr />
+
+<table>
+  <thead>
+    <tr>
+      <th>Module</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>main</td>
+      <td>Main program</td>
+    </tr>
+    <tr>
+      <td>calc</td>
+      <td>Calculating distortion parameters</td>
+    </tr>
+    <tr>
+      <td>draw</td>
+      <td>Displaying molecule</td>
+    </tr>
+    <tr>
+      <td>elements</td>
+      <td>Atomic properties</td>
+    </tr>
+    <tr>
+      <td>linear</td>
+      <td>Built-in mathematical functions</td>
+    </tr>
+    <tr>
+      <td>molecule</td>
+      <td>Manipulating atomic coordinates</td>
+    </tr>
+    <tr>
+      <td>plane</td>
+      <td>Manipulate projection plane</td>
+    </tr>
+    <tr>
+      <td>plot</td>
+      <td>Plotting graph and chart</td>
+    </tr>
+    <tr>
+      <td>popup</td>
+      <td>Error, warning, and info messages</td>
+    </tr>
+    <tr>
+      <td>projection</td>
+      <td>2D &amp; 3D vector projections</td>
+    </tr>
+    <tr>
+      <td>scripting</td>
+      <td>Interactive code Console</td>
+    </tr>
+    <tr>
+      <td>structure</td>
+      <td>All data about structure</td>
+    </tr>
+    <tr>
+      <td>tools</td>
+      <td>Analysis tools by 3rd-party libraries</td>
+    </tr>
+    <tr>
+      <td>util</td>
+      <td>Frequently-used functions e.g. find atomic bonds</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="application-program-interface-api">Application Program Interface (API)</h3>
+<hr />
+
+<table>
+  <thead>
+    <tr>
+      <th>API version</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>octadist_gui</td>
+      <td>Graphical user interface (<strong>main</strong>.py)</td>
+    </tr>
+    <tr>
+      <td>octadist_cli</td>
+      <td>Command line interface (octadist_cli.py)</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="reference-documents">Reference Documents</h3>
+
+<p>OctaDist Master Stable docs: <a href="https://octadist.readthedocs.io/en/latest/">HTML</a> / <a href="https://readthedocs.org/projects/octadist/downloads/pdf/latest/">PDF</a> / <a href="https://readthedocs.org/projects/octadist/downloads/epub/latest/">Epub</a></p>
+
+<p>OctaDist Nightly Dev docs: <a href="https://octadist.readthedocs.io/en/nightly-build/">HTML</a> / <a href="https://readthedocs.org/projects/octadist/downloads/pdf/nightly-build/">PDF</a> / <a href="https://readthedocs.org/projects/octadist/downloads/epub/nightly-build/">Epub</a></p>
+
+<h3 id="prerequisites">Prerequisites</h3>
+<hr />
+
+<p>OctaDist supports Python 3.5+. For using the program as CLI, you can use following command to check the version of your current Python:</p>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>python <span class="nt">-v</span>
+</code></pre></div></div>
+
+<p>The 3rd party libraries are required for OctaDist for GUI and CLI (PyPI) are following:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>numpy
+scipy
+matplotlib
+rmsd
+</code></pre></div></div>
+
+<p>You need to install these libraries before running the program, 
+otherwise it will fail to start. The latest version is suggested.</p>
+
+<p>To install requirements:</p>
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pip <span class="nb">install</span> <span class="nt">-r</span> requirements.txt
+</code></pre></div></div>
+
+<h3 id="build-the-tarball-wheel-and-egg-files">Build the tarball, wheel, and egg files</h3>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">.tar.gz</code> : the tarball (supported by PIP)</li>
+  <li><code class="language-plaintext highlighter-rouge">.whl</code> : wheel file (supported by PIP)</li>
+  <li><code class="language-plaintext highlighter-rouge">.egg</code> : cross-platform zip file (supported by easy_install)</li>
+</ul>
+
+<ol>
+  <li>Build source code:
+    <div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>python setup.py sdist bdist_wheel bdist_egg
+</code></pre></div>    </div>
+  </li>
+  <li>Install OctaDist:
+    <div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>python setup.py <span class="nb">install</span>
+</code></pre></div>    </div>
+    <p>or:</p>
+    <div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pip <span class="nb">install </span>dist/<span class="k">*</span>.tar.gz
+</code></pre></div>    </div>
+  </li>
+  <li>Run test zip files:
+    <div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code> python setup.py <span class="nb">test</span>
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>Installed library of OctaDist will be install at <code class="language-plaintext highlighter-rouge">build/lib/octadist</code> directory.</p>
+  </li>
+  <li>OctaDist executable files will be automatically added to environment variables,
+you can call the program anywhere and anytime:</li>
+</ol>
+
+<ul>
+  <li>To start GUI:
+    <div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code> octadist
+</code></pre></div>    </div>
+
+    <p>or:</p>
+    <div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code> octadist_gui
+</code></pre></div>    </div>
+  </li>
+  <li>To start command-line:
+    <div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>octadist_cli
+</code></pre></div>    </div>
+  </li>
+</ul>
+
+<p>More details on Python package can be found its official website:
+https://packaging.python.org/tutorials/installing-packages.</p>
+
+<h3 id="program-compilation">Program compilation</h3>
+<hr />
+
+<p>OctaDist source code can be compiled to executable easily using <a href="https://www.pyinstaller.org/">PyInstaller</a>.</p>
+
+<p>Compilation instruction</p>
+<ol>
+  <li>Upgrade pip
+    <div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pip <span class="nb">install</span> <span class="nt">--upgrade</span> <span class="nt">--user</span> pip
+</code></pre></div>    </div>
+  </li>
+  <li>Install PyInstaller:
+    <div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pip <span class="nb">install</span> <span class="nt">--user</span> pyinstaller
+</code></pre></div>    </div>
+  </li>
+  <li>Check the version of PyInstaller:
+    <div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pyinstaller <span class="nt">--version</span>
+</code></pre></div>    </div>
+  </li>
+  <li>Change directory to <code class="language-plaintext highlighter-rouge">./octadist</code> directory, <code class="language-plaintext highlighter-rouge">where main.py</code> is:
+    <div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">cd </span>OctaDist-<span class="k">*</span><span class="nt">-src-x86-64</span>/octadist/
+</code></pre></div>    </div>
+  </li>
+  <li>Compile a standalone executable, like this:
+    <div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pyinstaller <span class="nt">--onefile</span> <span class="nt">--windowed</span> <span class="nt">-n</span> OctaDist-<span class="k">*</span><span class="nt">-src-x86-64</span> main.py
+</code></pre></div>    </div>
+  </li>
+  <li>The standalone executable will be build in <code class="language-plaintext highlighter-rouge">dist</code> directory</li>
+</ol>
+
+<p><a href="./">back to homepage</a></p>
+
+
+      </section>
+      <footer>
+        
+        <p>This project is maintained by <a href="https://github.com/OctaDist">OctaDist</a></p>
+        
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="/assets/js/scale.fix.js"></script>
+    
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-135002233-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+    
+  </body>
+</html>

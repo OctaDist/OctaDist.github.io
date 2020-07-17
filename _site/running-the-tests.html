@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>OctaDist | A tool for calculating distortion parameters in coordination complexes.</title>
+<meta name="generator" content="Jekyll v3.8.7" />
+<meta property="og:title" content="OctaDist" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="A tool for calculating distortion parameters in coordination complexes." />
+<meta property="og:description" content="A tool for calculating distortion parameters in coordination complexes." />
+<link rel="canonical" href="http://localhost:4000/running-the-tests.html" />
+<meta property="og:url" content="http://localhost:4000/running-the-tests.html" />
+<meta property="og:site_name" content="OctaDist" />
+<script type="application/ld+json">
+{"@type":"WebPage","headline":"OctaDist","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/images/molecule.png"}},"description":"A tool for calculating distortion parameters in coordination complexes.","url":"http://localhost:4000/running-the-tests.html","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="stylesheet" href="/assets/css/style.css?v=d20fdac3c0784cc68d7382e0d6deb83bd1a5e9c7">
+    <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1><a href="http://localhost:4000/">OctaDist</a></h1>
+        
+        
+          <img src="/images/molecule.png" alt="Logo" />
+        
+
+        <p>A tool for calculating distortion parameters in coordination complexes.</p>
+
+        
+        <p class="view"><a href="https://github.com/OctaDist/OctaDist.github.io">View the Project on GitHub <small>OctaDist/OctaDist.github.io</small></a></p>
+        
+
+        
+
+        
+      </header>
+      <section>
+
+      <table>
+  <tbody>
+    <tr>
+      <td><a href="./">back to homepage</a></td>
+      <td><a href="/manual.html">manual</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="running-the-test">Running the Test</h2>
+<hr />
+
+<p>This section shows how OctaDist can be used for computing the distortion parameters step by step.
+OctaDist can be used as a graphical user interface (GUI) and a command line interface (CLU).</p>
+
+<p>Examples of coordinates files can be found at <a href="https://github.com/OctaDist/OctaDist.github.io/tree/master/example-input">example-input</a>.</p>
+
+<hr />
+
+<p><strong>Content</strong></p>
+
+<ul>
+  <li><a href="#gui">GUI</a></li>
+  <li><a href="#cli">CLI</a></li>
+  <li><a href="#octadist-as-a-package">OctaDist as a packageCLI</a></li>
+  <li><a href="#sample-usage">Sample usage</a>
+    <ul>
+      <li><a href="#example-1">Example 1: Simple calculation 1</a></li>
+      <li><a href="#example-2">Example 2: Simple calculation 2</a></li>
+      <li><a href="#example-3">Example 3: Reading data from input file</a></li>
+      <li><a href="#example-4">Example 4: Selecting the metal</a></li>
+      <li><a href="#example-5">Example 5: Display molecule and save image</a></li>
+      <li><a href="#example-6">Example 6: Save figure as a file</a></li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+
+<h3 id="gui">GUI</h3>
+
+<ol>
+  <li>
+    <p>Click <strong><code class="language-plaintext highlighter-rouge">Browse file</code></strong>, choose one or multiple input files, then click <strong><code class="language-plaintext highlighter-rouge">Open</code></strong>.</p>
+
+    <p align="center">
+ <img alt="browse-file" src="images/octadist-browse-file.png" class="inline" align="middle" width="200pt" />
+ <p />
+   
+</p>
+  </li>
+  <li>
+    <p>OctaDist will check file format and extract atomic coordinates, and show the data on a result box.</p>
+
+    <p align="center">
+ <img alt="browse-file" src="images/octadist-show-coord.png" class="inline" align="middle" width="400pt" />
+ <p />
+
+</p>
+  </li>
+  <li>
+    <p>If yes, then click <strong><code class="language-plaintext highlighter-rouge">Compute</code></strong>.</p>
+
+    <p align="center">
+ <img alt="browse-file" src="images/octadist-compute.png" class="inline" align="middle" width="200pt" />
+ <p />
+
+</p>
+  </li>
+  <li>
+    <p>The computed parameters will be shown in output box.</p>
+
+    <p align="center">
+ <img alt="browse-file" src="images/octadist-show-result.png" class="inline" align="middle" width="200pt" />
+ <p />
+
+</p>
+  </li>
+  <li>
+    <p>To save the results, click <strong><code class="language-plaintext highlighter-rouge">File</code></strong>, then <strong><code class="language-plaintext highlighter-rouge">Save results</code></strong>.</p>
+
+    <p align="center">
+ <img alt="browse-file" src="images/octadist-save-result.png" class="inline" align="middle" width="200pt" />
+ <p />
+
+</p>
+  </li>
+</ol>
+<h3 id="cli">CLI</h3>
+
+<p>To run OctaDist command line (with help):</p>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>octadist_cli
+</code></pre></div></div>
+
+<p>Suppose that the following is an example of input structure:</p>
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>/home/nutt/test-structure.xyz
+</code></pre></div></div>
+
+<p>Compute distortion parameters:</p>
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>octadist_cli <span class="nt">-i</span> /home/nutt/test-structure.xyz
+</code></pre></div></div>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># output</span>
+0.18506902312963258
+0.0003179610975578898
+89.06158122867365
+286.13107524834516
+</code></pre></div></div>
+
+<p>You can ask OctaDist to show formatted output:</p>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>octadist_cli <span class="nt">-i</span> /home/nutt/test-structure.xyz <span class="nt">-o</span>
+</code></pre></div></div>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># output</span>
+Octahedral distortion parameters
+<span class="nt">--------------------------------</span>
+File: test-structure.xyz.xyz
+Zeta   <span class="o">=</span>   0.18506902
+Delta  <span class="o">=</span>   0.00031796
+Sigma  <span class="o">=</span>  89.06158123
+Theta  <span class="o">=</span> 286.13107525
+</code></pre></div></div>
+
+<h3 id="octadist-as-a-package">OctaDist as a package</h3>
+
+<p>Example scripts are available at <a href="https://github.com/OctaDist/OctaDist/tree/master/example-py">here</a>.</p>
+
+<ol>
+  <li>
+    <p>Install OctaDist using  <strong><code class="language-plaintext highlighter-rouge">pip</code></strong> or <strong><code class="language-plaintext highlighter-rouge">conda</code></strong> (see <a href="/installing.html">installing</a> for details).</p>
+  </li>
+  <li>
+    <p>Prepare lists of atomic labels and coordinates of octahedral structure, for example:</p>
+
+    <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="n">atom</span> <span class="o">=</span> <span class="p">[</span><span class="s">'Fe'</span><span class="p">,</span> <span class="s">'O'</span><span class="p">,</span> <span class="s">'O'</span><span class="p">,</span> <span class="s">'N'</span><span class="p">,</span> <span class="s">'N'</span><span class="p">,</span> <span class="s">'N'</span><span class="p">,</span> <span class="s">'N'</span><span class="p">]</span>
+    
+ <span class="n">coord</span> <span class="o">=</span> <span class="p">[[</span><span class="mf">2.298354000</span><span class="p">,</span> <span class="mf">5.161785000</span><span class="p">,</span> <span class="mf">7.971898000</span><span class="p">],</span>
+          <span class="p">[</span><span class="mf">1.885657000</span><span class="p">,</span> <span class="mf">4.804777000</span><span class="p">,</span> <span class="mf">6.183726000</span><span class="p">],</span>
+          <span class="p">[</span><span class="mf">1.747515000</span><span class="p">,</span> <span class="mf">6.960963000</span><span class="p">,</span> <span class="mf">7.932784000</span><span class="p">],</span>
+          <span class="p">[</span><span class="mf">4.094380000</span><span class="p">,</span> <span class="mf">5.807257000</span><span class="p">,</span> <span class="mf">7.588689000</span><span class="p">],</span>
+          <span class="p">[</span><span class="mf">0.539005000</span><span class="p">,</span> <span class="mf">4.482809000</span><span class="p">,</span> <span class="mf">8.460004000</span><span class="p">],</span>
+          <span class="p">[</span><span class="mf">2.812425000</span><span class="p">,</span> <span class="mf">3.266553000</span><span class="p">,</span> <span class="mf">8.131637000</span><span class="p">],</span>
+          <span class="p">[</span><span class="mf">2.886404000</span><span class="p">,</span> <span class="mf">5.392925000</span><span class="p">,</span> <span class="mf">9.848966000</span><span class="p">]]</span>
+</code></pre></div>    </div>
+
+    <p>otherwise, you can use <strong><code class="language-plaintext highlighter-rouge">extract_octa</code></strong> method in <strong><code class="language-plaintext highlighter-rouge">molecule</code></strong> module 
+ to extract the coordinates of octahedral structure of interest from input file.
+ For example, suppose that the input file is at <strong><code class="language-plaintext highlighter-rouge">full/path/of/input/file/Multiple-metals.xyz</code></strong></p>
+
+    <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="kn">from</span> <span class="nn">octadist</span> <span class="kn">import</span> <span class="n">molecule</span>
+    
+ <span class="nb">file</span> <span class="o">=</span> <span class="s">r"full/path/of/input/file/Multiple-metals.xyz"</span>
+ <span class="n">atom</span><span class="p">,</span> <span class="n">coord</span> <span class="o">=</span> <span class="n">molecule</span><span class="p">.</span><span class="n">extract_octa</span><span class="p">(</span><span class="nb">file</span><span class="p">)</span>
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>Import <strong><code class="language-plaintext highlighter-rouge">calc</code></strong> module for computing the octahedral distortion parameters
+and get the computed parameters:</p>
+
+    <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">from</span> <span class="nn">octadist</span> <span class="kn">import</span> <span class="n">calc</span>
+
+<span class="n">comp_result</span> <span class="o">=</span> <span class="n">calc</span><span class="p">.</span><span class="n">CalcDistortion</span><span class="p">(</span><span class="n">coord</span><span class="p">)</span>
+
+<span class="n">zeta</span> <span class="o">=</span> <span class="n">comp_result</span><span class="p">.</span><span class="n">zeta</span>
+<span class="n">delta</span> <span class="o">=</span> <span class="n">comp_result</span><span class="p">.</span><span class="n">delta</span>
+<span class="n">sigma</span> <span class="o">=</span> <span class="n">comp_result</span><span class="p">.</span><span class="n">sigma</span>
+<span class="n">theta</span> <span class="o">=</span> <span class="n">comp_result</span><span class="p">.</span><span class="n">theta</span>
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>Show value of computed distortion parameters:</p>
+    <div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code> All computed parameters
+ <span class="nt">-----------------------</span>
+ Zeta  <span class="o">=</span> 0.22807256171728651
+ Delta <span class="o">=</span> 0.0004762517834704151
+ Sigma <span class="o">=</span> 47.926528379270124
+ Theta <span class="o">=</span> 122.688972774546
+</code></pre></div>    </div>
+  </li>
+</ol>
+
+<h3 id="sample-usage">Sample usage</h3>
+<hr />
+
+<h4 id="example-1">Example 1</h4>
+
+<p><a href="/example-py/example_1.py">download code script</a></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">octadist</span> <span class="k">as</span> <span class="n">oc</span>
+
+<span class="c1"># The first atom must be metal center atom of octahedral structure.
+# If not, please see example_2.py for how to handle this issue.
+</span>
+<span class="n">atom</span> <span class="o">=</span> <span class="p">[</span><span class="s">'Fe'</span><span class="p">,</span> <span class="s">'O'</span><span class="p">,</span> <span class="s">'O'</span><span class="p">,</span> <span class="s">'N'</span><span class="p">,</span> <span class="s">'N'</span><span class="p">,</span> <span class="s">'N'</span><span class="p">,</span> <span class="s">'N'</span><span class="p">]</span>
+
+<span class="n">coord</span> <span class="o">=</span> <span class="p">[[</span><span class="mf">2.298354000</span><span class="p">,</span> <span class="mf">5.161785000</span><span class="p">,</span> <span class="mf">7.971898000</span><span class="p">],</span>  <span class="c1"># &lt;- Metal atom
+</span>         <span class="p">[</span><span class="mf">1.885657000</span><span class="p">,</span> <span class="mf">4.804777000</span><span class="p">,</span> <span class="mf">6.183726000</span><span class="p">],</span>
+         <span class="p">[</span><span class="mf">1.747515000</span><span class="p">,</span> <span class="mf">6.960963000</span><span class="p">,</span> <span class="mf">7.932784000</span><span class="p">],</span>
+         <span class="p">[</span><span class="mf">4.094380000</span><span class="p">,</span> <span class="mf">5.807257000</span><span class="p">,</span> <span class="mf">7.588689000</span><span class="p">],</span>
+         <span class="p">[</span><span class="mf">0.539005000</span><span class="p">,</span> <span class="mf">4.482809000</span><span class="p">,</span> <span class="mf">8.460004000</span><span class="p">],</span>
+         <span class="p">[</span><span class="mf">2.812425000</span><span class="p">,</span> <span class="mf">3.266553000</span><span class="p">,</span> <span class="mf">8.131637000</span><span class="p">],</span>
+         <span class="p">[</span><span class="mf">2.886404000</span><span class="p">,</span> <span class="mf">5.392925000</span><span class="p">,</span> <span class="mf">9.848966000</span><span class="p">]]</span>
+
+<span class="n">dist</span> <span class="o">=</span> <span class="n">oc</span><span class="p">.</span><span class="n">CalcDistortion</span><span class="p">(</span><span class="n">coord</span><span class="p">)</span>
+<span class="n">zeta</span> <span class="o">=</span> <span class="n">dist</span><span class="p">.</span><span class="n">zeta</span>             <span class="c1"># Zeta
+</span><span class="n">delta</span> <span class="o">=</span> <span class="n">dist</span><span class="p">.</span><span class="n">delta</span>           <span class="c1"># Delta
+</span><span class="n">sigma</span> <span class="o">=</span> <span class="n">dist</span><span class="p">.</span><span class="n">sigma</span>           <span class="c1"># Sigma
+</span><span class="n">theta</span> <span class="o">=</span> <span class="n">dist</span><span class="p">.</span><span class="n">theta</span>           <span class="c1"># Theta
+</span>
+<span class="k">print</span><span class="p">(</span><span class="s">"</span><span class="se">\n</span><span class="s">All computed parameters"</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s">"-----------------------"</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s">"Zeta  ="</span><span class="p">,</span> <span class="n">zeta</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s">"Delta ="</span><span class="p">,</span> <span class="n">delta</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s">"Sigma ="</span><span class="p">,</span> <span class="n">sigma</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s">"Theta ="</span><span class="p">,</span> <span class="n">theta</span><span class="p">)</span>
+
+<span class="c1"># All computed parameters
+# -----------------------
+# Zeta  = 0.22807256171728651
+# Delta = 0.0004762517834704151
+# Sigma = 47.926528379270124
+# Theta = 122.688972774546
+</span></code></pre></div></div>
+
+<h4 id="example-2">Example 2</h4>
+
+<p><a href="/example-py/example_2.py">download code script</a></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">octadist</span> <span class="k">as</span> <span class="n">oc</span>
+
+<span class="n">atom</span> <span class="o">=</span> <span class="p">[</span><span class="s">'O'</span><span class="p">,</span> <span class="s">'O'</span><span class="p">,</span> <span class="s">'Fe'</span><span class="p">,</span> <span class="s">'N'</span><span class="p">,</span> <span class="s">'N'</span><span class="p">,</span> <span class="s">'N'</span><span class="p">,</span> <span class="s">'N'</span><span class="p">]</span>
+
+<span class="n">coor</span> <span class="o">=</span> <span class="p">[[</span><span class="mf">1.885657000</span><span class="p">,</span> <span class="mf">4.804777000</span><span class="p">,</span> <span class="mf">6.183726000</span><span class="p">],</span>
+         <span class="p">[</span><span class="mf">1.747515000</span><span class="p">,</span> <span class="mf">6.960963000</span><span class="p">,</span> <span class="mf">7.932784000</span><span class="p">],</span>
+         <span class="p">[</span><span class="mf">2.298354000</span><span class="p">,</span> <span class="mf">5.161785000</span><span class="p">,</span> <span class="mf">7.971898000</span><span class="p">],</span>  <span class="c1"># &lt;- Metal atom
+</span>         <span class="p">[</span><span class="mf">4.094380000</span><span class="p">,</span> <span class="mf">5.807257000</span><span class="p">,</span> <span class="mf">7.588689000</span><span class="p">],</span>
+         <span class="p">[</span><span class="mf">0.539005000</span><span class="p">,</span> <span class="mf">4.482809000</span><span class="p">,</span> <span class="mf">8.460004000</span><span class="p">],</span>
+         <span class="p">[</span><span class="mf">2.812425000</span><span class="p">,</span> <span class="mf">3.266553000</span><span class="p">,</span> <span class="mf">8.131637000</span><span class="p">],</span>
+         <span class="p">[</span><span class="mf">2.886404000</span><span class="p">,</span> <span class="mf">5.392925000</span><span class="p">,</span> <span class="mf">9.848966000</span><span class="p">]]</span>
+
+<span class="c1"># If the first atom is not metal atom, you can rearrange the sequence
+# of atom in list using coord.extract_octa method.
+</span>
+<span class="n">atom_octa</span><span class="p">,</span> <span class="n">coord_octa</span> <span class="o">=</span> <span class="n">oc</span><span class="p">.</span><span class="n">molecule</span><span class="p">.</span><span class="n">extract_octa</span><span class="p">(</span><span class="n">atom</span><span class="p">,</span> <span class="n">coor</span><span class="p">)</span>
+
+<span class="n">dist</span> <span class="o">=</span> <span class="n">oc</span><span class="p">.</span><span class="n">CalcDistortion</span><span class="p">(</span><span class="n">coord_octa</span><span class="p">)</span>
+<span class="n">zeta</span> <span class="o">=</span> <span class="n">dist</span><span class="p">.</span><span class="n">zeta</span>             <span class="c1"># Zeta
+</span><span class="n">delta</span> <span class="o">=</span> <span class="n">dist</span><span class="p">.</span><span class="n">delta</span>           <span class="c1"># Delta
+</span><span class="n">sigma</span> <span class="o">=</span> <span class="n">dist</span><span class="p">.</span><span class="n">sigma</span>           <span class="c1"># Sigma
+</span><span class="n">theta</span> <span class="o">=</span> <span class="n">dist</span><span class="p">.</span><span class="n">theta</span>           <span class="c1"># Theta
+</span>
+<span class="k">print</span><span class="p">(</span><span class="s">"</span><span class="se">\n</span><span class="s">All computed parameters"</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s">"-----------------------"</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s">"Zeta  ="</span><span class="p">,</span> <span class="n">zeta</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s">"Delta ="</span><span class="p">,</span> <span class="n">delta</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s">"Sigma ="</span><span class="p">,</span> <span class="n">sigma</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s">"Theta ="</span><span class="p">,</span> <span class="n">theta</span><span class="p">)</span>
+
+<span class="c1"># All computed parameters
+# -----------------------
+# Zeta  = 0.22807256171728651
+# Delta = 0.0004762517834704151
+# Sigma = 47.926528379270124
+# Theta = 122.688972774546
+</span></code></pre></div></div>
+
+<h4 id="example-3">Example 3</h4>
+
+<p><a href="/example-py/example_3.py">download code script</a></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">octadist</span> <span class="k">as</span> <span class="n">oc</span>
+
+<span class="c1"># You can also import your input file, like this:
+</span>
+<span class="nb">file</span> <span class="o">=</span> <span class="s">r"../example-input/Multiple-metals.xyz"</span>
+
+<span class="c1"># Then use coord.extract_file to extract all atomic symbols and coordinates,
+# and then use coord.extract_octa for taking the octahedral structure.
+</span>
+<span class="n">atom_full</span><span class="p">,</span> <span class="n">coord_full</span> <span class="o">=</span> <span class="n">oc</span><span class="p">.</span><span class="n">molecule</span><span class="p">.</span><span class="n">extract_coord</span><span class="p">(</span><span class="nb">file</span><span class="p">)</span>
+<span class="n">atom</span><span class="p">,</span> <span class="n">coord</span> <span class="o">=</span> <span class="n">oc</span><span class="p">.</span><span class="n">molecule</span><span class="p">.</span><span class="n">extract_octa</span><span class="p">(</span><span class="n">atom_full</span><span class="p">,</span> <span class="n">coord_full</span><span class="p">)</span>
+
+<span class="n">dist</span> <span class="o">=</span> <span class="n">oc</span><span class="p">.</span><span class="n">CalcDistortion</span><span class="p">(</span><span class="n">coord</span><span class="p">)</span>
+<span class="n">zeta</span> <span class="o">=</span> <span class="n">dist</span><span class="p">.</span><span class="n">zeta</span>             <span class="c1"># Zeta
+</span><span class="n">delta</span> <span class="o">=</span> <span class="n">dist</span><span class="p">.</span><span class="n">delta</span>           <span class="c1"># Delta
+</span><span class="n">sigma</span> <span class="o">=</span> <span class="n">dist</span><span class="p">.</span><span class="n">sigma</span>           <span class="c1"># Sigma
+</span><span class="n">theta</span> <span class="o">=</span> <span class="n">dist</span><span class="p">.</span><span class="n">theta</span>           <span class="c1"># Theta
+</span>
+<span class="k">print</span><span class="p">(</span><span class="s">"</span><span class="se">\n</span><span class="s">All computed parameters"</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s">"-----------------------"</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s">"Zeta  ="</span><span class="p">,</span> <span class="n">zeta</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s">"Delta ="</span><span class="p">,</span> <span class="n">delta</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s">"Sigma ="</span><span class="p">,</span> <span class="n">sigma</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s">"Theta ="</span><span class="p">,</span> <span class="n">theta</span><span class="p">)</span>
+
+<span class="c1"># All computed parameters
+# -----------------------
+# Zeta  = 0.0030146365519487794
+# Delta = 1.3695007180404868e-07
+# Sigma = 147.3168033970211
+# Theta = 520.6407679851042
+</span></code></pre></div></div>
+
+<h4 id="example-4">Example 4</h4>
+
+<p><a href="/example-py/example_4.py">download code script</a></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">octadist</span> <span class="k">as</span> <span class="n">oc</span>
+
+<span class="nb">file</span> <span class="o">=</span> <span class="s">r"../example-input/Multiple-metals.xyz"</span>
+
+<span class="n">atom_full</span><span class="p">,</span> <span class="n">coor_full</span> <span class="o">=</span> <span class="n">oc</span><span class="p">.</span><span class="n">molecule</span><span class="p">.</span><span class="n">extract_coord</span><span class="p">(</span><span class="nb">file</span><span class="p">)</span>
+
+<span class="c1"># If complex contains metal center more than one, you can specify the index metal
+# whose octahedral structure will be computed.
+# For example, this complex contains three metal atoms: Fe, Ru, and Rd.
+# I add "2" as a second argument for choosing Ru as metal of interest.
+</span>
+<span class="n">atom</span><span class="p">,</span> <span class="n">coord</span> <span class="o">=</span> <span class="n">oc</span><span class="p">.</span><span class="n">molecule</span><span class="p">.</span><span class="n">extract_octa</span><span class="p">(</span><span class="n">atom_full</span><span class="p">,</span> <span class="n">coor_full</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span>
+
+<span class="n">dist</span> <span class="o">=</span> <span class="n">oc</span><span class="p">.</span><span class="n">CalcDistortion</span><span class="p">(</span><span class="n">coord</span><span class="p">)</span>
+<span class="n">zeta</span> <span class="o">=</span> <span class="n">dist</span><span class="p">.</span><span class="n">zeta</span>             <span class="c1"># Zeta
+</span><span class="n">delta</span> <span class="o">=</span> <span class="n">dist</span><span class="p">.</span><span class="n">delta</span>           <span class="c1"># Delta
+</span><span class="n">sigma</span> <span class="o">=</span> <span class="n">dist</span><span class="p">.</span><span class="n">sigma</span>           <span class="c1"># Sigma
+</span><span class="n">theta</span> <span class="o">=</span> <span class="n">dist</span><span class="p">.</span><span class="n">theta</span>           <span class="c1"># Theta
+</span>
+<span class="k">print</span><span class="p">(</span><span class="s">"</span><span class="se">\n</span><span class="s">All computed parameters"</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s">"-----------------------"</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s">"Zeta  ="</span><span class="p">,</span> <span class="n">zeta</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s">"Delta ="</span><span class="p">,</span> <span class="n">delta</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s">"Sigma ="</span><span class="p">,</span> <span class="n">sigma</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s">"Theta ="</span><span class="p">,</span> <span class="n">theta</span><span class="p">)</span>
+
+<span class="c1"># All computed parameters
+# -----------------------
+# Zeta  = 0.001616439510534251
+# Delta = 3.5425830613072754e-08
+# Sigma = 1.26579367508117
+# Theta = 4.177042495798965
+</span></code></pre></div></div>
+
+<h4 id="example-5">Example 5</h4>
+
+<p><a href="/example-py/example_5.py">download code script</a></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">octadist</span> <span class="k">as</span> <span class="n">oc</span>
+
+<span class="nb">file</span> <span class="o">=</span> <span class="s">r"../example-input/Multiple-metals.xyz"</span>
+
+<span class="n">atom_full</span><span class="p">,</span> <span class="n">coord_full</span> <span class="o">=</span> <span class="n">oc</span><span class="p">.</span><span class="n">molecule</span><span class="p">.</span><span class="n">extract_coord</span><span class="p">(</span><span class="nb">file</span><span class="p">)</span>
+
+<span class="c1"># Graphical display for octahedral complex
+</span><span class="n">my_plot</span> <span class="o">=</span> <span class="n">oc</span><span class="p">.</span><span class="n">draw</span><span class="p">.</span><span class="n">DrawComplex</span><span class="p">(</span><span class="n">atom</span><span class="o">=</span><span class="n">atom_full</span><span class="p">,</span> <span class="n">coord</span><span class="o">=</span><span class="n">coord_full</span><span class="p">)</span>
+<span class="n">my_plot</span><span class="p">.</span><span class="n">add_atom</span><span class="p">()</span>
+<span class="n">my_plot</span><span class="p">.</span><span class="n">add_bond</span><span class="p">()</span>
+<span class="n">my_plot</span><span class="p">.</span><span class="n">add_legend</span><span class="p">()</span>
+<span class="n">my_plot</span><span class="p">.</span><span class="n">show_plot</span><span class="p">()</span>
+</code></pre></div></div>
+
+<h4 id="example-6">Example 6</h4>
+
+<p><a href="/example-py/example_6.py">download code script</a></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">octadist</span> <span class="k">as</span> <span class="n">oc</span>
+
+<span class="nb">file</span> <span class="o">=</span> <span class="s">r"../example-input/Multiple-metals.xyz"</span>
+
+<span class="n">atom_full</span><span class="p">,</span> <span class="n">coord_full</span> <span class="o">=</span> <span class="n">oc</span><span class="p">.</span><span class="n">molecule</span><span class="p">.</span><span class="n">extract_coord</span><span class="p">(</span><span class="nb">file</span><span class="p">)</span>
+
+<span class="c1"># Display and automatically save image as .png file with user-specified name
+</span><span class="n">my_plot</span> <span class="o">=</span> <span class="n">oc</span><span class="p">.</span><span class="n">draw</span><span class="p">.</span><span class="n">DrawComplex</span><span class="p">(</span><span class="n">atom</span><span class="o">=</span><span class="n">atom_full</span><span class="p">,</span> <span class="n">coord</span><span class="o">=</span><span class="n">coord_full</span><span class="p">)</span>
+<span class="n">my_plot</span><span class="p">.</span><span class="n">add_atom</span><span class="p">()</span>
+<span class="n">my_plot</span><span class="p">.</span><span class="n">add_bond</span><span class="p">()</span>
+<span class="n">my_plot</span><span class="p">.</span><span class="n">add_legend</span><span class="p">()</span>
+<span class="n">my_plot</span><span class="p">.</span><span class="n">save_img</span><span class="p">()</span>
+<span class="n">my_plot</span><span class="p">.</span><span class="n">show_plot</span><span class="p">()</span>
+
+<span class="c1"># Output image, Complex_saved_by_OctaDist.png, is stored at ../images directory
+</span></code></pre></div></div>
+
+<table>
+  <tbody>
+    <tr>
+      <td><a href="./">back to homepage</a></td>
+      <td><a href="/manual.html">manual</a></td>
+    </tr>
+  </tbody>
+</table>
+
+
+      </section>
+      <footer>
+        
+        <p>This project is maintained by <a href="https://github.com/OctaDist">OctaDist</a></p>
+        
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="/assets/js/scale.fix.js"></script>
+    
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-135002233-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+    
+  </body>
+</html>
