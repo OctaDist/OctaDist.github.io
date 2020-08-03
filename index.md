@@ -52,7 +52,7 @@ https://octadist.github.io
 ## Source code
 
 The source code is available at [OctaDist Github repository][octadist-github].
-To obtain OctaDist executable, please register at https://cutt.ly/regis-octadist.
+To obtain OctaDist executable, please register at [Registration for OctaDist](https://cutt.ly/regis-octadist).
 
 [octadist-github]: https://github.com/OctaDist/OctaDist
 
