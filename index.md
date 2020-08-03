@@ -16,14 +16,14 @@ such as perovskite and metal-organic framework (MOF).
 
 - [About OctaDist](./about.md)
 - [Features](./features.md)
-- [Download][dl-link]
+- [Registration for OctaDist][regis-link]
 - [Manual](./manual.md)
 - [Tutorial](./tutorial.md)
 - [Publications](./publications.md)
 - [Screenshots](./screenshots.md)
 - [Stats](./stats.md)
 
-[dl-link]: https://octadist.readthedocs.io/en/latest/download.html
+[regis-link]: https://cutt.ly/regis-octadist
 
 ## Status
 
@@ -52,6 +52,7 @@ https://octadist.github.io
 ## Source code
 
 The source code is available at [OctaDist Github repository][octadist-github].
+To obtain OctaDist executable, please register at https://cutt.ly/regis-octadist.
 
 [octadist-github]: https://github.com/OctaDist/OctaDist
 
