@@ -16,6 +16,7 @@ such as perovskite and metal-organic framework (MOF).
 
 - [About OctaDist](./about.md)
 - [Features](./features.md)
+- [Download][download-octadist]
 - [Registration for OctaDist][regis-link]
 - [Manual](./manual.md)
 - [Tutorial](./tutorial.md)
@@ -23,6 +24,7 @@ such as perovskite and metal-organic framework (MOF).
 - [Screenshots](./screenshots.md)
 - [Stats](./stats.md)
 
+[download-octadist]: https://octadist.readthedocs.io/en/latest/download.html
 [regis-link]: https://cutt.ly/regis-octadist
 
 ## Status
