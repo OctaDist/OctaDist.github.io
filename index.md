@@ -58,7 +58,6 @@ BibTeX
     author = {Rangsiman Ketkaew and Yuthana Tantirungrotechai and David J. Harding and Phimphaka Harding and and Mathieu Marchivie}, 
     title = {OctaDist: A tool for calculating distortion parameters in coordination complexes}, 
     url = {https://octadist.github.io}, 
-    journal = {OctaDist}, 
     year = {2019}, 
     month = {Aug}}
 ```
