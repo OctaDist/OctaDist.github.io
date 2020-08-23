@@ -16,6 +16,7 @@ such as perovskite and metal-organic framework (MOF).
 
 - [About OctaDist](./about.md)
 - [Features](./features.md)
+- [Distortion parameters](./distortion-parameters.md)
 - [Download][download-octadist]
 - [Registration for OctaDist][regis-link]
 - [Manual](./manual.md)

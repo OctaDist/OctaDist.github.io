@@ -30,9 +30,9 @@ Mathematical expression of three parameters are given by following equations
 
 ![](https://latex.codecogs.com/svg.Latex?%5CDelta%20%3D%20%5Cfrac%7B1%7D%7B6%7D%20%5Csum_%7Bi%20%3D%201%7D%5E%7B6%7D%20%28%5Cfrac%7Bd_%7Bi%7D%20-%20d%7D%7Bd%7D%29%5E2) <br/>
 
-![](https://latex.codecogs.com/svg.Latex?%5CSigma%20%3D%20%5Csum_%7Bi%20%3D%201%7D%5E%7B12%7D%20%5Cabs%20%5Cleft%20%7C%2090%20-%20%5Cphi_%7Bi%7D%20%7C) <br/>
+![](https://latex.codecogs.com/svg.latex?%5CSigma%20%3D%20%5Csum_%7Bi%3D1%7D%5E%7B12%7D%20%7C%5Cphi_%7Bi%7D%20-%2090%7C) <br/>
 
-![](https://latex.codecogs.com/svg.Latex?%5CTheta%20%3D%20%5Csum_%7Bi%20%3D%201%7D%5E%7B24%7D%20%5Cabs%20%5Cleft%20%7C%2060%20-%20%5Ctheta_%7Bi%7D%20%7C) <br/>
+![](https://latex.codecogs.com/svg.latex?%5CTheta%20%3D%20%5Csum_%7Bi%3D1%7D%5E%7B24%7D%20%7C%5Ctheta_%7Bi%7D%20-%2060%7C) <br/>
 
 To determine the distortion parameters, OctaDist firstly find the optimal 4 faces out of 8 faces of octahedral complexes. The total number of combination of faces is 70. OctaDist then computes the 24 unique (![](https://latex.codecogs.com/svg.Latex?%5Ctheta)) angles for all 70 sets. Therefore, a distorted octahedral structure has 70 different values of ![](https://latex.codecogs.com/svg.Latex?%5CTheta) parameter. The lowest ![](https://latex.codecogs.com/svg.Latex?%5CTheta) is chosen for representing the deviation of a distorted complex from perfect octahedral structure.
 
