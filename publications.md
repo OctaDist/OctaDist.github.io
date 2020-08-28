@@ -15,5 +15,7 @@ Publications citing OctaDist.
 5. Electronic structures and optoelectronic properties of ATiOPO4 (A = H, Li, Na, K, Rb, Cs, Fr, NH4, Ag) compounds and their applications in water splitting, CO2 reduction, and photo-degradation. **_Materials Research Express_, 2020, 7, 4** ([Link](https://iopscience.iop.org/article/10.1088/2053-1591/ab8338))
 6. Understanding the Origin of One- or Two-Step Valence Tautomeric Transitions in Bis(dioxolene)-Bridged Dinuclear Cobalt Complexes. **_Journal of American Chemical Society_ 2020, 142, 24, 10692–10704** ([Link](https://pubs.acs.org/doi/10.1021/jacs.0c01073))
 7. Modulation of Jahn-Teller distortion and electromechanical response in a Mn 3+ spin crossover complex. **_Journal of Physics: Condensed Matter_ 2020, 32, 40** ([Link](https://iopscience.iop.org/article/10.1088/1361-648X/ab82d1))
+8. Crystal structure of bis­­{(3,5-di­methyl­pyrazol-1-yl)di­hydro­[3-(pyridin-2-yl)pyrazol-1-yl]­borato}iron(II). **_Acta Cryst._, 2020, E76, 1266–1270**([Link](https://journals.iucr.org/e/issues/2020/08/00/wm5574/))
+9. The Influence of Halide Substituents on the Structural and Magnetic Properties of Fe6Dy3 Rings. **_Front. Chem._, 2020, 8, 701** ([Link](https://www.frontiersin.org/articles/10.3389/fchem.2020.00701))
 
 [back to homepage](./)
