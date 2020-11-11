@@ -58,12 +58,18 @@ the [Switchable Molecules and Materials][SWM] group at University of Bordeaux, F
   - E-mail: kphimpha@mail.wu.ac.th
 - [Mathieu Marchivie][MM-website] (University of Bordeaux, France)
   - E-mail: mathieu.marchivie@icmcb.cnrs.fr
+- [Guillaume Chastanet][GC-website] (University of Bordeaux, France)
+  - E-mail: guillaume.chastanet@icmcb.cnrs.fr
+- [Philippe Guionneau][PG-website] (University of Bordeaux, France)
+  - E-mail: philippe.guionneau@icmcb.cnrs.fr
   
-[RK-website]: https://sites.google.com/site/rangsiman1993
+[RK-website]: https://rangsimanketkaew.github.io
 [YT-website]: https://sites.google.com/site/compchem403/people/faculty/yuthana
 [DH-website]: https://www.funtechwu.com/david-j-harding
 [PH-website]: https://www.funtechwu.com/phimphaka-harding
-[MM-website]: http://www.icmcb-bordeaux.cnrs.fr/spip.php?article562
+[MM-website]: https://www.icmcb-bordeaux.cnrs.fr/en/teams/group6/
+[GC-website]: https://www.icmcb-bordeaux.cnrs.fr/en/teams/group6/
+[PG-website]: https://www.icmcb-bordeaux.cnrs.fr/en/teams/group6/
 
 ### License
 
