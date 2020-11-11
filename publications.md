@@ -17,5 +17,11 @@ Publications citing OctaDist.
 7. Modulation of Jahn-Teller distortion and electromechanical response in a Mn 3+ spin crossover complex. **_Journal of Physics: Condensed Matter_ 2020, 32, 40** ([Link](https://iopscience.iop.org/article/10.1088/1361-648X/ab82d1))
 8. Crystal structure of bis­­{(3,5-di­methyl­pyrazol-1-yl)di­hydro­[3-(pyridin-2-yl)pyrazol-1-yl]­borato}iron(II). **_Acta Cryst._, 2020, E76, 1266–1270**([Link](https://journals.iucr.org/e/issues/2020/08/00/wm5574/))
 9. The Influence of Halide Substituents on the Structural and Magnetic Properties of Fe6Dy3 Rings. **_Front. Chem._, 2020, 8, 701** ([Link](https://www.frontiersin.org/articles/10.3389/fchem.2020.00701))
+10. Stress‐induced Domain Wall Motion in a Ferroelastic Mn3+ Spin Crossover Complex. **_Angew. Chem. Int. Ed._ 2020, 59, 13305– 13312**([Link](https://onlinelibrary.wiley.com/doi/10.1002/anie.202003041))
+11. Structural Origin of Magnetic Hysteresis in an Iron (III) Spin-Crossover Material. **_Cryst. Growth Des._ 2020, 20, 10, 7006–7011**([Link](https://pubs.acs.org/doi/full/10.1021/acs.cgd.0c01073))
+12. Spin Crossover in Iron(III) Quinolylsalicylaldiminates: The Curious Case of [Fe(qsal-F)2](Anion). **_Inorg. Chem._ 2020, 59, 18, 13784–13791**([Link](https://pubs.acs.org/doi/abs/10.1021/acs.inorgchem.0c02201))
+13. Spin‐Crossover Properties of an Iron (II) Coordination Nanohoop. **_Angew. Chem. Int. Ed._ 10.1002/anie.202013374** ([Link](https://onlinelibrary.wiley.com/doi/10.1002/anie.202013374))
+
+
 
 [back to homepage](./)
