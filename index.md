@@ -60,7 +60,7 @@ BibTeX
   year = {2021},
   publisher = {Royal Society of Chemistry ({RSC})},
   author = {Rangsiman Ketkaew and Yuthana Tantirungrotechai and Phimphaka Harding and Guillaume Chastanet and Philippe Guionneau and Mathieu Marchivie and David J. Harding},
-  title = {{OctaDist}: A tool for calculating distortion parameters in spin crossover and coordination complexes},
+  title = {OctaDist: A tool for calculating distortion parameters in spin crossover and coordination complexes},
   journal = {Dalton Transactions}
 }
 ```
