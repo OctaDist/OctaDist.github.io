@@ -21,7 +21,8 @@ Publications citing OctaDist.
 11. Structural Origin of Magnetic Hysteresis in an Iron (III) Spin-Crossover Material. **_Cryst. Growth Des._ 2020, 20, 10, 7006–7011**([Link](https://pubs.acs.org/doi/full/10.1021/acs.cgd.0c01073))
 12. Spin Crossover in Iron(III) Quinolylsalicylaldiminates: The Curious Case of [Fe(qsal-F)2](Anion). **_Inorg. Chem._ 2020, 59, 18, 13784–13791**([Link](https://pubs.acs.org/doi/abs/10.1021/acs.inorgchem.0c02201))
 13. Spin‐Crossover Properties of an Iron (II) Coordination Nanohoop. **_Angew. Chem. Int. Ed._ 10.1002/anie.202013374** ([Link](https://onlinelibrary.wiley.com/doi/10.1002/anie.202013374))
+14. Modulation of Mn3+ Spin State by Guest Molecule Inclusion. **_Molecules_ 2020, 25(23), 5603** ([Link](https://www.mdpi.com/1420-3049/25/23/5603))
 
-
+Last update: December 18, 2020
 
 [back to homepage](./)

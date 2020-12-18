@@ -45,22 +45,24 @@ such as perovskite and metal-organic framework (MOF).
 
 ## Citation
 
-Please cite this project when you use OctaDist for scientific publication.
+Please cite this project when you use OctaDist for scientific publication:
 
-```
-OctaDist: A tool for calculating distortion parameters in coordination complexes.
-https://octadist.github.io
-```
+Ketkaew, R.; Tantirungrotechai, Y.; Harding, P.; Chastanet, G.; Guionneau, P.; Marchivie, M.; Harding, D. J. 
+OctaDist: A Tool for Calculating Distortion Parameters in Spin Crossover and Coordination Complexes. 
+*Dalton Trans.* **2020**. https://doi.org/10.1039/D0DT03988H
 
 BibTeX
 
 ```
-@misc{KetkaewOctaDist2019, 
-    author = {Rangsiman Ketkaew and Yuthana Tantirungrotechai and Phimphaka Harding and Guillaume Chastanet and Philippe Guionneau and Mathieu Marchivie and David J. Harding}, 
-    title = {OctaDist: A tool for calculating distortion parameters in coordination complexes}, 
-    url = {https://octadist.github.io}, 
-    year = {2019}, 
-    month = {Aug}}
+@article{Ketkaew2021,
+  doi = {10.1039/d0dt03988h},
+  url = {https://doi.org/10.1039/d0dt03988h},
+  year = {2021},
+  publisher = {Royal Society of Chemistry ({RSC})},
+  author = {Rangsiman Ketkaew and Yuthana Tantirungrotechai and Phimphaka Harding and Guillaume Chastanet and Philippe Guionneau and Mathieu Marchivie and David J. Harding},
+  title = {{OctaDist}: A tool for calculating distortion parameters in spin crossover and coordination complexes},
+  journal = {Dalton Transactions}
+}
 ```
 
 ## Source code
@@ -78,6 +80,4 @@ For reporting bugs in OctaDist, please [submit issues][submit-issues-link] on Oc
 
 ## Project team
 
-Rangsiman Ketkaew, Yuthana Tantirungrotechai, David J. Harding, 
-Phimphaka Harding, and Mathieu Marchivie.
-  
+Rangsiman Ketkaew, Yuthana Tantirungrotechai, Phimphaka Harding, Guillaume Chastanet, Philippe Guionneau, Mathieu Marchivie, and David J. Harding,

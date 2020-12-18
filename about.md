@@ -56,20 +56,18 @@ the [Switchable Molecules and Materials][SWM] group at University of Bordeaux, F
   - E-mail: hdavid@mail.wu.ac.th
 - [Phimphaka Harding][PH-website] (Walailak University, Thailand)
   - E-mail: kphimpha@mail.wu.ac.th
+- [Guillaume Chastanet][MM-website] (University of Bordeaux, France)
+  - E-mail: Guillaume.Chastanet@icmcb.cnrs.fr
+- [Philippe Guionneau][MM-website] (University of Bordeaux, France)
+  - E-mail: Philippe.Guionneau@icmcb.cnrs.fr
 - [Mathieu Marchivie][MM-website] (University of Bordeaux, France)
   - E-mail: mathieu.marchivie@icmcb.cnrs.fr
-- [Guillaume Chastanet][GC-website] (University of Bordeaux, France)
-  - E-mail: guillaume.chastanet@icmcb.cnrs.fr
-- [Philippe Guionneau][PG-website] (University of Bordeaux, France)
-  - E-mail: philippe.guionneau@icmcb.cnrs.fr
   
-[RK-website]: https://rangsimanketkaew.github.io
+[RK-website]: https://rangsimanketkaew.github.io/
 [YT-website]: https://sites.google.com/site/compchem403/people/faculty/yuthana
 [DH-website]: https://www.funtechwu.com/david-j-harding
 [PH-website]: https://www.funtechwu.com/phimphaka-harding
-[MM-website]: https://www.icmcb-bordeaux.cnrs.fr/en/teams/group6/
-[GC-website]: https://www.icmcb-bordeaux.cnrs.fr/en/teams/group6/
-[PG-website]: https://www.icmcb-bordeaux.cnrs.fr/en/teams/group6/
+[MM-website]: http://www.icmcb-bordeaux.cnrs.fr/spip.php?article562
 
 ### License
 
