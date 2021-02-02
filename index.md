@@ -63,7 +63,7 @@ BibTeX
   number = {3},
   pages = {1086--1096},
   author = {Rangsiman Ketkaew and Yuthana Tantirungrotechai and Phimphaka Harding and Guillaume Chastanet and Philippe Guionneau and Mathieu Marchivie and David J. Harding},
-  title = {{OctaDist}: a tool for calculating distortion parameters in spin crossover and coordination complexes},
+  title = {OctaDist: a tool for calculating distortion parameters in spin crossover and coordination complexes},
   journal = {Dalton Transactions}
 }
 ```
