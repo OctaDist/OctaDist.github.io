@@ -49,7 +49,7 @@ Please cite this project when you use OctaDist for scientific publication:
 
 Ketkaew, R.; Tantirungrotechai, Y.; Harding, P.; Chastanet, G.; Guionneau, P.; Marchivie, M.; Harding, D. J. 
 OctaDist: A Tool for Calculating Distortion Parameters in Spin Crossover and Coordination Complexes. 
-*Dalton Trans.* **2021**. https://doi.org/10.1039/D0DT03988H
+*Dalton Trans.*, **2021**,50, 1086-1096. https://doi.org/10.1039/D0DT03988H
 
 BibTeX
 
@@ -59,8 +59,11 @@ BibTeX
   url = {https://doi.org/10.1039/d0dt03988h},
   year = {2021},
   publisher = {Royal Society of Chemistry ({RSC})},
+  volume = {50},
+  number = {3},
+  pages = {1086--1096},
   author = {Rangsiman Ketkaew and Yuthana Tantirungrotechai and Phimphaka Harding and Guillaume Chastanet and Philippe Guionneau and Mathieu Marchivie and David J. Harding},
-  title = {OctaDist: A tool for calculating distortion parameters in spin crossover and coordination complexes},
+  title = {OctaDist: a tool for calculating distortion parameters in spin crossover and coordination complexes},
   journal = {Dalton Transactions}
 }
 ```
