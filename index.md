@@ -49,7 +49,7 @@ Please cite this project when you use OctaDist for scientific publication:
 
 Ketkaew, R.; Tantirungrotechai, Y.; Harding, P.; Chastanet, G.; Guionneau, P.; Marchivie, M.; Harding, D. J. 
 OctaDist: A Tool for Calculating Distortion Parameters in Spin Crossover and Coordination Complexes. 
-*Dalton Trans.*, **2021**,50, 1086-1096. https://doi.org/10.1039/D0DT03988H
+**_Dalton Trans._, 2021, 50, 1086-1096.** [https://doi.org/10.1039/D0DT03988H](https://doi.org/10.1039/D0DT03988H)
 
 BibTeX
 
