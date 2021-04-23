@@ -27,6 +27,6 @@ Publications citing OctaDist.
 17. The Dynamic Interplay between Intramolecular and Intermolecular Interactions in Mononuclear Manganese(Ⅲ) SCO Complexes. **_Dalton Trans._, 2021** ([Link](https://pubs.rsc.org/en/Content/ArticleLanding/2021/DT/D0DT04109B))
 18. Interplay of halogen and hydrogen bonding in a series of heteroleptic iron (III) complexes. **ChemRxiv 2021** ([Link](https://chemrxiv.org/articles/preprint/Interplay_of_Halogen_and_Hydrogen_Bonding_in_a_Series_of_Heteroleptic_iron_III_Complexes/14387768))
 
-Last update: December 18, 2020
+Last update: April 2021
 
 [back to homepage](./)
