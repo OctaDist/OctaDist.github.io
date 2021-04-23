@@ -24,7 +24,7 @@ interested in this.
 
 ### Availability
 
-OctaDist is an user-friendly computer software for crystallography and 
+OctaDist is a user-friendly computer software for crystallography and 
 inorganic chemistry. It is mainly used for computing octahedral distortion 
 parameters of octahedral molecular geometry, for instance, spin crossover 
 coordination complex and magnetic metal complex.
