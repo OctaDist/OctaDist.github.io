@@ -24,9 +24,10 @@ Publications citing OctaDist.
 14. Modulation of Mn3+ Spin State by Guest Molecule Inclusion. **_Molecules_ 2020, 25(23), 5603** ([Link](https://www.mdpi.com/1420-3049/25/23/5603))
 15. Structural, Magnetic and Mӧssbauer Spectroscopic Studies of [Fe(3-bpp)2](CF3COO)2 Complex: Role of Crystal Packing Leading to An Incomplete Fe(II) High Spin [left over right harpoons] Low Spin Transition. **_CrystEngComm_, 2021** ([Link](https://pubs.rsc.org/en/content/articlehtml/2021/ce/d0ce01687j))
 16. Structural and Spectroscopic Comparison of Soft‐Se vs. Hard‐O Donor Bonding in Trivalent Americium/Neodymium Molecules. **_Angew. Chem. Int. Ed._ 2021, 60, 2–10** ([Link](https://onlinelibrary.wiley.com/doi/10.1002/anie.202017186))
-17. The Dynamic Interplay between Intramolecular and Intermolecular Interactions in Mononuclear Manganese(Ⅲ) SCO Complexes. **_Dalton Trans._, 2021** ([Link](https://pubs.rsc.org/en/Content/ArticleLanding/2021/DT/D0DT04109B))
-18. Interplay of halogen and hydrogen bonding in a series of heteroleptic iron (III) complexes. **ChemRxiv 2021** ([Link](https://chemrxiv.org/articles/preprint/Interplay_of_Halogen_and_Hydrogen_Bonding_in_a_Series_of_Heteroleptic_iron_III_Complexes/14387768))
+17. The Dynamic Interplay between Intramolecular and Intermolecular Interactions in Mononuclear Manganese(Ⅲ) SCO Complexes. **_Dalton Trans._ 2021** ([Link](https://pubs.rsc.org/en/Content/ArticleLanding/2021/DT/D0DT04109B))
+18. Interplay of halogen and hydrogen bonding in a series of heteroleptic iron (III) complexes. **_ChemRxiv_ 2021** ([Link](https://chemrxiv.org/articles/preprint/Interplay_of_Halogen_and_Hydrogen_Bonding_in_a_Series_of_Heteroleptic_iron_III_Complexes/14387768))
+19. Rotaxane CoII Complexes as Field‐Induced Single‐Ion Magnets. **_Angew. Chem. Int. Ed._ 2021** ([Link](https://onlinelibrary.wiley.com/doi/abs/10.1002/anie.202103596))
 
-Last update: April 2021
+Last update: May 2021
 
 [back to homepage](./)
