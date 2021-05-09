@@ -27,6 +27,7 @@ Publications citing OctaDist.
 17. The Dynamic Interplay between Intramolecular and Intermolecular Interactions in Mononuclear Manganese(Ⅲ) SCO Complexes. **_Dalton Trans._ 2021** ([Link](https://pubs.rsc.org/en/Content/ArticleLanding/2021/DT/D0DT04109B))
 18. Interplay of halogen and hydrogen bonding in a series of heteroleptic iron (III) complexes. **_ChemRxiv_ 2021** ([Link](https://chemrxiv.org/articles/preprint/Interplay_of_Halogen_and_Hydrogen_Bonding_in_a_Series_of_Heteroleptic_iron_III_Complexes/14387768))
 19. Rotaxane CoII Complexes as Field‐Induced Single‐Ion Magnets. **_Angew. Chem. Int. Ed._ 2021** ([Link](https://onlinelibrary.wiley.com/doi/abs/10.1002/anie.202103596))
+20. Synthesis, structural and physicochemical properties of a series of manganese(II) complexes with a novel N5 tripodal-amidate ligand and their potential use as water oxidation catalysts. **_Polyhedron_ 2021** ([Link](https://www.sciencedirect.com/science/article/pii/S0277538721002424))
 
 Last update: May 2021
 
