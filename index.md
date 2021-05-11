@@ -43,6 +43,10 @@ such as perovskite and metal-organic frameworks (MOFs).
 [Travis-badge]: https://img.shields.io/travis/OctaDist/OctaDist/master.svg
 [Travis-link]: https://travis-ci.org/OctaDist/OctaDist
 
+## OctaDist Forum
+
+We are always happy to hear from the users. Please post your questions at [OctaDist Forum](https://groups.google.com/g/octadist-forum) and we will answer them as soon as possible. what they want us to implement into OctaDist.
+
 ## Citation
 
 Please cite this project when you use OctaDist for scientific publication:
@@ -74,11 +78,6 @@ The source code is available at [OctaDist Github repository][octadist-github].
 To get notified when a new version of OctaDist is released, please register at [Registration for OctaDist Notification](https://cutt.ly/regis-octadist).
 
 [octadist-github]: https://github.com/OctaDist/OctaDist
-
-## Feature request
-
-We are always happy to hear from the users about what they want us to implement into OctaDist. 
-Please submit your request at [Feature Request for OctaDist](https://docs.google.com/forms/d/e/1FAIpQLSeePKhkFRwfrm49VKNJcOWKZ7sT5m2v_FGF_hS0_92WUxZbdA/viewform?usp=sf_link).
 
 ## Bug report
 
