@@ -45,7 +45,7 @@ such as perovskite and metal-organic frameworks (MOFs).
 
 ## OctaDist Forum
 
-We are always happy to hear from the users. Please post your questions at [OctaDist Forum](https://groups.google.com/g/octadist-forum) and we will answer them as soon as possible. what they want us to implement into OctaDist.
+We are always happy to hear from the users. Please post your questions at [OctaDist Forum](https://groups.google.com/g/octadist-forum). We will answer them as soon as possible.
 
 ## Citation
 
