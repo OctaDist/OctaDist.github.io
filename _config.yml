@@ -5,5 +5,5 @@ logo: images/molecule.png
 show_downloads: false
 google_analytics: UA-135002233-1
 
-gems:
+plugin:
   - jekyll-mentions
