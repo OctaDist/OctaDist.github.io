@@ -16,6 +16,6 @@ Publications citing OctaDist.
 {% endfor %}
 </ol>
 
-Last update: May 2021
+Last update: June 2021
 
 [back to homepage](./)
