@@ -40,7 +40,7 @@ such as perovskite and metal-organic frameworks (MOFs).
 [rel-date]: https://img.shields.io/github/release-date/octadist/octadist.svg
 [Download-badge]: https://img.shields.io/github/downloads/OctaDist/octadist/total.svg
 [Download-link]: https://github.com/OctaDist/OctaDist/releases
-[Travis-badge]: https://app.travis-ci.com/OctaDist/OctaDist.svg?branch=master
+[Travis-badge]: https://app.travis-ci.com/OctaDist/OctaDist.svg
 [Travis-link]: https://app.travis-ci.com/github/OctaDist/OctaDist
 
 ## OctaDist Forum
