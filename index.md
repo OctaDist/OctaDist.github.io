@@ -33,15 +33,15 @@ such as perovskite and metal-organic frameworks (MOFs).
 [![Github release][latest-badge]][latest-link]
 [![Release-date][rel-date]][latest-link]
 [![Github Download All releases][Download-badge]][Download-link]
-[![Travis-CI Test][Travis-badge]][Travis-link]
+[![Python package][github-action]][github-action-link]
 
 [latest-badge]: https://img.shields.io/github/release/OctaDist/octadist.svg
 [latest-link]: https://github.com/OctaDist/OctaDist/releases/latest
 [rel-date]: https://img.shields.io/github/release-date/octadist/octadist.svg
 [Download-badge]: https://img.shields.io/github/downloads/OctaDist/octadist/total.svg
 [Download-link]: https://github.com/OctaDist/OctaDist/releases
-[Travis-badge]: https://app.travis-ci.com/OctaDist/OctaDist.svg
-[Travis-link]: https://app.travis-ci.com/github/OctaDist/OctaDist
+[github-action]: https://github.com/OctaDist/OctaDist/actions/workflows/python-package.yml/badge.svg
+[github-action-link]: https://github.com/OctaDist/OctaDist/actions/workflows/python-package.yml
 
 ## OctaDist Forum
 
